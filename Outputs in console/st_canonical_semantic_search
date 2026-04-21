@@ -1,0 +1,63 @@
+/Users/Mrudhula/PycharmProjects/PythonProject/.venv/bin/python /Users/Mrudhula/PycharmProjects/PythonProject/scripts/Comparing Semantic Similarity output/script1_sentence_transformer_clustering.py
+Loading keyphrases …
+  1405 keyphrases from 122 bugs
+
+[1/3] Loading model: all-MiniLM-L6-v2
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 19320.81it/s]
+BertModel LOAD REPORT from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  |
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  |
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+[2/3] Encoding 1405 phrases …
+Batches: 100%|██████████| 22/22 [00:00<00:00, 34.78it/s]
+[3/3] Clustering (distance_threshold=0.35) …
+    → 1208 clusters formed from 1405 phrases
+Saved → clusters_st.csv  (1405 rows, 1208 clusters)
+
+
+Generating canonical phrases …
+Saved → clusters_st_canonical.csv  (1208 canonical phrases)
+
+── Sample: canonical phrases for 5 largest clusters ────────────
+
+  Cluster 3  →  canonical: "fenix mobile fix"
+    • Fenix Android icon
+    • Android 11 Fenix specific
+    ★ fenix mobile fix
+    ★ fenix mobile fix
+    ★ fenix mobile fix
+    ★ fenix mobile fix
+    ★ fenix mobile fix
+    ★ fenix mobile fix
+    ★ fenix mobile fix
+
+  Cluster 184  →  canonical: "9022ms test timeout"
+    • test_bug458037 timeout
+    • 4 test timeouts giving up
+    • 180102ms test timeout
+    • 300003ms test timeout
+    ★ 9022ms test timeout
+
+  Cluster 4  →  canonical: "verified duplicate bug"
+    • duplicate intermittent
+    • cannot duplicate issue
+    ★ verified duplicate bug
+    ★ verified duplicate bug
+
+  Cluster 19  →  canonical: "121.0b9 uplift approved"
+    ★ 121.0b9 uplift approved
+    • RC3 uplift approved
+    • 121.0b6 uplift approved
+    • beta 100 uplift approved
+
+  Cluster 27  →  canonical: "scroll after scrollend"
+    ★ scroll after scrollend
+    • scrollend scroll ordering
+    • mouse wheel scrollend
+    • scroller child scroll position
+
+Process finished with exit code 0

@@ -1,0 +1,24 @@
+I uploaded a CSV file containing clusters of semantically similar bug report keyphrases.
+
+Each row represents one cluster.
+
+Columns:
+
+* cluster_id
+* phrase_count
+* phrases (a list of phrases describing the same issue)
+
+Task:
+For every row where phrase_count > 1, generate ONE canonical phrase that best represents the meaning of all phrases in that cluster.
+
+Rules:
+
+* Output one canonical phrase per cluster
+* The phrase should be short (2–5 words)
+* Use typical software bug report terminology
+* Do not include explanations
+* Do not change cluster_id
+
+Return the result as a table with these columns:
+
+cluster_id | canonical_phrase

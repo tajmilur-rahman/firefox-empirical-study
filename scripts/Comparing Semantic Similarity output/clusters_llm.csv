@@ -1,0 +1,1406 @@
+cluster_id,keyphrase,tf_score,bug_id,severity
+0,140.0.4 unaffected regression,0.341,1978620,S2
+1,800 DOMWindow shutdown threshold,0.468,932781,blocker
+2,9022ms test timeout,0.308,1840067,S4
+3,AAudio Android 9 repro,0.361,1688783,S1
+4,AAudio backend framerate drop,0.461,1688783,S1
+5,AAudio disabled by default,0.444,1688783,S1
+6,ACCESS_VIOLATION_WRITE,0.447,1867696,S4
+7,Android Review Checker Smoke Test,0.389,1861664,S1
+8,Aurora uplift permafail,0.415,1147714,blocker
+9,CC analyzer not running,0.351,932781,blocker
+10,CI regression scenario testing,0.389,1867006,S2
+11,100% CPU hang,0.441,364067,S1
+11,floats layout hang,0.418,364067,S1
+11,page load hang,0.389,364067,S1
+12,100% CPU core freeze,0.404,1975734,S2
+13,nsCSSFrameConstructor ContentRemoved,0.409,576078,S1
+14,ContentParent shutdown blocker lifecycle,0.447,1761182,S1
+15,DOMWindow leak OOM,0.561,932781,blocker
+15,cycle collector CC graph OOM,0.538,932781,blocker
+16,ESR backport request,0.374,1867006,S2
+16,ESR branch update,0.289,1257907,S1
+17,EXC_BAD_ACCESS KERN_INVALID_ADDRESS,0.374,1761182,S1
+18,Fenix Android icon,0.389,1823912,S4
+19,Android 11 Fenix specific,0.378,1688783,S1
+20,File Edit Page loads correctly,0.344,28683,blocker
+21,NVIDIA GPU shared handle,0.341,1922278,S1
+22,GeckoView 85 backout,0.411,1688783,S1
+23,HLockHi call,0.261,12980,S1
+24,ICE all candidates initialized,0.374,1840067,S4
+25,ICE gather false result,0.447,1840067,S4
+27,IPC channel error signature,0.384,1415837,S1
+28,PIdleScheduler IPC discarded,0.297,1761182,S1
+29,InitClients shutdown phase,0.389,1761182,S1
+30,InitProcMenus,0.297,12980,S1
+31,InlineList remove crash,0.461,1867696,S4
+32,JSWindowActorChild CanSend failure,0.283,1761182,S1
+34,Library dialog popup,0.239,566179,S1
+35,ListViewHolder,0.119,21894,S1
+36,MBasicBlock discard,0.431,1867696,S4
+37,MOZ_SAMPLE_TYPE_S16,0.347,1204483,S1
+38,MResumePoint releaseUses,0.358,1867696,S4
+39,Mac OS X hang,0.276,566179,S1
+40,Mac only,0.198,12980,S1
+41,Mac regression verified,0.294,28683,blocker
+42,MakeScopeExit undeclared bustage,0.374,1883693,S2
+43,Minefield 3.0a1,0.334,364067,S1
+44,Minefield 3.7a5pre,0.214,566179,S1
+45,NECKO_HTTP access violation,0.441,11136,S2
+46,Nimbus feature flag misconfiguration,0.461,1861664,S1
+47,hardcoded OS version values,0.461,1938934,S2
+48,Open Location error dialog,0.418,28683,blocker
+49,Open Web Location Composer failure,0.538,28683,blocker
+50,P1 P2 stream candidates,0.404,1840067,S4
+51,P3:S3 tentative,0.308,1896515,S3
+52,PDF text border,0.461,1025247,S3
+53,beta1 keyword PDT nomination,0.448,28510,blocker
+54,PLDS3 NECKO call stack,0.348,11136,S2
+55,PNG transparency background,0.447,1823912,S4
+56,PSessionStore discarded,0.389,1830238,S3
+57,Palm Desktop 2.5,0.191,12980,S1
+58,Palm desktop software,0.341,12980,S1
+59,PiP toggle overlap,0.461,1801250,S3
+60,Pixel 6 Android 13,0.341,1823912,S4
+61,RangeAnalysis truncate,0.418,1867696,S4
+62,RemoveStreamDuringGather,0.461,1840067,S4
+63,Review Checker CFR missing,0.447,1861664,S1
+64,SVG PNG preference,0.418,1823912,S4
+65,TikTok Like button,0.447,1801250,S3
+66,Twitch position parity,0.389,1801250,S3
+67,Desktop UI Refresh,0.461,1127088,S3
+68,awesomebar UI test suggestions,0.314,21172,blocker
+69,UX module owner,0.374,1244854,S3
+70,VM scheduling false positive handlers,0.278,1883693,S2
+71,sprite DMA array rebuild,0.431,684028,S3
+72,VTCapture rendering,0.341,1961140,S3
+73,WORKSFORME,0.224,21894,S1
+73,WORKSFORME,0.143,12980,S1
+74,WebGL video playback Windows only,0.294,1922278,S1
+75,Win7 debug mochi-2 failure,0.514,932781,blocker
+76,WindowGlobalParent embedder,0.461,1568517,S3
+76,subframe embedder assert,0.447,1568517,S3
+77,WindowGlobalParent subframe,0.374,1568517,S3
+78,Windows NT 5.0,0.247,364067,S1
+79,YouTube frame drop Android,0.428,1688783,S1
+80,Telemetry.cpp aarch64 Windows bustage,0.434,1604462,blocker
+81,non-reproducible access violation,0.274,11136,S2
+82,AccessibleCaret selection mode,0.431,1847766,S4
+83,Phabricator account disabled,0.491,1596670,blocker
+83,account re-enabled,0.458,1596670,blocker
+83,commit access Level 3,0.424,1596670,blocker
+83,account wizard pref bug,0.367,27424,S1
+83,new profile new account,0.338,27424,S1
+83,migrated account,0.298,27424,S1
+84,about:studies Active Studies,0.258,1863981,S2
+85,add to home screen icon,0.461,1823912,S4
+86,addTagCallback general.js,0.431,1881124,S4
+87,uBO addon state change,0.258,1827583,S2
+89,Review Checker address bar icon,0.358,1861664,S1
+90,address picker blocked,0.411,26577,S2
+91,Amplitude future,0.308,1557050,S3
+92,leak analysis disabled,0.398,932781,blocker
+93,natural enrollment required,0.374,1863981,S2
+94,bookmarks.visibility pref targeting,0.447,1863981,S2
+95,callout message not triggered,0.431,1863981,S2
+96,MOZ_REMOTE_SETTINGS_DEVTOOLS,0.341,1863981,S2
+97,android-em-7-0-x86_64-qr,0.374,1891279,S4
+98,followup message new experiment,0.358,1863981,S2
+100,use-unoptimized-shaders flag,0.341,1887337,S4
+101,HCM color focus hover states,0.461,1936672,S2
+101,Figma spec HCM annotations,0.431,1936672,S2
+102,android-hw-p5-13-0-aarch64,0.447,1947932,S4
+102,android-hw-p5-13-0-aarch64,0.418,1896069,S4
+103,selected profile indicator missing,0.404,1936672,S2
+104,profile selector HCM behavior,0.447,1936672,S2
+104,HCM experience matches spec,0.378,1936672,S2
+104,0.5% release bugs S2,0.341,1936672,S2
+105,sampler2D type replacement,0.389,1887337,S4
+106,preferenceIsUserSet targeting expression,0.461,1863981,S2
+107,"Vec4(0,0,0,1) black render",0.374,1887337,S4
+109,multiple animation frames,0.447,985111,S3
+109,recording one frame,0.431,985111,S3
+109,extend recording,0.374,985111,S3
+110,application focus switch,0.193,566179,S1
+111,apprunner crash,0.249,12980,S1
+112,apprunner hang Mac,0.347,11465,blocker
+113,Arch Linux Wayland crash,0.324,1782778,S2
+115,ASAN window size dependent,0.251,1340127,S1
+116,ASCII account name workaround,0.308,1665493,S2
+117,assert carried over,0.358,1568517,S3
+118,assertion count exceeded,0.461,1891279,S4
+119,innocuous assertion,0.261,1221312,S1
+120,assertion tolerance increased,0.431,1891279,S4
+121,async shutdown service NS_ERROR_FILE_NOT_FOUND,0.461,1928888,S2
+122,attachment comment no wrap,0.541,52060,blocker
+123,attachment section wraps,0.466,52060,blocker
+126,25k audio sample buffer,0.328,684028,S3
+126,MP3 streaming crash,0.318,1204483,S1
+126,AAudio deferred re-enable,0.254,1688783,S1
+126,AudioDataValue pointer cast,0.203,1204483,S1
+127,autoBisect bad revision,0.311,1466487,S1
+128,nsCAutoString overlayFile,0.424,17416,blocker
+129,autobisectjs bisection result,0.334,1456517,S1
+130,PW autofill discoverability,0.389,1244854,S3
+131,autofill sidebar crash,0.371,11136,S2
+132,autoland mozilla-inbound failures,0.238,1535800,S1
+134,beta-only failure,0.341,1830238,S3
+134,test disable beta,0.324,1830238,S3
+135,Push PopBidiControl imbalance,0.418,1340127,S1
+135,GetBidiControl continuation value,0.358,1340127,S1
+135,bidi control override frame,0.328,1340127,S1
+136,bisection regressing patch,0.278,1922278,S1
+137,bit-flip hardware crash,0.374,1867696,S4
+138,body comment one paragraph,0.391,52060,blocker
+139,bookmark default title wrong,0.461,1824271,S4
+139,security risk bookmark title,0.447,1824271,S4
+139,checkBookmark title mismatch,0.404,1824271,S4
+140,bookmarks backup filename dialog,0.398,566179,S1
+140,Organise Bookmarks backup,0.258,566179,S1
+141,1.8 branch regression,0.308,364067,S1
+142,treatment-a branch force enroll,0.374,1972807,S2
+143,3.6 branch backport,0.287,576078,S1
+143,trunk fix bisection,0.228,576078,S1
+143,1.9.1 branch unaffected,0.214,576078,S1
+144,SeaMonkey suite port,0.39,1544222,blocker
+145,broken icon output,0.374,1823912,S4
+146,Gecko unaffected,0.276,1269776,S1
+146,upstream nestegg fix,0.238,1269776,S1
+147,BrowserChrome e10s crash,0.297,1535800,S1
+148,RDM Firefox Android UA,0.298,1688783,S1
+148,Firefox Nightly 87 regression,0.276,1688783,S1
+149,browser-only load workaround,0.441,28683,blocker
+150,VRAM tile invalidation,0.418,684028,S3
+150,browsingContext process switch timing,0.404,1827583,S2
+150,onDestroyBrowser GeckoViewModule,0.389,1827583,S2
+150,fullscreen landscape orientation broken,0.374,1827583,S2
+150,private browsing session clear reproduce,0.324,1827583,S2
+150,top crash beta 41,0.258,1204483,S1
+151,Chrome vs Firefox rendering,0.431,1863722,S4
+152,Firefox Nightly,0.389,1025247,S3
+152,Firefox beta,0.374,1025247,S3
+152,Linux mint 64 bit,0.324,1025247,S3
+152,Windows 10 64 bit,0.308,1025247,S3
+153,browser_ext_messages_open_attachment,0.447,1981325,S4
+154,P1/P2 bugs,0.341,1127088,S3
+154,severity not set,0.341,1779799,S3
+154,severity not set,0.308,1849639,S3
+155,module request state relaxed,0.431,1822717,S2
+155,5-argument 3-argument ok,0.418,1849639,S3
+155,Canvas2D video draw,0.404,1849639,S3
+156,click bugzilla report crash,0.534,21172,blocker
+156,TestHelper verifyUrl visible,0.318,18481,blocker
+156,crash reporter no report,0.311,1471932,blocker
+156,verified fixed Nightly 63,0.292,1471932,blocker
+157,bugday,0.274,1025247,S3
+158,Bugzilla 6 blocker,0.441,1377977,blocker
+159,nsChromeRegistry.cpp HP build failure,0.541,17416,blocker
+159,Single SignOn browser crash,0.524,18481,blocker
+159,operator & expects lvalue operand,0.518,17416,blocker
+159,Linux only crash,0.498,18481,blocker
+159,nsStringKey address operator rejection,0.493,17416,blocker
+159,tier-1 platform build,0.401,17416,blocker
+159,mozilla-central build,0.341,971511,S3
+159,slave b-2008-ix-0015,0.308,971511,S3
+160,build list integration,0.418,11561,blocker
+160,built lib dependency,0.394,11561,blocker
+160,cookie project added build,0.371,11561,blocker
+160,debug build only,0.318,1221312,S1
+160,build bustage followup,0.156,1204483,S1
+161,clang build regression,0.261,1489041,S1
+162,Delete History button spacing,0.261,16519,blocker
+164,x-coord sprite cache,0.374,684028,S3
+165,cairo-gtk3-x11-wayland toolkit regression,0.358,1978620,S2
+166,RRULE BYSETPOS infinite loop,0.461,1975734,S2
+166,invalid recurrence rule freeze,0.447,1975734,S2
+166,Nextcloud CalDAV auto-sync freeze,0.389,1975734,S2
+166,calendar load 3-4 seconds hang,0.374,1975734,S2
+166,VALARM TRIGGER PT0S,0.358,1975734,S2
+166,unsubscribe calendar workaround,0.341,1975734,S2
+166,CalDAV ics import freeze,0.324,1975734,S2
+166,animated image no issue,0.291,1882433,S3
+167,call stack attachment,0.251,1257907,S1
+168,captcha blocked ETP,0.461,1858669,S3
+168,Standard ETP captcha,0.431,1858669,S3
+168,register verify captcha,0.374,1858669,S3
+169,WebRenderScrollData capture,0.418,1961140,S3
+170,carpool build regression,0.394,11136,S2
+171,Category 2 interaction,0.418,1557050,S3
+172,cert error page title,0.308,1824271,S4
+173,NSPR removed js shell Windows,0.472,1560432,blocker
+173,corporate MITM root cert,0.387,1471932,blocker
+173,pinned tabs race condition,0.368,1471932,blocker
+173,new cert same key pushed,0.332,1548973,blocker
+173,recipe disabled low enrollment,0.325,1467514,blocker
+174,all add-ons disabled,0.473,1548973,blocker
+174,Normandy cert hotfix,0.454,1548973,blocker
+175,ifdef guard wrong channel,0.413,1604462,blocker
+176,NS_ERROR_UNKNOWN_PROTOCOL channel open,0.418,1883693,S2
+177,channel-specific entitlements,0.389,1474451,S3
+178,channel ifdefs configure,0.399,1147714,blocker
+179,console output stops at charset,0.445,27852,blocker
+180,checkbox hidden initialized true,0.514,28683,blocker
+181,Chrome vs Firefox icon,0.404,1823912,S4
+182,clamping logic assertion,0.418,1891279,S4
+183,view transition ancestor clip,0.461,1961140,S3
+184,Prod Stage clone interaction,0.291,1863981,S2
+185,closed as fixed,0.308,1306114,S3
+186,cluster bug,0.308,1244854,S3
+187,CNavDTD CloseForm,0.191,18191,S1
+188,patent encumbered codec licensing,0.271,1521370,S1
+189,expected colors deepEqual,0.447,1769241,S4
+189,"rgb(255,0,0) vs rgb(0,0,255)",0.431,1769241,S4
+190,dark mode color change,0.329,11561,blocker
+191,prefers-color-scheme query,0.458,1377977,blocker
+192,ALLOW_COLOR false,0.404,1811930,S3
+192,colourful tree backout,0.291,1337872,S3
+193,-moz-column disable,0.243,576078,S1
+194,commercial build verified,0.138,27424,S1
+195,commercial build,0.164,18191,S1
+196,TI large function recompile,0.389,684028,S3
+196,LD opcode loop unrolling,0.314,684028,S3
+196,BGGBCLayerRender large function,0.298,684028,S3
+197,aCC compiler ANSI compliance,0.447,17416,blocker
+198,compose window not closing,0.351,27424,S1
+199,drawSnapshot failed,0.461,1845274,S4
+199,compose window To field,0.384,26577,S2
+200,cross-platform compose crash,0.341,17937,S2
+200,DocumentViewerImpl PresShell destruction,0.308,17937,S2
+200,DOGFOOD compose window,0.291,17937,S2
+201,COMPOSITOR_ENABLED assert violation,0.461,1782778,S2
+202,compositor hit test info,0.291,1961140,S3
+203,dialog dismisses without filling,0.276,11465,blocker
+203,basic compositor D3D11 percentage,0.254,1588484,S1
+203,CompositorVsyncScheduler composite crash,0.221,1588484,S1
+204,COMPOSITOR_PAUSED_FLICKERING state,0.431,1782778,S2
+205,GpuProcessTextureId compositor device,0.447,1922278,S1
+205,ID3D11Texture2D compositor device mismatch,0.389,1922278,S1
+206,compositor resume unification,0.291,1782778,S2
+207,MOZ_DIAGNOSTIC_ASSERT compositor state,0.308,1782778,S2
+208,ConfigureCompositor destroyed window,0.447,1782778,S2
+209,configure switch,0.228,18191,S1
+210,pythonw console detached,0.374,1811930,S3
+211,WMF PDM thread initialization,0.328,1521370,S1
+211,WMF content process removal,0.258,1521370,S1
+212,content security check ordering,0.389,1883693,S2
+213,contile top sites cache,0.112,24008,S1
+214,GeckoViewMediaControl ESM module conversion,0.308,1827583,S2
+216,copy to sent folder,0.324,27424,S1
+217,core dump,0.361,18191,S1
+218,counter per channel,0.431,1560195,S3
+219,WMF VP9 decoder crash,0.461,1521370,S1
+219,IPCError-browser ShutDownKill,0.449,1415837,S1
+219,SIGABRT libpthread crash,0.447,1890683,S4
+219,media.wmf.vp9.enabled workaround,0.447,1521370,S1
+219,MsgWaitForMultipleObjectsEx hang,0.431,1415837,S1
+219,RtlAnsiStringToUnicodeString crash,0.418,1415837,S1
+219,WinUtils WaitForMessage,0.401,1415837,S1
+219,DOMFissionEnabled crash,0.374,1685923,S3
+219,IPC Launch thread crash,0.358,1890683,S4
+220,VPX crashguard content process,0.421,1521370,S1
+220,crash guard retry prevention,0.341,1521370,S1
+220,MOZ_FORCE_CRASH_GUARD_NIGHTLY,0.218,1521370,S1
+221,OnFileAvailable never called,0.548,27763,blocker
+221,immediate crash on click,0.511,21172,blocker
+221,WinNT mozilla build crash,0.487,21172,blocker
+221,identical stack trace duplicate,0.473,18481,blocker
+221,MacOS launch crash,0.463,21172,blocker
+221,img onerror timing side-channel,0.461,1883693,S2
+221,nsExternalProtocolHandler NewChannel early return,0.447,1883693,S2
+221,content process crashed shutdown,0.431,1951660,S4
+221,content process crashed shutdown,0.431,1943997,S4
+221,MOZ_CRASHREPORTER_SHUTDOWN,0.418,1951660,S4
+221,MOZ_CRASHREPORTER_SHUTDOWN,0.418,1943997,S4
+221,NS_ERROR_COULD_NOT_LOGIN_TO_SMTP_SERVER,0.381,27424,S1
+221,AddLazyFunctionsForCompartment crash,0.368,1456517,S1
+221,assertion limit 0 to 5,0.341,1891279,S4
+221,ProfileManager launch,0.228,27424,S1
+221,send failure silent,0.214,27424,S1
+222,testcrasher.dll CFI frames,0.358,1817643,S4
+222,head_crashreporter cleanup,0.341,1817643,S4
+223,critical severity,0.224,12980,S1
+224,cross-platform verified worksforme,0.371,21172,blocker
+225,cross-platform send bug,0.169,27424,S1
+226,cross-platform fix verified,0.311,1922278,S1
+227,CSS Animations regression Firefox 5,0.203,1340127,S1
+228,Aurora 53 uplift,0.188,1340127,S1
+229,skins/standard CSS,0.405,1377977,blocker
+229,Photon style guide,0.386,1377977,blocker
+230,css-sizing WPT,0.358,1786225,S4
+231,curated QX bugs,0.431,1244854,S3
+232,cut paste partial fix,0.318,28683,blocker
+233,CVS build,0.265,18191,S1
+234,redundant D3D texture copy,0.461,1922278,S1
+234,D3D11TextureData shared handle regression,0.418,1922278,S1
+235,NS_ERROR_LOSS_OF_SIGNIFICANT_DATA,0.447,1845274,S4
+235,data conversion failed,0.374,1845274,S4
+236,delete browsing data,0.131,12980,S1
+236,delete history,0.118,12980,S1
+236,clear icons,0.104,12980,S1
+237,no data loss crash,0.274,17937,S2
+238,mDataSourceTable Get Put,0.469,17416,blocker
+239,PlacesUtils db undefined,0.418,1920391,S4
+240,shadow database query lag,0.541,28510,blocker
+241,WONTFIX debate,0.324,1244854,S3
+242,shared debug build,0.271,24008,S1
+243,debug menu verification page,0.298,11136,S2
+244,debug-only assertion backout,0.308,1961140,S3
+245,ModuleErrored compiling state assertion,0.461,1822717,S2
+245,const redeclaration SyntaxError,0.374,1822717,S2
+245,debug-only assertion no user impact,0.358,1822717,S2
+245,windows11-64-2009-qr debug,0.341,1920391,S4
+245,triangle.js comment crash trigger,0.341,1822717,S2
+245,Gah tab crashed module load,0.324,1822717,S2
+245,windows11-64-2009-qr debug,0.308,1817643,S4
+245,uplift debug fix,0.291,1822717,S2
+246,sourcemapped breakpoint console,0.461,1962675,S4
+246,browser_dbg timeout 370s,0.447,1962675,S4
+246,Debugger findScripts disabled,0.431,1456517,S1
+246,ensureDelazifyScriptsForDebugger,0.418,1456517,S1
+247,DEF GHI vs ABC,0.447,1847766,S4
+248,pref default-off,0.438,1467514,blocker
+250,probe_scraper repositories.yaml dependency,0.404,1771799,S2
+250,fog-update-bot probe-scraper PR,0.324,1771799,S2
+250,fenix gecko-dev dependency,0.308,1771799,S2
+250,mozapps extensions metrics path,0.291,1771799,S2
+251,disk cache dependency,0.397,16519,blocker
+252,design feedback,0.118,11825,S1
+253,wgpu_core device_drop,0.447,1889191,S4
+253,wgpu Global device drop,0.418,1889191,S4
+253,device drop assertion fail,0.404,1889191,S4
+254,devtools newChannel exception expectation,0.294,1883693,S2
+255,Canvas Debugger,0.461,985111,S3
+255,devtools,0.308,985111,S3
+255,inactive bug,0.274,985111,S3
+256,dialog parenting bug,0.354,566179,S1
+256,child dialog still active,0.318,566179,S1
+257,disabling popups,0.174,11825,S1
+258,stream-as-file disk cache dependency,0.479,27763,blocker
+259,DispatchCommand recursive stack crash,0.418,1787959,S2
+260,display list building suppression,0.431,1665064,S2
+261,display-list.retain,0.363,1467514,blocker
+262,div vs button drag,0.341,1882433,S3
+264,jaws.jar JRE workaround,0.298,27763,blocker
+265,drag preview missing,0.461,1882433,S3
+265,first drag no preview,0.447,1882433,S3
+266,duplicate bug merged,0.284,52060,blocker
+267,verified duplicate bug,0.352,18481,blocker
+267,verified duplicate bug,0.276,27852,blocker
+268,editor checkbox false fix,0.369,28683,blocker
+269,eligible products ads not displayed,0.374,1868180,S2
+269,shopping.experience2023.ads.enabled,0.358,1868180,S2
+270,embedder always set,0.389,1568517,S3
+271,embedder set timing,0.418,1568517,S3
+272,RNP file API UTF-8 failure,0.461,1665493,S2
+272,non-ASCII Windows path encoding,0.447,1665493,S2
+273,Latin-1 message HTML reply,0.374,17937,S2
+274,Enigmail migration broken,0.358,1665493,S2
+275,QM_TRY OkIf gBasePath,0.374,1920391,S4
+276,NS_ERROR_ABORT,0.358,1769241,S4
+277,attachments.ispatch orphan param,0.473,1564396,blocker
+277,ClearBidiControls SEGV,0.461,1340127,S1
+277,edit-save-edit broken,0.454,1564396,blocker
+277,PopBidiControl empty mEmbeddingStack,0.447,1340127,S1
+278,esr115 approved backout,0.389,1881124,S4
+279,ESR52 animate unsupported,0.236,1340127,S1
+280,ESR78 update re-enable,0.254,1665493,S2
+281,evalInWorker ES6 module,0.418,1466487,S1
+282,event name truncated,0.324,1557050,S3
+283,EXCEPTION_BREAKPOINT content process,0.347,1415837,S1
+284,exit-status -1,0.374,971511,S3
+285,future experiment pref prerequisite,0.308,1868180,S2
+286,experimental messages correct order,0.271,28510,blocker
+287,extension left running,0.447,1895720,S4
+287,browserAction openPopup timeout,0.431,1895720,S4
+287,extension left running,0.418,1769241,S4
+288,generated-extension.xpi leftover,0.374,1769241,S4
+289,reporter extension,0.389,1306114,S3
+289,user submission system,0.374,1306114,S3
+290,external handler fingerprinting,0.404,1883693,S2
+291,failure rate escalation,0.271,1535800,S1
+292,feature disabled default,0.324,1685923,S3
+293,feature discoverability,0.121,11825,S1
+294,feature disabled everyone,0.341,1868180,S2
+295,fenix mobile fix,0.258,11465,blocker
+295,fenix mobile fix,0.258,11561,blocker
+295,fenix mobile fix,0.244,16519,blocker
+295,fenix mobile fix,0.244,17416,blocker
+295,fenix mobile fix,0.244,18481,blocker
+295,fenix mobile fix,0.244,21172,blocker
+295,fenix mobile fix,0.244,28510,blocker
+296,file deletion race condition,0.374,1817643,S4
+297,NPP_Write offset len,0.341,16519,blocker
+298,nsIFile move rename Mac corruption,0.367,27763,blocker
+300,file scheme local file leak,0.321,1883693,S2
+301,import directory relocated,0.291,1489041,S1
+302,filepicker dialog main loop freeze,0.431,566179,S1
+303,FindVisibleBounds recursive crash,0.431,1588484,S1
+304,sec-moderate fingerprinting vector,0.224,1883693,S2
+305,Finish0RTT null crash,0.461,1685923,S3
+305,Http2Session Finish0RTT,0.404,1685923,S3
+306,finite clip assertion,0.374,1961140,S3
+307,Firefox UX Quality,0.461,1244854,S3
+308,first experiment must end,0.308,1863981,S2
+309,first-line CSS animation interaction,0.374,1340127,S1
+310,Fission IPC messaging,0.447,1560195,S3
+310,Fission integration,0.358,1560195,S3
+311,Advanced Layers Fission incompatibility,0.461,1588484,S1
+311,layers.advanced.fission.enabled pref,0.404,1588484,S1
+311,fission.autostart reddit crash,0.374,1588484,S1
+311,disable Advanced Layers dogfooding,0.344,1588484,S1
+312,flickering suppression compositor,0.341,1782778,S2
+313,float rendering bug,0.281,364067,S1
+315,DisableFontActivation startup fsync,0.461,688193,S3
+315,LookupLocalFont on-demand defer,0.447,688193,S3
+315,CTFontManagerSetAutoActivationSetting,0.431,688193,S3
+315,font-face src:local trigger,0.418,688193,S3
+315,NSFontManager font list build,0.404,688193,S3
+315,session restore font activation,0.358,688193,S3
+315,uninstalled font name activation,0.324,688193,S3
+316,Safe Form Fill,0.498,11465,blocker
+316,form field not filled,0.471,11465,blocker
+316,wallet info pre-fill,0.445,11465,blocker
+316,OK button not visible,0.418,11465,blocker
+317,nsBlockFrame Destroy,0.278,18191,S1
+317,URL logging system,0.241,18191,S1
+317,frame destruction,0.214,18191,S1
+317,HTML content sink,0.203,18191,S1
+317,event queue processing,0.124,18191,S1
+317,taskgraph changes,0.109,18191,S1
+318,17% frame drop rate,0.344,1688783,S1
+319,frame poisoned address,0.394,576078,S1
+319,absolutely positioned element removal,0.378,576078,S1
+319,out-of-flow destroy queue,0.361,576078,S1
+319,frame poisoning backport,0.198,576078,S1
+320,fullscreen tab close race,0.461,1830238,S3
+320,fullscreen request denied,0.418,1830238,S3
+321,switch back to function,0.334,1147714,blocker
+322,funnel entrypoint parameter,0.374,1557050,S3
+323,system date 2 days future,0.389,1972807,S2
+324,LLVMFuzzer symbols hidden,0.491,1490845,blocker
+324,MSan build fuzzing,0.379,1269776,S1
+324,ExternalFunctions LLVMFuzzerInitialize,0.379,1490845,blocker
+324,fuzzing debug build only,0.258,1787959,S2
+324,garbage input file,0.254,1269776,S1
+325,llvm_gcov_writeout,0.418,1890683,S4
+326,incremental GC fix,0.404,684028,S3
+326,mem.log GC timing,0.358,684028,S3
+326,20MB GC memory drop,0.257,684028,S3
+327,gczeal debug fuzzing build,0.271,1456517,S1
+328,gdk_wayland_device_get_wl_seat undefined,0.447,1978620,S2
+329,gdk_wayland_window_set_use_custom_surface missing,0.431,1978620,S2
+330,Gecko 73 beta merge bustage,0.391,1604462,blocker
+331,Gecko 39 merge,0.302,1147714,blocker
+332,for-of generators,0.418,971511,S3
+333,geoblocked video link,0.358,1801250,S3
+334,geolocation singleton null crash,0.312,1761182,S1
+335,GitHub milestone link,0.418,1306114,S3
+336,GL packing state stack overwrite,0.461,1787959,S2
+337,Gnome 3 MATE,0.358,1420770,S3
+337,Ubuntu 17.10 gnome-desktop,0.324,1420770,S3
+338,RDD GPU process fallback,0.244,1521370,S1
+339,gr2fonttest TTF testcase,0.379,1257907,S1
+340,graphite2 1.3.8 update,0.338,1257907,S1
+341,graphite2 fuzzing,0.421,1257907,S1
+342,gtk+ wayland backend disabled,0.418,1978620,S2
+343,hardened runtime,0.374,1474451,S3
+344,prinit.h XP_WIN include,0.491,1560432,blocker
+344,vm/Time.cpp unused header,0.431,1560432,blocker
+344,posix-nspr-emulation removed,0.41,1560432,blocker
+345,heap buffer overflow read,0.444,1257907,S1
+346,heart button triggered,0.418,1801250,S3
+347,social FrameWorker hidden window,0.374,932781,blocker
+347,m-i closed backout,0.351,1147714,blocker
+348,high-value tests rolling basis,0.391,1831313,S2
+349,history state error,0.318,24008,S1
+349,history.dat corruption,0.289,24008,S1
+350,nsHTMLEditor DeleteSelectionAndCreateNode,0.447,17937,S2
+350,body content prematurely freed,0.431,17937,S2
+350,HTML compose window close crash,0.418,17937,S2
+350,nsGenericHTMLContainerElement double free,0.404,17937,S2
+351,HW decoding auto-disabled,0.354,1521370,S1
+352,13726 differing pixels,0.404,1845274,S4
+353,image in button drag,0.431,1882433,S3
+353,image decode first drag,0.404,1882433,S3
+353,scaled-down image drag,0.358,1882433,S3
+354,different implementation Gecko 39,0.252,1147714,blocker
+355,import table patching firefox.exe,0.391,1489041,S1
+356,inactive bug closure,0.147,566179,S1
+357,inbound tree closure,0.328,932781,blocker
+358,upstream patch fix,0.198,364067,S1
+359,buglist incorrect query results,0.494,28510,blocker
+360,gloda index_msg.js,0.447,1337872,S3
+360,keepIterHeader redundant,0.389,1337872,S3
+361,Sqlite connection not specified,0.404,1920391,S4
+361,duration initialized to zero,0.358,1269776,S1
+362,ink overflow coordinates,0.324,1961140,S3
+363,input data type typing errors,0.358,1938934,S2
+364,disabled XINPUT2,0.461,1420770,S3
+364,Alt+Tab suppressed,0.447,1420770,S3
+364,mouse held Alt+Tab,0.418,1420770,S3
+364,Super+Tab blocked,0.291,1420770,S3
+365,corrupt incomplete installation popup,0.324,1928888,S2
+366,intermediate surface iframe nesting,0.418,1588484,S1
+366,ComputeIntermediateSurfaceBounds crash,0.358,1588484,S1
+367,intermittent failure,0.358,971511,S3
+368,comm-central intermittent,0.389,1981325,S4
+369,intrinsic_ExecuteModule,0.271,1466487,S1
+370,numeric tag name invalid,0.461,1881124,S4
+370,tag number selector invalid,0.404,1881124,S4
+371,ion-offthread-compile disabled,0.287,1466487,S1
+372,IPC named pipe failure,0.234,1489041,S1
+373,IPC pipe connection reset,0.326,1535800,S1
+374,IPC pressure metrics,0.461,1560195,S3
+374,IPC pressure indicator,0.341,1560195,S3
+375,non-standard Iterator,0.461,1337872,S3
+375,IterSimpleEnumerator,0.418,1337872,S3
+375,fixIterator replacement,0.404,1337872,S3
+376,allow-jit entitlement,0.404,1474451,S3
+376,OOP JIT,0.358,1474451,S3
+377,KernCollider mergeSlot,0.461,1257907,S1
+378,ObRegisterCallbacks kernel injection,0.431,1489041,S1
+378,ZwQueryAttributesFile detour hook,0.349,1489041,S1
+378,Microsoft Detours 2.0 bug,0.334,1489041,S1
+379,lowlatency kernel,0.341,1420770,S3
+380,key storage data loss risk,0.238,1665493,S2
+381,PosixProcessLauncher DoLaunch,0.404,1890683,S4
+382,min-content overflow,0.461,1779799,S3
+382,1fr column span,0.447,1779799,S3
+382,CSS grid layout broken,0.431,1779799,S3
+382,overflow: auto grid,0.418,1779799,S3
+382,column span overlap,0.404,1779799,S3
+382,min-width min-content,0.389,1779799,S3
+382,Layout: Grid,0.374,1779799,S3
+383,extra layout repeat assertions,0.389,1891279,S4
+384,layout regression fix,0.149,576078,S1
+385,NP_ASFILE NP_ASFILEONLY legacy plugin,0.457,27763,blocker
+386,Google common library affected sites,0.274,1827583,S2
+387,linux1804-64-qr debug,0.341,1845274,S4
+387,linux1804-64-qr debug,0.324,1769241,S4
+387,M14 Linux commercial build,0.318,26577,S2
+388,RedHat Linux Intel,0.253,18191,S1
+389,Win98 Linux RH6 tested,0.329,11465,blocker
+390,Linux toolbar crash,0.103,11825,S1
+391,linux1804-64-asan-qr,0.341,1840067,S4
+392,concurrent live crash guards,0.191,1521370,S1
+393,ExtensionTestUtils loadExtension,0.389,1895720,S4
+394,location.href crash,0.461,1974197,S3
+394,navigate event abort,0.447,1974197,S3
+394,ongoing navigate aborted,0.431,1974197,S3
+395,lock_life queue check,0.431,1889191,S4
+396,NS_ERROR_FILE_IS_LOCKED,0.461,1817643,S4
+396,nsIFile.remove locked,0.447,1817643,S4
+396,FILE_SHARE_DELETE missing,0.389,1817643,S4
+397,bilibili login broken,0.447,1858669,S3
+398,登录 login button,0.308,1858669,S3
+399,OJI plug-in applet blocked,0.501,27763,blocker
+399,UAT confirmed,0.389,1127088,S3
+399,duplicate bug resolution,0.276,27763,blocker
+399,QA contact reassignment,0.253,27763,blocker
+399,duplicate bug resolution,0.149,24008,S1
+400,login register page affected,0.374,1863722,S4
+401,username password login,0.424,18481,blocker
+401,resolved WORKSFORME,0.418,21172,blocker
+401,enable SingleSignon prompt,0.401,18481,blocker
+402,long attachment description,0.441,52060,blocker
+403,long description overflow,0.516,52060,blocker
+404,long-press select all copy,0.308,1935443,S2
+405,low memory configuration,0.167,24008,S1
+406,M9 milestone,0.087,11825,S1
+407,ISO-8859-1 mCharset initialization,0.421,27852,blocker
+408,macosx debug intermittent,0.238,1761182,S1
+409,macosx1015-64-qr intermittent,0.389,1824271,S4
+410,mail start page,0.181,24008,S1
+411,failedplatform test fix,0.324,1938934,S2
+411,platform handling code maintainability,0.308,1938934,S2
+412,DOM manifest mochitests permafail,0.471,1147714,blocker
+413,JSBugMon manual tracking,0.289,1456517,S1
+414,Marionette PerformActions,0.374,1847766,S4
+415,mass-closing inactive bugs,0.334,985111,S3
+416,fRadius dot product,0.398,1221312,S1
+416,sqrtf half dot,0.294,1221312,S1
+417,max difference 3,0.431,1896069,S4
+418,img-widthAndHeight-slice-2 reftest,0.431,1845274,S4
+418,max difference 255,0.418,1845274,S4
+419,MediaCapabilities VP9 idle test,0.284,1521370,S1
+420,Media Feature Pack broken,0.408,1521370,S1
+421,media events not received,0.431,1827583,S2
+421,MediaSessionDelegate not activated,0.418,1827583,S2
+421,media notification not shown,0.341,1827583,S2
+421,audio clipping minimized playback,0.224,1827583,S2
+423,MemCacheWriteStreamWrapper,0.219,24008,S1
+424,out-of-memory Write crash,0.398,24008,S1
+424,out-of-memory thrashing,0.206,24008,S1
+425,memory buffer API workaround,0.431,1665493,S2
+425,Valgrind track-origins,0.341,1269776,S1
+426,memory and cpu,0.389,985111,S3
+427,PEB loaded module list,0.307,1489041,S1
+428,ZoneCellIter evictNursery failure,0.447,1456517,S1
+428,nursery-allocatable AllocKind,0.401,1456517,S1
+428,GC disablement removed,0.384,1456517,S1
+429,IndexedDB key_invalid crash,0.461,1951660,S4
+429,use-after-free parent frame,0.451,576078,S1
+429,void pointer arithmetic,0.334,1204483,S1
+429,Socorro crash report,0.301,1204483,S1
+429,ACodec deleted crash,0.289,1204483,S1
+429,CRASH_X64CFI_NO_MANS_LAND loop,0.274,1817643,S4
+429,freed memory access,0.274,576078,S1
+429,bogus size guard,0.141,1204483,S1
+430,devtools test window leak,0.444,932781,blocker
+430,ASAN browser-chrome OOM,0.421,932781,blocker
+430,pldhash overload regression,0.304,932781,blocker
+430,storage thread shutdown leak,0.281,932781,blocker
+431,menu bar crash,0.318,12980,S1
+432,menu navigation,0.133,11825,S1
+433,inactive heading menu icon,0.347,11561,blocker
+434,M-I M-C merge,0.308,1337872,S3
+435,msgHdr scope fix,0.358,1337872,S3
+436,hidden sidebar briefly visible,0.447,1953966,S4
+437,meta bug tracking,0.418,1244854,S3
+438,import.meta JS frontend,0.328,1466487,S1
+439,metadata hook not set,0.431,1466487,S1
+440,metrics_index.py wrong list,0.461,1771799,S2
+440,cross-product extension metrics,0.389,1771799,S2
+440,Gecko reusable metric definition,0.374,1771799,S2
+440,WebExtensions toolkit-level metric,0.358,1771799,S2
+440,structured ingestion missing columns,0.341,1771799,S2
+440,metrics yaml split Firefox 107,0.258,1771799,S2
+441,mFormElements cleanup,0.344,18191,S1
+442,M14 milestone,0.197,27424,S1
+443,M9 milestone cookies,0.443,11561,blocker
+443,M11 M12 milestone deferral,0.324,17937,S2
+444,milestone target update,0.306,16519,blocker
+445,minidump stackwalk saved,0.254,1535800,S1
+446,minimized test case,0.361,364067,S1
+447,Create Profile button failure,0.398,27852,blocker
+448,NS_ERROR_OMNIJAR_CORRUPT missing,0.404,1928888,S2
+449,UntrustedModules.h missing beta build,0.454,1604462,blocker
+450,missing ADDREF out parameter,0.461,17937,S2
+451,Mobile QR Code message overlap,0.431,1972807,S2
+452,mobile desktop mode,0.389,1858669,S3
+453,Mobile 120 beta uplift,0.341,1861664,S1
+454,module hook assertion replaced,0.254,1466487,S1
+455,ModuleObject assertion failure,0.401,1466487,S1
+456,1080p 4K monitor,0.374,1882433,S3
+457,moz_container_wayland_frame_callback,0.358,1782778,S2
+458,MOZ_EXPORT weak symbol stub,0.389,1978620,S2
+459,mozStorageRow.cpp mNameHashtable,0.418,1824271,S4
+460,mozwayland missing symbol stub,0.461,1978620,S2
+461,multiple href setting,0.404,1974197,S3
+461,location.href navigate,0.374,1974197,S3
+462,navigation issues after highlight,0.431,1877426,S2
+462,nestegg_track_seek uninitialized,0.398,1269776,S1
+464,needinfo uireview,0.291,1244854,S3
+465,Netscape 6 RTM blocker,0.324,16519,blocker
+466,NetworkError services-settings,0.291,1769241,S4
+467,nsSocketTransport OnFound,0.349,24008,S1
+467,nsDNSLookup CallOnFound,0.334,24008,S1
+468,non-BMO neutral theme,0.423,1377977,blocker
+469,newTagDialog onOKNewTag,0.418,1881124,S4
+470,Nightly Aurora,0.431,1306114,S3
+471,EARLY_BETA_OR_EARLIER,0.341,1474451,S3
+472,Nightly 121.0a1 regression,0.389,1863722,S4
+473,nightly UI tests,0.138,18191,S1
+474,nimbus-cli force enrollment,0.374,1861664,S1
+475,nimbus config flag direct usage,0.328,1861664,S1
+476,nimbus.fml.yaml developer channel only,0.431,1861664,S1
+478,ASR null VT node,0.447,1961140,S3
+478,apzEnabled bits nerfed,0.389,1961140,S3
+479,nofis android-aarch64,0.389,1947932,S4
+480,nsCSSFrameConstructor,0.291,18191,S1
+481,nsParser ResumeParse,0.179,18191,S1
+482,nsVoidArray RemoveElement,0.387,18191,S1
+483,sXPCOMShutdownClient null dereference,0.461,1761182,S1
+483,RemoveShutdownBlockers null static pointer,0.431,1761182,S1
+483,XPCOMShutdownFinal static cleared,0.418,1761182,S1
+484,null near-null crash,0.389,1867696,S4
+485,null deref prevention,0.431,1568517,S3
+486,null embedder crash,0.341,1568517,S3
+487,null-jump non-security,0.344,1466487,S1
+488,NullWriter to None,0.418,1811930,S3
+489,Object.keys replacement,0.431,1337872,S3
+490,onboarding tracker blocker,0.404,1244854,S3
+491,open in Adobe,0.258,1025247,S3
+491,open in Firefox,0.241,1025247,S3
+492,13 open unresolved,0.341,1244854,S3
+492,inactive metabug,0.274,1244854,S3
+493,OpenPGP locked out users,0.274,1665493,S2
+494,unoptimized shaders black output,0.461,1887337,S4
+495,OptimizeMIR Ion.cpp,0.341,1867696,S4
+496,orphan child processes zombiecheck,0.312,1535800,S1
+497,windows11-64-24h2 asan,0.389,1962675,S4
+497,linux2404-x86_64 opt,0.358,1962675,S4
+498,windows10-64-2004-ccov-qr,0.341,1769241,S4
+498,WINNT 5.2,0.324,971511,S3
+498,32-bit Windows content crash,0.278,1489041,S1
+498,EARLY_BETA_OR_EARLIER rollout,0.203,1489041,S1
+499,uplift to Firefox 42,0.274,1204483,S1
+499,numSamples numFrames calculation,0.231,1204483,S1
+499,release branch uplift,0.188,1204483,S1
+499,nsRefPtr RefPtr substitution,0.172,1204483,S1
+500,packing state reset before readPixels,0.431,1787959,S2
+501,invalid page fault,0.401,21894,S1
+502,TP7 pageset Talos integration,0.461,1831313,S2
+502,tp5o optimized pageset,0.438,1831313,S2
+502,tp5n pageset,0.414,1831313,S2
+503,Amazon password field,0.447,1863722,S4
+504,Unicode password oversized,0.461,1863722,S4
+505,master password event loop spin,0.458,1471932,blocker
+505,ChangeCertTrustWithPossibleAuthentication,0.405,1471932,blocker
+506,robust file deletion patch,0.291,1817643,S4
+507,ESR60 patch rebase,0.177,1521370,S1
+508,temporary patch fix,0.358,16519,blocker
+509,patch reviewed checked in,0.138,24008,S1
+510,PauseCompositorFlickering rename,0.404,1782778,S2
+511,PDF vs preview discrepancy,0.351,1665064,S2
+512,PDF.js,0.418,1025247,S3
+512,Adobe PDF Library,0.404,1025247,S3
+513,keyboard text highlight pdf.js,0.461,1877426,S2
+513,pdf.js Editor highlight,0.408,1877426,S2
+514,PDT+ beta1,0.183,27424,S1
+515,PerformanceMetrics counter,0.418,1560195,S3
+515,perfherder surfaced,0.404,1560195,S3
+515,about:performance,0.389,1560195,S3
+515,metrics visibility,0.324,1560195,S3
+516,Chrome comparison framerate,0.321,1688783,S1
+517,perma timeout beta,0.447,1830238,S3
+518,OpenPGP key import failure,0.404,1665493,S2
+519,picture_in_picture_overrides,0.404,1801250,S3
+520,Pixel5 AArch64 tier 2,0.374,1896069,S4
+521,1891 differing pixels,0.447,1896069,S4
+521,invisible pixel difference,0.404,1896069,S4
+522,nsPlaceholderFrame removal,0.259,576078,S1
+523,platform health check dashboard,0.274,1771799,S2
+524,commercial build Linux,0.449,18481,blocker
+524,Linux no crash expected behavior,0.441,21172,blocker
+525,platforminfo.py shared logic,0.447,1938934,S2
+525,platforminfo.py chunking integration,0.404,1938934,S2
+526,Shockwave movie playback failure,0.461,16519,blocker
+526,AsFileOnly plugin support,0.419,16519,blocker
+528,pointer corruption linked list,0.404,1867696,S4
+529,PointerMoveAction performStep,0.389,1847766,S4
+530,PoisonIOInterposer,0.431,1474451,S3
+530,MOZ_DISABLE_POISON_IO_INTERPOSER,0.308,1474451,S3
+531,9-argument drawImage distorted,0.461,1849639,S3
+531,video aspect ratio canvas,0.447,1849639,S3
+531,openPopup resolved undefined,0.341,1895720,S4
+532,possible crash user impact,0.317,1867006,S2
+533,post-1.3.7 regression,0.318,1257907,S1
+534,pre-98602 attachment fix,0.416,52060,blocker
+535,pref flip disable websockets,0.431,1867006,S2
+536,pretty animation,0.095,11825,S1
+537,print backgrounds option,0.384,1665064,S2
+538,print preview background image mismatch,0.418,1665064,S2
+539,text color adjustment print,0.334,1665064,S2
+539,unreadable print preview result,0.281,1665064,S2
+540,31 failures high priority,0.308,1769241,S4
+541,esr115 uplift privacy fix,0.251,1883693,S2
+541,CVE-2020-15680 inspired variant,0.238,1883693,S2
+542,private mode same,0.358,1858669,S3
+543,GeckoViewMediaControl process switching,0.461,1827583,S2
+544,Process Monitor path trace,0.341,1665493,S2
+545,nsAppShell ProcessNextNativeEvent,0.334,1415837,S1
+546,no product using yet,0.285,1147714,blocker
+547,protocol handler existence timing leak,0.431,1883693,S2
+547,threshold timing severely decreased,0.308,1883693,S2
+548,nsIStreamAsFile protocol hookup,0.434,27763,blocker
+548,proxy API java download workaround,0.389,27763,blocker
+549,QA owner reassignment,0.289,16519,blocker
+550,flagtypes approval-comm-beta query,0.414,1564396,blocker
+550,old query invalid WONTFIX,0.393,1564396,blocker
+551,queue_empty assertion,0.461,1889191,S4
+552,25% 50% 100% ramp,0.456,1467514,blocker
+553,rdf chrome source directory,0.354,17416,blocker
+553,overlays.rdf resource chrome,0.331,17416,blocker
+554,RDL pref rollout,0.491,1467514,blocker
+554,dot release RDL default,0.401,1467514,blocker
+555,MediaController re-created not reattached,0.447,1827583,S2
+556,overflow rect border rect,0.447,1891279,S4
+557,refactor JS classes,0.368,1147714,blocker
+557,BrowserAwesomeBar composable refactor,0.338,21172,blocker
+558,refcount balancer tracking,0.389,17937,S2
+559,bugs/602200-2 reftest,0.461,1947932,S4
+559,tier 2 reftest intermittent,0.418,1947932,S4
+559,mozilla-beta only failure,0.341,1947932,S4
+560,regexp metacharacter mysql evaluation,0.471,28510,blocker
+561,register dump,0.312,21894,S1
+562,PyInstaller regression,0.431,1811930,S3
+562,test_index_compaction failure,0.374,1337872,S3
+562,fixed 5.3.1,0.341,1811930,S3
+562,comm-central cleanup,0.324,1337872,S3
+563,regression 1852414,0.374,1881124,S4
+564,ESR 128 regression Firefox 131,0.328,1922278,S1
+565,regressor backout fix,0.389,1896069,S4
+566,feature enabled schema rejection,0.334,1757778,S2
+566,in-flight recipe rejection,0.318,1757778,S2
+566,additional property ignored,0.294,1757778,S2
+567,closed tree relanding,0.254,1665064,S2
+568,P1 bugs pending,0.431,1127088,S3
+568,matches PRD,0.418,1127088,S3
+568,Firefox 117 fixed,0.341,1849639,S3
+569,debug-only release unaffected,0.404,1787959,S2
+570,131.0.3 dot release uplift,0.358,1922278,S1
+571,release week hold,0.367,1377977,blocker
+572,releases_v120 backport,0.278,1861664,S1
+572,firefox-android PR backport,0.261,1861664,S1
+573,WebRender SW-WR fallback,0.389,1951660,S4
+573,WebRender SW-WR fallback,0.389,1943997,S4
+573,RenderCompositorSWGL framebuffer,0.358,1943997,S4
+574,reopen bug,0.079,11825,S1
+575,reproducible test case,0.304,18191,S1
+576,JS classes reserved identifier,0.458,1147714,blocker
+577,resource:// URI schema exposure,0.351,1757778,S2
+578,ResumeCompositorFlickering postpone,0.418,1782778,S2
+579,ResumeCompositorImpl unified resume,0.374,1782778,S2
+580,revision moved obsolete,0.274,1961140,S3
+581,back out revision,0.384,1147714,blocker
+582,richlistitem querySelector error,0.447,1881124,S4
+583,unstable tests risk,0.341,1831313,S2
+584,RNP ASCII-only path parameter,0.389,1665493,S2
+585,rr crash recording,0.219,1340127,S1
+586,dlsym runtime check removed,0.341,688193,S3
+587,allow-unsigned-executable-memory,0.461,1474451,S3
+587,Enhanced Runtime,0.447,1474451,S3
+587,mach_override_ptr,0.418,1474451,S3
+587,Arbitrary Code Guard,0.291,1474451,S3
+588,salon page,0.198,21894,S1
+589,goldfish-opengl samplerExternalOES,0.447,1887337,S4
+589,conditional sampler ifdef,0.404,1887337,S4
+590,SandboxBroker ENOMEM,0.447,1951660,S4
+590,SandboxBroker ENOMEM,0.447,1943997,S4
+590,remoteTab null frameLoader,0.404,1951660,S4
+590,remoteTab null frameLoader,0.404,1943997,S4
+591,single-feature multi-feature schema incompatibility,0.461,1757778,S2
+591,feature key backwards compatibility,0.447,1757778,S2
+591,feature features key coexistence,0.368,1757778,S2
+592,Events.yaml schema,0.431,1557050,S3
+593,CREATE_SUSPENDED import scraping,0.378,1489041,S1
+594,JS_WITHOUT_NSPR rename,0.452,1560432,blocker
+594,fields missing after edit,0.372,1564396,blocker
+595,scroller child scroll position,0.358,1961140,S3
+596,APZ ScrollFrame disabled,0.431,1961140,S3
+597,scroll after scrollend,0.461,1896515,S3
+597,autoscroll spurious event,0.447,1896515,S3
+597,scrollend scroll ordering,0.431,1896515,S3
+597,Start Stop scrolling loop,0.418,1896515,S3
+597,touchpad autoscroll repro,0.389,1896515,S3
+597,mouse wheel scrollend,0.374,1896515,S3
+597,pink element autoscroll,0.358,1896515,S3
+597,scroll period dot logged,0.341,1896515,S3
+598,duplicate f-param Advanced Search,0.491,1564396,blocker
+598,GetUntrustedModuleLoadEvents namespace error,0.491,1604462,blocker
+598,Custom Search UI migration,0.434,1564396,blocker
+598,login blocked work blocker,0.389,1596670,blocker
+599,sec-audit marking,0.354,1257907,S1
+600,secret key passphrase loop,0.291,1665493,S2
+601,security flag removed,0.297,1269776,S1
+602,PIE GOT null pointer,0.473,1490845,blocker
+602,GC audio buffer gap,0.461,684028,S3
+602,gold linker bug,0.455,1490845,blocker
+602,setInterval GC delay,0.447,684028,S3
+602,remote code execution,0.438,576078,S1
+602,ASan SEGV __sched_cpucount,0.436,1490845,blocker
+602,speculative connect smart cards,0.423,1471932,blocker
+602,CVSS score 10,0.347,576078,S1
+602,exploitable condition,0.332,576078,S1
+602,ZDI-CAN-852,0.318,576078,S1
+602,RC3 uplift approved,0.207,1827583,S2
+602,esr140 patch landed,0.171,1827583,S2
+603,See Also limitation,0.358,1306114,S3
+604,mSegmentEnd reset,0.381,24008,S1
+605,sel.selected_content mismatch,0.404,1847766,S4
+606,sent folder checkbox,0.154,27424,S1
+607,serious blocker,0.238,12980,S1
+608,server side text wrapping,0.491,52060,blocker
+609,ServiceWorkerRegistrar GetShutdownPhase crash,0.447,1928888,S2
+609,ServiceWorkerRegistrar ProfileStarted startup,0.431,1928888,S2
+609,nsXREDirProvider DoStartup crash,0.341,1928888,S2
+610,session history null pointer,0.389,1535800,S1
+613,shopping experience experiment enrollment,0.404,1861664,S1
+614,shutdown hang backout,0.358,1761182,S1
+614,AddShutdownBlockers static cleared,0.341,1761182,S1
+614,nsThreadManager shutdown ContentParent,0.328,1761182,S1
+614,shutdown order regression,0.254,1761182,S1
+615,sidebar related links crash,0.418,11136,S2
+616,private window sidebar flash,0.418,1953966,S4
+617,sideways-lr writing mode,0.267,1340127,S1
+618,return code -15 signal 15,0.374,1951660,S4
+618,return code -15 signal 15,0.374,1943997,S4
+619,intermediate signing cert expired,0.491,1548973,blocker
+619,trees closed XPCShell signing,0.435,1548973,blocker
+619,R_X86_64_GLOB_DAT unresolved,0.417,1490845,blocker
+619,2-year cert not renewed,0.415,1548973,blocker
+619,xpinstall.signatures.required,0.374,1548973,blocker
+620,silly mistake D218903,0.261,1922278,S1
+621,default browser prompt coexistence,0.418,1972807,S2
+621,new tab mobile QR experiment,0.404,1972807,S2
+622,SkStroke assertion failure,0.461,1221312,S1
+622,SkPathStroker rewrite,0.421,1221312,S1
+622,upstream Skia fix,0.374,1221312,S1
+622,Skia update dependency,0.351,1221312,S1
+623,slow test chaos mode,0.374,1786225,S4
+624,SMTP server misconfiguration,0.412,27424,S1
+624,nsSmtpService fix,0.279,27424,S1
+624,mail.smtpserver hostname pref,0.261,27424,S1
+625,EnsureNPNComplete socket,0.389,1685923,S3
+626,software conflict,0.276,12980,S1
+627,external drive Spotlight font bug,0.389,688193,S3
+628,FOX_DOODLE_MULTI_ACTION spotlight overlap,0.358,1972807,S2
+629,srflx candidate initialized,0.389,1840067,S4
+630,stack dump,0.297,21894,S1
+631,alloca stack overflow crash,0.404,1489041,S1
+632,CanvasRenderer thread stack size,0.374,1787959,S2
+633,stack trace,0.329,18191,S1
+634,incorrect webrender stacktrace,0.431,1935443,S2
+635,reassigned bug stale query,0.331,28510,blocker
+635,not regular expression query,0.308,28510,blocker
+636,browser fails to launch,0.538,27852,blocker
+636,nsCollationUnix Initialize mLocale,0.514,27852,blocker
+636,enterprise_roots hang startup,0.491,1471932,blocker
+636,nsNSSComponent mMutex deadlock,0.475,1471932,blocker
+636,Profile Manager Start Mozilla,0.468,27852,blocker
+636,null mSessionHistory crash,0.461,1535800,S1
+636,baseline-eager,0.447,971511,S3
+636,ResumeRedirectedLoad lambda SIGSEGV,0.447,1535800,S1
+636,NoneType isatty,0.447,1811930,S3
+636,destroyed docshell resume loading,0.431,1535800,S1
+636,98% startup crash rate,0.418,1928888,S2
+636,matches Comps,0.404,1127088,S3
+636,libfuzzer startup crash,0.398,1490845,blocker
+636,AArch64 ARM startup topcrash,0.389,1935443,S2
+636,uptime under 10 seconds,0.389,1928888,S2
+636,DocShellAndDOMWindowLeak,0.374,1830238,S3
+636,Fill link from clipboard crash,0.374,1935443,S2
+636,dogfood keyword AIM blocker,0.374,27852,blocker
+636,null memcpy target,0.367,24008,S1
+636,Stylo WebRender nightly,0.361,1415837,S1
+636,page load crash,0.356,21894,S1
+636,mozilla build launches commercial fails,0.351,27852,blocker
+636,frame 100 webrender mention,0.341,1935443,S2
+636,118.0.2 not affected,0.341,1858669,S3
+636,BFD lld gold diverge,0.339,1490845,blocker
+636,nightly build crash,0.338,21894,S1
+636,Win98 random crash,0.324,11136,S2
+636,plugin-container bluescreen hang,0.321,1489041,S1
+636,128 esr crash persists,0.308,1928888,S2
+636,Windows 7 64-bit crash,0.291,1415837,S1
+636,topcrash no longer,0.274,1935443,S2
+637,stats for nerds dropped frames,0.394,1688783,S1
+638,steps to reproduce,0.291,1025247,S3
+639,nsStorageStream mWriteCursor,0.421,24008,S1
+640,nsStorageStream Seek,0.194,24008,S1
+641,VP9 extension Microsoft Store,0.231,1521370,S1
+641,crash dump sharing Microsoft,0.163,1521370,S1
+642,NPP_DestroyStream invoked too often,0.531,16519,blocker
+642,stream aborted before download complete,0.508,16519,blocker
+642,NPP_WriteReady buffer consumed,0.484,16519,blocker
+642,4.0 plugin stream handling,0.443,16519,blocker
+644,subframe creation assert,0.404,1568517,S3
+645,subframe parent check,0.324,1568517,S3
+646,supported retailer sites,0.311,1861664,S1
+647,RefLayerMLGPU ContainerLayerMLGPU separation,0.447,1588484,S1
+647,SVG as-image comparison,0.389,1845274,S4
+648,swappable carets drag,0.418,1847766,S4
+649,ManifestProcessor SyntaxError,0.443,1147714,blocker
+650,sys.stdout None,0.461,1811930,S3
+651,100% user impact system clocks,0.353,1548973,blocker
+652,tab leave workaround,0.244,1922278,S1
+653,tab viewholder,0.104,21894,S1
+654,tabs tray compose,0.134,21894,S1
+655,Talkback not working,0.231,24008,S1
+656,targeting criteria verification,0.274,1863981,S2
+657,uncached data task timeout,0.389,1938934,S2
+657,py3 taskcluster timeout backout,0.374,1938934,S2
+658,TaskCluster ASAN build,0.172,1340127,S1
+659,recipe enrollment telemetry,0.419,1467514,blocker
+660,telemetry opt-out,0.341,1557050,S3
+661,Protection Report telemetry,0.461,1557050,S3
+661,data steward review,0.447,1557050,S3
+662,skip test fission,0.404,1769241,S4
+662,run sequentially fission,0.389,1769241,S4
+663,reftest failure false backout,0.317,1665064,S2
+664,test harness root cause,0.412,1269776,S1
+665,NimbusEnrollment schema update,0.401,1757778,S2
+665,nimbus-shared package schema,0.384,1757778,S2
+665,test-info-testrun-matrix artifact,0.341,1938934,S2
+666,TestRunner._checkForHangs,0.418,1895720,S4
+666,delayedKillTest hang,0.404,1895720,S4
+667,TEST-UNEXPECTED-FAIL,0.461,971511,S3
+668,test_Range windows leak,0.491,932781,blocker
+669,test_drag_swappable_carets_input,0.461,1847766,S4
+670,test verification FAIL,0.431,1786225,S4
+670,TinderboxPrint FAILURE,0.341,1786225,S4
+671,testinfo skipfails logic divergence,0.418,1938934,S2
+672,off-thread module parse error,0.447,1822717,S2
+672,cancellation checks state assertions regression,0.418,1822717,S2
+672,async module tab crash,0.404,1822717,S2
+672,mozregression duplicate fixed,0.374,1849639,S3
+672,WebM test case,0.318,1269776,S1
+673,textencoder-utf16-surrogates shadowrealm,0.461,1943997,S4
+674,gray border rendering,0.447,1025247,S3
+674,text rendering,0.341,1025247,S3
+675,plain text vs HTML mode,0.358,17937,S2
+676,textLength-3 SVG reftest,0.461,1896069,S4
+677,post-Sandstone theme,0.491,1377977,blocker
+677,dark mode night mode,0.474,1377977,blocker
+677,Pontoon dark reference,0.348,1377977,blocker
+677,merged Jedi Master,0.329,1377977,blocker
+678,third addressee line missing,0.461,26577,S2
+679,SIGABRT SI_TKILL corrupted stack,0.461,1935443,S2
+679,RenderThread Android UI 82%,0.447,1935443,S2
+679,AudioTrack crashing thread field,0.418,1935443,S2
+679,socorro aggregations crashing thread name,0.404,1935443,S2
+680,three landing backout attempts,0.264,1883693,S2
+681,Thunderbird 115.10.0,0.341,1881124,S4
+682,tier-1 pageset,0.368,1831313,S2
+683,timed out 50 tries,0.431,1981325,S4
+684,test_bug458037 timeout,0.461,1890683,S4
+684,win64cfi xpcshell timeout,0.431,1817643,S4
+684,370 second timeout,0.389,1920391,S4
+684,763328ms application timeout,0.374,1890683,S4
+684,180102ms test timeout,0.358,1830238,S3
+684,300003ms test timeout,0.324,1817643,S4
+684,timeout,0.291,971511,S3
+685,399482ms application timeout,0.418,1962675,S4
+686,4 test timeouts giving up,0.389,1890683,S4
+687,toolbar,0.261,11825,S1
+687,tools bar,0.198,11825,S1
+688,top-site background-image icons,0.368,1665064,S2
+689,transitional bug unexploitable,0.398,1257907,S1
+690,translate button,0.312,11825,S1
+691,treatment branch not applied,0.418,1861664,S1
+692,treatment control experience verified,0.294,1861664,S1
+693,linux1804-64-tsan-qr,0.374,1895720,S4
+694,two addressee limit,0.438,26577,S2
+695,sColor0 incorrect type,0.431,1887337,S4
+696,uBlock Origin false report,0.324,1882433,S3
+697,UE/UI component,0.109,11825,S1
+698,Lockwise open button,0.389,1557050,S3
+698,hamburger menu path,0.274,1557050,S3
+699,UI smoke test flakiness,0.297,17416,blocker
+700,UI spec,0.289,11825,S1
+701,TEST-UNEXPECTED-FAIL uncaught exception,0.269,1147714,blocker
+702,10078ms exceeds 10000ms,0.389,1786225,S4
+703,11-year open bug,0.291,688193,S3
+704,114 merge release fix,0.404,1830238,S3
+705,121.0b6 uplift approved,0.358,1867006,S2
+706,141.0 dot release backport,0.308,1978620,S2
+707,2000 crashes 1200 installs,0.358,1935443,S2
+708,216 remaining skipped,0.308,1890683,S4
+709,30 failures high priority,0.358,1891279,S4
+710,4 bytes stack junk exploit,0.274,1787959,S2
+711,66 dot release uplift,0.149,1521370,S1
+712,accelerate EOL 3.5,0.183,576078,S1
+713,ACCESS_VIOLATION_READ,0.418,1685923,S3
+714,activeNotifications willShowDefaultPrompt targeting,0.461,1972807,S2
+715,adb logcat crash log,0.244,1204483,S1
+716,ADDONS_STAFF_PICK_PT_2 callout coexistence,0.341,1972807,S2
+717,ads toggle greyed out disabled,0.447,1868180,S2
+718,ads.userEnabled pref default true,0.461,1868180,S2
+719,aLet let3 evaluates true,0.431,1962675,S4
+720,all recipes marked invalid,0.418,1757778,S2
+721,amazon sample page form,0.364,11465,blocker
+722,ancestor transform assertion,0.404,1961140,S3
+723,android-34 x86_64 AVD,0.324,1887337,S4
+724,AndroidDecoderModule audio fix,0.404,1204483,S1
+725,arbitrary start/stop times,0.418,985111,S3
+726,ARM CPU MP3 crash,0.361,1204483,S1
+727,arm64 missing,0.324,1474451,S3
+728,AsContainerLayerMLGPU common interface,0.317,1588484,S1
+729,audio buffer offset incorrect,0.378,1204483,S1
+730,AudioDataDecoder Output,0.431,1204483,S1
+731,aurora beta backport,0.257,932781,blocker
+732,autobisectjs bisect Windows,0.388,1560432,blocker
+733,background color suppression parity,0.298,1665064,S2
+734,baseline eager warmup JIT assert,0.324,1713579,S2
+735,BaseThreadInitThunk neutering,0.188,1489041,S1
+736,beta 100 uplift approved,0.187,1761182,S1
+737,Beta 124.0b2 verified fixed,0.374,1877426,S2
+738,beta1 PDT+ regression,0.393,28683,blocker
+739,bisected pushlog regression,0.324,1953966,S4
+740,brotli red herring,0.172,1489041,S1
+741,browser_bookmark_titles.js,0.374,1824271,S4
+742,browser_script_command_execute_throw,0.461,1920391,S4
+743,browser_temporary_permissions_tabs,0.341,1535800,S1
+744,bug reassignment,0.091,18191,S1
+745,Bugbug regression detection,0.214,1415837,S1
+746,bytes vs samples confusion,0.418,1204483,S1
+747,cache cleared repro,0.389,1882433,S3
+748,canary JS module load,0.374,1928888,S2
+749,Cancel Save buttons unresponsive,0.336,566179,S1
+750,cannot duplicate issue,0.376,18481,blocker
+751,Caret Browsing keyboard navigation,0.447,1877426,S2
+752,CCacheStreamListener OnStopBinding,0.412,27763,blocker
+753,chaos_mode_flags=0xfb,0.447,1786225,S4
+754,ChildProcessChannelListener OnChannelReady,0.418,1535800,S1
+755,cloned bug,0.274,971511,S3
+756,cloned experiment Stage environment,0.404,1863981,S2
+757,Cmd+Tab focus switch hang,0.412,566179,S1
+758,comm-esr60 uplift 2.57,0.369,1544222,blocker
+759,commented-out code triggers crash,0.389,1822717,S2
+760,contain-intrinsic-size,0.418,1786225,S4
+761,ContentParent ActorDestroy crash,0.404,1761182,S1
+762,cookie project Mac,0.512,11561,blocker
+763,cookies.txt file verified,0.461,11561,blocker
+764,crash absent in 140,0.291,1928888,S2
+765,crashtest 1547420-1.html,0.404,1891279,S4
+766,CreateAppFromCommand brandName,0.432,1544222,blocker
+767,CTFontManager enumeration,0.374,688193,S3
+768,Ctrl+Shift+P new window,0.389,1953966,S4
+769,D3D11 correctness issues,0.389,1588484,S1
+770,database inconsistency repair,0.401,28510,blocker
+771,declarationInstantiation evaluation,0.361,1466487,S1
+772,dependency dead block check,0.358,1713579,S2
+773,DestroyStream StreamAsFile mismatch,0.344,27763,blocker
+774,DOGFOOD crash,0.244,24008,S1
+775,DOMCacheThread QM_TRY failure,0.204,1761182,S1
+776,doorhanger proxy removed,0.358,1557050,S3
+777,drop shadow,0.431,1025247,S3
+778,duplicate 1530097,0.308,1779799,S3
+779,duplicate intermittent,0.274,1889191,S4
+780,duplicate regressor,0.308,1786225,S4
+781,embedded YouTube works,0.241,1827583,S2
+782,enable-fuzzing enable-PIE,0.359,1490845,blocker
+783,Enrollment Paused blocked,0.418,1863981,S2
+784,Enter key new addressee,0.351,26577,S2
+785,ERROR_SHARING_VIOLATION,0.404,1817643,S4
+786,ESR 60.2 uplift,0.33,1471932,blocker
+787,ETP not related,0.341,1863722,S4
+788,EXCEPTION_ACCESS_VIOLATION_WRITE,0.298,1521370,S1
+789,EXCEPTION_STACK_OVERFLOW 32-bit,0.418,1489041,S1
+790,ExperimentStoreData.json enrollment simulation,0.389,1863981,S2
+791,externalAppExistsForScheme JS check,0.334,1883693,S2
+792,Firefox 9 GC regression,0.284,684028,S3
+793,first-in-flow last continuation mismatch,0.314,1340127,S1
+794,FoldLoadsWithUnbox EliminateRedundantChecks parity,0.308,1713579,S2
+795,force quit required,0.297,566179,S1
+796,FrecencyRecalculator Places init,0.447,1920391,S4
+797,FREQ=MONTHLY BYDAY BYSETPOS combination,0.418,1975734,S2
+798,gecko_ firefox_desktop_ list classification,0.447,1771799,S2
+799,German special letter path misspelled,0.418,1665493,S2
+800,GetBrandName brandName,0.452,1544222,blocker
+801,GetOrCreateModuleMetaObject null,0.461,1466487,S1
+802,H264 AAC shipping restriction,0.204,1521370,S1
+803,ical.js upstream fix,0.431,1975734,S2
+804,ice_unittest.cpp:1605,0.418,1840067,S4
+805,IMG3250.DLL,0.379,21894,S1
+806,import.meta worker crash,0.444,1466487,S1
+807,inactive closing,0.258,971511,S3
+808,initTestCrasherSymbols not function,0.418,1817643,S4
+809,Intel Atom unaffected,0.217,1204483,S1
+810,intermittent linux shippable crash,0.358,1535800,S1
+811,intermittent one-day regression,0.394,21172,blocker
+812,invalid page fault MSVCRT.DLL,0.304,24008,S1
+813,IPC channel counter,0.374,1560195,S3
+814,IsTypeSupported MFT decoder,0.367,1521370,S1
+815,jit-test,0.404,971511,S3
+816,JS classes Aurora Nightly,0.429,1147714,blocker
+817,LCU reinstall fix,0.312,1521370,S1
+818,libxp dependencies cookies,0.487,11561,blocker
+819,LICM MObjectStaticProto hoisting,0.404,1713579,S2
+820,Linux commercial build blocker,0.491,27852,blocker
+821,linux1804-32-qr opt,0.341,1951660,S4
+822,linux1804-64-ccov-qr,0.341,1890683,S4
+823,localstorage SRAM pause,0.341,684028,S3
+824,loop with restarts FAIL,0.404,1786225,S4
+825,low-level JIT assertion security,0.257,1713579,S2
+826,lprofLockFd llvm_gcda,0.431,1890683,S4
+827,M12 verified all platforms,0.241,17937,S2
+828,M13 branch fix,0.258,24008,S1
+829,macOS 14.70 wrong version string,0.431,1938934,S2
+830,macosx1015 shippable,0.431,1830238,S3
+831,Marketplace closed,0.358,1127088,S3
+832,mConnection null deref,0.447,1685923,S3
+833,Mediatek MT6589 crash,0.391,1204483,S1
+834,message exclusion targeting broken,0.291,1972807,S2
+835,message not sent,0.244,27424,S1
+836,meta bug blocker,0.258,1415837,S1
+837,MNewPlainObject support added,0.389,1713579,S2
+838,MObjectStaticProto lazy proto assert,0.447,1713579,S2
+839,Monitor signup button,0.404,1557050,S3
+840,MOZ_USE_XINPUT2=1,0.431,1420770,S3
+841,MOZ_WEBRENDER=0 workaround,0.401,1665064,S2
+842,mRestartCount 4,0.431,1685923,S3
+843,Ndr64pClientInit signature,0.394,1521370,S1
+844,ne_find_cue_point_for_tstamp,0.468,1269776,S1
+845,near-null release crash GC,0.341,1713579,S2
+846,necko reviewers patch,0.341,1867006,S2
+847,NEWTAB_MESSAGE_MOBILE_DOWNLOAD simultaneous display,0.447,1972807,S2
+848,Nightly 138.0a1 Windows 11,0.358,1953966,S4
+849,NIGHTLY_BUILD vs EARLY_BETA_OR_EARLIER,0.473,1604462,blocker
+850,Nimbus pref persistent,0.389,1868180,S2
+851,nimbus.debug targeting bypass,0.308,1972807,S2
+852,NimbusExperiment schema import,0.431,1757778,S2
+853,no browser restart needed,0.382,1467514,blocker
+854,no crashes 12 weeks,0.187,1415837,S1
+855,no-ti no-fpu,0.431,971511,S3
+856,normalB setLength,0.443,1221312,S1
+857,Normandy recipe,0.474,1467514,blocker
+858,not regression 2020,0.308,1882433,S3
+859,NS_IF_ADDREF one-liner fix,0.258,17937,S2
+860,nsBaseWidget build bustage,0.238,1588484,S1
+861,nsBidiPresUtils TraverseFrames,0.404,1340127,S1
+862,nsCOMPtr nsIRDFDataSource,0.378,17416,blocker
+863,nsFormFrame RemoveFormControlFrame,0.318,18191,S1
+864,nsFrameManager RemoveFrame,0.421,576078,S1
+865,nsGConfService removed,0.491,1544222,blocker
+866,nsGNOMEShellService GIO port,0.472,1544222,blocker
+867,nsIStringBundle redundant,0.411,1544222,blocker
+868,nsPluginStreamType_AsFileOnly blocked,0.524,27763,blocker
+869,nsSocketTransportService,0.358,1685923,S3
+870,null check assert added,0.221,1761182,S1
+871,object Phi input hoisted,0.374,1713579,S2
+872,openPopup incognito window,0.461,1895720,S4
+873,OS application handler privacy leak,0.348,1883693,S2
+874,PDT+ beta1 radar,0.321,27763,blocker
+875,PDT priority flag,0.097,24008,S1
+876,Pernosco rr trace bare stack,0.324,1787959,S2
+877,PERPLEXITY_CALLOUT callout overlap,0.324,1972807,S2
+878,PiP background playback broken,0.358,1827583,S2
+879,PiP position override,0.431,1801250,S3
+880,PodCopy buffer overrun,0.449,1204483,S1
+881,PresShell::RenderNode,0.418,1882433,S3
+882,push bd4f1281c3b7,0.241,971511,S3
+883,QA contact incorrect in list,0.354,28510,blocker
+884,QA self-assign,0.089,12980,S1
+885,Quick Heal browser sandbox,0.447,1489041,S1
+886,Quick Heal no response,0.247,1489041,S1
+887,QuotaManager before profile-do-change,0.431,1920391,S4
+888,read-only shadow database stale,0.425,28510,blocker
+889,recurrence prevention root cause,0.311,1548973,blocker
+890,RecvCrossProcessRedirect content child,0.404,1535800,S1
+891,RenderCompositorSWGL framebuffer error,0.308,1975734,S2
+892,resolved bug shown as open,0.378,28510,blocker
+893,review-checker-ads experiment treatment A,0.431,1868180,S2
+894,Review Checker sidebar ads,0.418,1868180,S2
+895,ride the trains no backport,0.274,1713579,S2
+896,RTL bidi resolution trigger,0.298,1340127,S1
+897,rubber stamp,0.308,1127088,S3
+898,safe mode freeze persists,0.291,1975734,S2
+899,Samsung Galaxy S9 Android 8,0.324,1935443,S2
+900,scdetour.dll static dependency injection,0.461,1489041,S1
+901,screen wakelock not set,0.291,1827583,S2
+902,sec-moderate crash fix,0.281,1340127,S1
+903,SEGV_MAPERR address 0x18,0.374,1535800,S1
+904,sg:critical cleared,0.301,576078,S1
+905,shape-guard folding separate pass,0.431,1713579,S2
+906,shape mutation property added,0.291,1713579,S2
+907,shell-only issue,0.378,1466487,S1
+908,shopping ads experiment pref flip,0.404,1868180,S2
+909,sidebar flash new window,0.461,1953966,S4
+910,sidebar launcher brief show,0.431,1953966,S4
+911,Software WebRender Windows support,0.301,1588484,S1
+912,staging QA signoff,0.344,1467514,blocker
+913,startup_cache_load_time missing schema,0.431,1771799,S2
+914,STATIC_DEPENDENCY_ONLY DLL block,0.364,1489041,S1
+915,studies pref workaround,0.395,1548973,blocker
+916,STUN address type mismatch,0.431,1840067,S4
+917,test_fetch-file NS_ERROR_CONTENT_BLOCKED,0.361,1883693,S2
+918,test_registerContentScripts_css,0.461,1769241,S4
+919,Thunderbird topcrash rank,0.358,1928888,S2
+920,timed-out,0.389,971511,S3
+921,toolkit components extensions misplaced,0.418,1771799,S2
+922,topcrash beta shutdown,0.268,1761182,S1
+923,TrustLoaded3rdPartyRoots reentrant,0.441,1471932,blocker
+924,two patches beta incomplete merge,0.324,1978620,S2
+925,UAT tracking,0.447,1127088,S3
+926,uber software conflicts,0.154,12980,S1
+927,UBSAN_OPTIONS fast_unwind_on_fatal,0.291,1787959,S2
+928,unmaintained devtools components,0.358,985111,S3
+929,untrusted.example.com title,0.431,1824271,S4
+930,uplift process Aurora,0.318,1147714,blocker
+931,V8 scanline queuing,0.271,684028,S3
+932,verified as fixed,0.358,1025247,S3
+933,verified fixed Win Linux,0.294,11465,blocker
+934,verify before closing,0.179,12980,S1
+935,WebCompat Reporter,0.461,1306114,S3
+936,webgl.out-of-process false workaround,0.389,1787959,S2
+937,WebGLContext debug code fReadPixels,0.447,1787959,S2
+938,WebRender Android emulator,0.418,1887337,S4
+939,wgpu_core::global::Global,0.389,1889191,S4
+940,widget voice search default engine,0.312,11465,blocker
+941,WindowProxy lazy proto codegen,0.418,1713579,S2
+942,Windows 7 only reproduce,0.349,1471932,blocker
+943,Word 98 conflict,0.167,12980,S1
+944,workaround side effect,0.374,16519,blocker
+945,wrench APK adb install,0.358,1887337,S4
+946,wrong SMTP pref key,0.394,27424,S1
+947,zero risk symbol definition,0.291,1978620,S2
+948,unicodeBidi embed animate,0.341,1340127,S1
+949,unicode-bidi continuation mismatch,0.431,1340127,S1
+950,use-of-uninitialized-value,0.449,1269776,S1
+950,nestegg_duration unchecked return,0.431,1269776,S1
+951,unix crash fix,0.168,11825,S1
+952,unresponsive script warning,0.379,566179,S1
+953,121.0b9 uplift approved,0.324,1868180,S2
+954,Composer window URL load,0.465,28683,blocker
+955,user.js profile enrollment,0.324,1863981,S2
+956,UTF-16 filename RNP rejection,0.374,1665493,S2
+957,double variable declaration,0.341,1337872,S3
+958,verified invalid,0.149,11825,S1
+959,VERIFIED WORKSFORME,0.152,18191,S1
+960,verifyme keyword,0.248,21894,S1
+961,version 75 expiry,0.291,1557050,S3
+962,auto-006.html timeout,0.461,1786225,S4
+962,mozregression 5.3.0,0.389,1811930,S3
+963,vertical writing mode crash,0.389,1340127,S1
+964,VR180 360 video black blinking,0.431,1922278,S1
+964,hardware decoded video frame rendering,0.404,1922278,S1
+964,video pulsing rubber banding,0.374,1922278,S1
+965,videoWidth videoHeight natural,0.431,1849639,S3
+966,View Translate menu,0.155,11825,S1
+967,virtual machine bluescreen,0.219,1489041,S1
+968,voice search preference order,0.189,11136,S2
+969,VP9 version mismatch torn state,0.381,1521370,S1
+970,vsync disabled timeout,0.461,1981325,S4
+971,NtWaitForMultipleObjects,0.318,1415837,S1
+972,wasm GC active,0.254,1456517,S1
+973,wasm GC nursery assertion,0.461,1456517,S1
+973,wasm callImport i32,0.351,1456517,S1
+974,linux2204-64-wayland,0.358,1895720,S4
+975,Wayland frame callback crash,0.389,1782778,S2
+976,web app manifest icon,0.431,1823912,S4
+977,tab crash quarter share,0.154,1489041,S1
+978,WebAssembly Debugger interaction,0.318,1456517,S1
+979,broken website report,0.447,1306114,S3
+979,webcompat submission,0.404,1306114,S3
+979,webcompat.com milestone,0.341,1306114,S3
+980,Top100 webcompat test,0.404,1858669,S3
+981,Top100 webcompat testing,0.418,1863722,S4
+982,MGuardShape foldsTo GVN hack,0.461,1713579,S2
+982,readPixels y parameter reproduction,0.358,1787959,S2
+982,UBSan SEGV READ memory,0.341,1787959,S2
+983,WebGL out-of-process command dispatch,0.308,1787959,S2
+984,WebRender shippable perma,0.308,1830238,S3
+985,WebRender background image suppression,0.461,1665064,S2
+985,PaintStyleImageLayerWithSC codepath,0.447,1665064,S2
+986,WalletPreview wallet.cpp fix,0.401,11465,blocker
+986,blocker severity escalation,0.383,11465,blocker
+986,Fission without WebRender,0.331,1588484,S1
+986,WebRender Everywhere timeline,0.287,1588484,S1
+986,Windows 7 WebRender blocker,0.271,1588484,S1
+987,HTTP2 websocket proxy crash,0.461,1867006,S2
+987,HTTP2 proxy WS broken,0.447,1867006,S2
+987,test_websocket_http2 backout failure,0.418,1867006,S2
+987,squid proxy WebSocket blocked,0.404,1867006,S2
+988,QX whiteboard,0.447,1244854,S3
+988,paper cut bugs,0.358,1244854,S3
+989,status whiteboard PDT mismatch,0.518,28510,blocker
+990,Win32 build,0.271,21894,S1
+990,Win32 build,0.191,11825,S1
+991,inconsistent window close crash,0.224,17937,S2
+992,drag drop window switch,0.389,1420770,S3
+992,window manager DE bug,0.308,1420770,S3
+993,JS exception window permission,0.489,28683,blocker
+995,Windows 10 N 1809,0.434,1521370,S1
+996,Windows builds,0.141,11825,S1
+997,Windows code page encoding,0.324,1665493,S2
+998,windows11-64-2009-asan-qr,0.341,1824271,S4
+998,windows11-64-2009-asan-qr,0.341,1847766,S4
+999,ETP OFF workaround,0.418,1858669,S3
+1000,X11-only GTK3 setup,0.374,1978620,S2
+1001,Wayland X11 difference,0.404,1420770,S3
+1001,X.Org X Server,0.374,1420770,S3
+1002,XPCOMGlueLoad undefined symbol startup,0.404,1978620,S2
+1003,xpcshell intermittent,0.274,1769241,S4
+1004,ZDI December release,0.167,576078,S1

@@ -1,0 +1,162 @@
+cluster_id,canonical_phrase
+0,Frame Management Removal
+1,Wayland Symbol Stub Missing
+2,Bug Reassignment Status
+3,Fenix Android Fixes
+4,Duplicate Bug Verification
+5,Talos TP Pageset Integration
+6,Audio Buffer Offset Error
+7,Certificate Renewal Expiration
+8,Bookmarks Backup Management
+9,Print Preview Rendering Mismatch
+10,WebRender Implementation Timeline
+11,Revision Backout Management
+12,File Deletion Race Condition
+13,Connection Null Pointer Dereference
+14,Crash Reporter Shutdown
+15,Bug Open/Reopen Status
+16,Disk Cache Stream Dependency
+17,CTFontManager Activation Enumeration
+18,Release Merge Fix
+19,Release Uplift Approval
+20,Out Of Memory Crash
+21,Duplicate Stack Trace
+22,Crash Guard Prevention
+23,PDF Rendering Library
+24,Sidebar Visibility Glitch
+25,Legacy Plugin File Support
+26,Brand Name Identification
+27,Scrollend Event Ordering
+28,Pixel Rendering Differences
+29,Beta PDT Regression
+30,Nightly Regression Tracking
+31,Windows NT Compatibility
+32,Process Timeout Failure
+33,Mac Cookie Project Build
+34,Android Emulator Configuration
+35,Windows Build Launch Failure
+36,Core Stack Dump
+37,Frame Poisoning Memory Security
+38,Nimbus Experiment Schema Update
+39,Bookmark Title Mismatch
+40,CSS Grid Layout Broken
+41,File Locked Error
+42,MLGPU Layer Interface Separation
+43,Shadow Database Query Lag
+44,Beta Shutdown Topcrash
+45,Sent Folder Synchronization
+46,Fission Test Execution
+47,WGPU Device Drop
+48,History Deletion UI
+49,Module Assertion Failure
+50,Channel Ifdef Configuration
+51,Worksforme Bug Resolution
+52,Hardened Runtime Security
+53,WebGL Out-of-Process Dispatch
+54,Dot Release Uplift
+55,Autobisect Bisection Results
+56,QA Ownership Reassignment
+57,Null Pointer Crash
+58,Browser Launch Failure
+59,Toolbar UI Crash
+60,Browser Rendering Disparity
+61,High CPU Usage Hang
+62,Bug Verification Status
+63,Click Event Crash
+64,RemoteTab Null FrameLoader
+65,SVG Rendering Comparison
+66,Null Embedder Crash
+67,NPP Write Buffer Offset
+69,Fission Layers Incompatibility
+70,Translation UI Menu
+71,WebCompat Report Submission
+72,Experiment Branch Enrollment
+73,Application Timeout Failure
+74,Nimbus Feature Configuration
+75,ETP Workaround Assessment
+76,Linux Commercial Build Blocker
+77,Debug Build Sensitivity
+79,Apprunner Stability Failure
+80,M9 Milestone Tracking
+82,AAudio Default Configuration
+83,Profile Manager Startup
+85,Debug Build Fuzzing
+86,DevTools Component Maintenance
+88,IPC Channel Counter
+89,Storage Stream Seeking
+91,Upstream Library Fix
+92,HTTP2 Proxy Crash
+93,Min-Content Overflow Issue
+94,Invalid Tag Name Selector
+97,Attachment Text Wrapping
+98,ASAN QR Regression
+99,Feature Key Compatibility
+100,Feature Schema Incompatibility
+101,Page Load Failure
+102,Compositor Framebuffer Error
+105,Compositor Assertion Violation
+106,WindowGlobalParent Structure
+109,Linux Platform Crash
+110,Priority Bug Tracking
+113,Gecko Merge Bustage
+114,IPC Pipe Failure
+115,Compose Window Closure Failure
+116,Unexpected Test Failure
+117,Meta Bug Tracking
+118,Milestone Schedule Deferral
+119,XPCShell Test Timeout
+120,Aurora Release Uplift
+121,Wayland Callback Crash
+123,Alt+Tab Input Suppression
+124,Memory Access Violation
+126,Third-Party Software Conflict
+128,Commercial Build Verification
+131,Beta Only Failure
+132,Inactive Bug Cleanup
+134,WebRender Windows Support
+135,ESR Release Uplift
+136,CCOV QR Test Regression
+141,Duplicate Bug Resolution
+145,Verified Worksforme Status
+146,Sandbox Out Of Memory
+154,IPC Pressure Metrics
+155,SIGABRT Thread Crash
+159,Feature Default Disablement
+160,Missing Severity Level
+161,Nightly Aurora Progression
+177,Windows Build Compatibility
+184,Test Execution Timeout
+186,RNP Filename Encoding Failure
+187,Drag Preview Missing
+188,Top100 WebCompat Testing
+189,Windows Content Crash
+190,Dialog Parenting Error
+196,Navigation Event Abortion
+197,Minefield Version Regression
+198,Socket Transport Service
+200,Inactive Bug Mass Closure
+202,Dark Mode Coloring
+211,Location.href Navigation Crash
+213,WebRender Software Fallback
+233,Content Process Shutdown Crash
+236,ETP Captcha Blocking
+237,Extension Process Persistence
+238,Linux Test Configuration
+241,Signal 15 Return Code
+243,Android Hardware Testing
+254,MP3 Streaming Crash
+257,Debug Assertion Backout
+263,Sidebar Flash Glitch
+264,High Priority Failure Count
+269,Swappable Carets Drag
+273,Early Beta Rollout
+283,Experiment Stage Environment
+292,QR Debug Test Regression
+323,Compositor Flickering State
+424,Shutdown Blocker Management
+473,PDF.js Text Highlighting
+510,Toolbar UI Components
+516,CSS Frame Constructor
+539,Palm Desktop Software Compatibility
+540,Subframe Creation Assertion
+548,Unified Compositor Resume

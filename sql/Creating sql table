@@ -1,0 +1,11 @@
+CREATE TABLE keyphrase_global_scores AS
+SELECT phrase,
+COUNT(*) as bug_count,
+AVG(score) as avg_score,
+COUNT(*) * AVG(score) as weighted_score
+FROM (
+SELECT bug_id, jsonb_array_elements_text(key_phrases) as phrase,
+(jsonb_array_elements(tf_scores))::numeric as score
+FROM keyphrases_severity) expanded
+GROUP BY phrase
+ORDER BY bug_count DESC, avg_score DESC;

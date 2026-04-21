@@ -1,0 +1,12 @@
+CATEGORIES = {
+    "Networking & Security": "Network issues, security vulnerabilities, auth, encryption, exploits",
+    "Performance": "Slow behavior, freezes, memory leaks, high CPU or RAM usage",
+    "UI / UX": "Layout, buttons, menus, accessibility, visual bugs",
+    "Compatibility": "OS-specific, browser standards, platform-dependent behavior",
+    "Privacy & Data": "User data handling, tracking, cookies, permissions",
+    "Media & Extensions": "Audio/video playback, plugins, extensions",
+    "Installation & Updates": "Install failures, upgrades, config persistence",
+    "Developer Tools": "Debugger, console, devtools, JS engine",
+    "File & System": "Downloads, uploads, filesystem access",
+    "Session & Sync": "Login sessions, sync across devices"
+}
