@@ -1,0 +1,157 @@
+keyphrase,P1,P2,P3,P4,P5
+Add Hotkey,0,0,0,0,1
+Agent String,1,0,0,0,0
+Appcore Shutdown,1,0,1,0,1
+Application Copy,0,1,0,0,0
+Apprunner Crashes,2,1,0,1,0
+Apps Html Dialogs,0,0,0,0,1
+Attribute Changes,0,0,0,0,1
+Auto Proxy,1,0,0,0,0
+Bij Browser,0,0,1,0,0
+Blank Browser,0,1,0,0,0
+Bookmark Page,0,0,0,0,2
+Buglist,0,0,0,0,1
+Campers Changed Qa,0,0,1,0,0
+Change Appcores,0,0,1,1,1
+Chars Lang,0,0,0,1,0
+Chrome Urls,1,0,0,0,0
+Close Add Optional User,0,0,0,0,1
+Comctl32 Dll,0,1,0,0,0
+Compareversion String,0,2,2,1,0
+Components Close Add Optional,0,0,1,0,0
+Components Issue,1,0,1,0,1
+Compose Window,0,0,1,0,1
+Context Menus,0,0,1,0,0
+Context Settings,0,0,0,1,0
+Current User,0,2,0,0,0
+Cursor Changes,0,0,0,1,1
+Customize Button,1,0,0,0,0
+Customize Window,1,0,1,1,0
+Depending Verbage,0,0,0,1,0
+Dialog Machines,1,1,0,1,0
+Dl Compact,0,0,0,0,1
+Dll Necko,0,1,0,0,0
+Document Createprocessinginstruction,0,0,0,1,0
+Document Inside Apprunner,3,0,0,2,0
+Dogfood Issue,0,0,0,1,0
+Dogfood Mouse,0,0,0,1,0
+Download Tgz,0,1,1,0,0
+Ebx Ss 013F,1,0,1,0,0
+Enable Proxy,1,0,0,0,1
+Feature Arch,0,0,1,0,0
+Feature Arch Implement Signed,0,0,1,0,0
+Feature Implement,0,0,1,0,0
+Feature Nswinreg Setvalue,0,2,0,0,0
+File Editor,0,0,1,0,1
+File Naming,0,0,0,0,1
+File Types,0,0,0,1,0
+Focus Pseudo Class,0,0,0,0,1
+Ftp Directory,1,0,0,0,0
+General Ini Section Parsing,0,0,0,1,0
+Generate Bookmarks Folders Automatically,0,0,0,0,3
+Getskippedcontent,0,0,1,0,0
+Happy Campers,0,0,1,0,0
+Hash Table,0,0,1,0,0
+Heights Corrupted Vertical Scroll,1,0,0,4,0
+I18N Dependencies,0,0,1,0,0
+Image Map,0,1,0,0,0
+Image Url,1,0,0,0,0
+Image Viewers,0,0,0,0,1
+Img Src,0,0,0,1,1
+Implement Signed Scripts Entering,1,1,1,0,1
+Inherit Properties,0,0,0,1,0
+Ini File,0,0,1,1,0
+Inline Block,1,0,1,0,0
+Installer Screen,0,0,1,0,0
+Installer Spec,0,0,1,0,0
+Internet Config,1,0,0,0,0
+Keypress Keyup,1,0,0,0,0
+Launch Time,0,1,0,0,0
+Link Element,0,1,0,0,0
+Link Toolbar,0,0,0,1,1
+Little Girls,0,0,1,0,0
+Longer Netscape Changing,1,0,0,0,1
+M10 Added Dependencies,0,0,1,0,0
+M10 Task,0,1,0,0,0
+Mailto Url,1,1,1,0,1
+Menu Behavior Lower,0,1,0,1,0
+Menu Items,1,0,0,1,2
+Messenger Content Default,0,0,0,0,1
+Modifier,0,0,0,1,0
+Mouse Wheel,0,0,0,1,0
+Mozillazine Page,1,0,0,0,1
+Native Declaration,0,0,0,1,0
+Necko Lands,0,1,0,0,0
+Netkeeping Seal,0,0,0,0,1
+Netscape Cfg,0,0,2,0,0
+News Ticker,0,0,1,0,0
+Nsappcoresmanager Shutdown,0,1,2,0,0
+Nsblockframe Cpp,0,1,1,0,0
+Nsifilespec Idl,0,0,0,0,1
+Nsinstalldelete Nsinstallexecute,0,1,0,0,0
+Nsipluginmanger Geturl,0,1,1,0,0
+Nsiresult,0,1,0,0,0
+Nsnull Aview Null View,1,0,1,0,0
+Nsobjectloadingcontent,0,1,0,0,0
+Nswidget,0,1,0,0,0
+Option Disappears,0,0,0,1,0
+Outline Property,0,0,1,0,1
+Page Loading Communicator,0,1,0,0,0
+Password Dialog,2,0,0,3,1
+Performance Analysis,0,0,1,0,0
+Picker Dialog,0,0,0,1,0
+Pixel Height,0,0,0,0,1
+Platform Sensitive,0,1,0,0,0
+Pp Customize,1,0,0,1,0
+Precondition Nsnull Aview,1,0,0,0,0
+Premature Scroll Bar,0,0,0,1,0
+Profile Manager Selectprofile,1,1,0,1,1
+Profile Wizard,0,0,0,0,2
+Queryinterface Components Interfaces,0,0,0,1,0
+Rdf Initialization,0,0,1,0,0
+Read Write,0,0,0,1,0
+Related Links,1,0,0,0,0
+Require Passwords,1,0,0,0,0
+Res Rdf,1,0,0,0,0
+Resize Browser,0,0,0,1,0
+Return Prunichar,0,1,0,0,0
+Round Dots,0,1,0,0,0
+Save File Saving File,0,0,0,1,0
+Scrollable Area,0,0,0,1,0
+Scrolling Disabled,0,0,0,0,1
+Seamonkey Non Crypto,0,0,2,0,0
+Sensitive Change,0,1,0,0,0
+Shutdown Messenger,0,1,0,0,0
+Single Click,0,0,1,1,1
+Smartdownload Uncompression,1,0,2,1,1
+Soft Hyphen,0,1,0,0,0
+Sp5 Changing Summary,0,1,0,1,0
+Spec Mac Exceptions,0,0,0,1,0
+Specific Features,0,0,1,0,0
+String Smrtupdt,0,1,0,0,0
+Support Urls,2,0,0,0,1
+Swap Foreground,0,0,0,1,0
+Tall Image,0,0,0,0,1
+Testcase Displays,1,1,0,1,1
+Text Field,0,0,0,0,1
+Text Size,0,0,0,0,1
+Text Widget,0,1,0,0,0
+Trigger Repaint,0,0,0,0,1
+Updateview Drops Dirty Rects,1,1,2,0,0
+Updateview Function,1,0,0,0,0
+Url Bar,1,0,0,0,0
+Url Dispatching,2,0,0,0,0
+Url Parsing,1,0,0,0,1
+Urls 255,0,0,1,0,0
+Username Password,0,0,0,0,1
+Watchlist,0,0,1,0,0
+Weather Image,0,0,0,0,1
+Widgets Menus,1,0,0,0,1
+Widgettoscreen 47,1,0,0,0,0
+Xp Menus,0,0,0,1,0
+Xpi,0,0,0,1,1
+Xpinstall,0,1,0,0,0
+Xptoolkit M10,0,1,0,0,0
+Xptoolkit Xpwidget,0,1,0,0,0
+Xul File Chrome Messenger,1,0,0,0,0
+Xul Localizable,1,0,0,0,0

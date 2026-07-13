@@ -1,0 +1,5 @@
+Severity,Bug Count,Silhouette Score,Intra-Cluster Distance
+S1,25,0.0573,0.7341
+S2,25,-0.0586,0.8134
+S3,25,-0.0635,0.8886
+S4,25,-0.0497,0.8815

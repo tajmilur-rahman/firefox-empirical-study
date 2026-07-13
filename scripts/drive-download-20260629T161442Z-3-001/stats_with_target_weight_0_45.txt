@@ -1,0 +1,94 @@
+/Users/Mrudhula/PycharmProjects/PythonProject/.venv/bin/python /Users/Mrudhula/PycharmProjects/PythonProject/scripts/drive-download-20260629T161442Z-3-001/priority_bug_cluster_analysis (1).py 
+Step 1: Loading bug data...
+  Loaded 125 bugs
+    P1: 25 bugs
+    P2: 25 bugs
+    P3: 25 bugs
+    P4: 25 bugs
+    P5: 25 bugs
+
+Step 2: Collecting unique labels...
+  Total unique labels: 508
+
+Step 3: Embedding labels with all-MiniLM-L6-v2...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 8581.74it/s]
+Batches: 100%|██████████| 2/2 [00:00<00:00,  5.39it/s]
+  Embedding shape: (508, 384)
+
+Step 4: Computing mean embedding per bug...
+  Bug embedding matrix: (125, 384)
+
+Step 5: Reducing to 2D with Supervised UMAP (target_weight=0.45)...
+  2D shape: (125, 2)
+
+Step 6: Computing cluster quality metrics...
+  Silhouette Score:     0.2180
+  Davies-Bouldin Index: 1.3778
+
+Step 6b: Detecting outliers per priority (IQR factor=1.5)...
+  P1: 23 core bugs, 2 outliers
+    Outlier bug 1156 at (7.63,0.44)
+      Top labels: ['Type Box', 'Native Foo', 'Ender Dll']
+    Outlier bug 4821 at (8.32,-0.05)
+      Top labels: ['Text Zoom', 'Image Viewers', 'Image Map']
+  P2: 22 core bugs, 3 outliers
+    Outlier bug 1515 at (7.46,-0.57)
+      Top labels: ['Width', 'Css1 Keyword', 'Ini File']
+    Outlier bug 6625 at (7.46,-0.49)
+      Top labels: ['Css1 Keyword', '01 Spec', 'Img Element']
+    Outlier bug 8131 at (7.73,-0.45)
+      Top labels: ['Netscape Cfg', 'Image Viewers', 'Native Foo']
+  P3: 21 core bugs, 4 outliers
+    Outlier bug 35 at (9.67,-5.91)
+      Top labels: ['Netscape Cfg', 'Pref Ui', 'Ini File']
+    Outlier bug 2800 at (8.98,3.98)
+      Top labels: ['Img Src', 'Css1 Keyword', 'Http Link']
+    Outlier bug 4267 at (8.99,3.99)
+      Top labels: ['Img Src', 'Css1 Keyword', 'Install Exe']
+    Outlier bug 5107 at (9.74,-5.81)
+      Top labels: ['Ini File', 'File Naming', 'Installer Screen']
+  P4: 21 core bugs, 4 outliers
+    Outlier bug 12309 at (10.45,-5.61)
+      Top labels: ['Ini File', 'File Naming', 'Platform Sensitive']
+    Outlier bug 12939 at (10.41,-5.65)
+      Top labels: ['Ini File', 'File Naming', 'Dom Changes']
+    Outlier bug 13423 at (3.78,-1.40)
+      Top labels: ['Netscape Cfg', 'Xpi', 'Const Nsresult']
+    Outlier bug 15731 at (7.87,-4.12)
+      Top labels: ['Angle Bracket', 'Win32 Nt4', '08 M13']
+  P5: 25 core bugs, 0 outliers
+
+  Per-Priority Stats:
+  Priority      N   Core  Outliers   Centroid X   Centroid Y   Spread
+  -----------------------------------------------------------------
+  P1           25     23         2         7.64        -2.43     1.03
+  P2           25     22         3         8.44        -4.63     1.56
+  P3           25     21         4         3.93         0.05     2.59
+  P4           25     21         4        10.37         1.23     3.70
+  P5           25     25         0         6.88        -0.43     1.87
+
+  Pairwise centroid distances:
+                      P1        P2        P3        P4        P5
+  P1                0.00      2.34      4.46      4.57      2.14
+  P2                2.34      0.00      6.50      6.17      4.48
+  P3                4.46      6.50      0.00      6.55      2.99
+  P4                4.57      6.17      6.55      0.00      3.87
+  P5                2.14      4.48      2.99      3.87      0.00
+
+Step 7a: Creating interactive Plotly plot...
+  Saved: /Users/Mrudhula/PycharmProjects/PythonProject/scripts/drive-download-20260629T161442Z-3-001/new_priority_bug_cluster_interactive.html
+
+Step 7b: Creating static matplotlib plot...
+  Saved: /Users/Mrudhula/PycharmProjects/PythonProject/scripts/drive-download-20260629T161442Z-3-001/new_priority_bug_cluster_static.png
+
+============================================================
+  SUMMARY
+  Total bugs:           125
+  Silhouette Score:     0.2180
+  Davies-Bouldin Index: 1.3778
+  Interactive:          /Users/Mrudhula/PycharmProjects/PythonProject/scripts/drive-download-20260629T161442Z-3-001/new_priority_bug_cluster_interactive.html
+  Static:               /Users/Mrudhula/PycharmProjects/PythonProject/scripts/drive-download-20260629T161442Z-3-001/new_priority_bug_cluster_static.png
+============================================================
+
+Process finished with exit code 0

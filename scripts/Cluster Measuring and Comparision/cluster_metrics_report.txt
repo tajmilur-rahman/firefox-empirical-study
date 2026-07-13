@@ -1,0 +1,41 @@
+============================================================
+CLUSTER QUALITY REPORT — Firefox Bug Severity Study
+============================================================
+
+[Overall Silhouette Score]  -0.0336
+  Range: -1 (bad) → +1 (perfect). >0.5 is good.
+
+[Overall Davies-Bouldin Index]  6.1294
+  Lower is better. <1.0 is generally acceptable.
+
+[Per-Severity Silhouette Scores]
+  Severity     Silhouette
+  ------------------------
+  S1               0.0573
+  S2              -0.0586
+  S3              -0.0635
+  S4              -0.0497
+
+[Intra-Cluster Distances]  (lower = more cohesive)
+  Severity     Bugs   Intra Dist
+  ------------------------------
+  S1             25       0.7341
+  S2             25       0.8134
+  S3             25       0.8886
+  S4             25       0.8815
+
+[Inter-Cluster Distances]  (higher = better separated)
+  Pair                 Inter Dist
+  --------------------------------
+  S2-S1                    0.7790
+  S2-S4                    0.8550
+  S2-S3                    0.8713
+  S2-blocker               0.8585
+  S1-S4                    0.8569
+  S1-S3                    0.8425
+  S1-blocker               0.8464
+  S4-S3                    0.9113
+  S4-blocker               0.8955
+  S3-blocker               0.9084
+
+============================================================

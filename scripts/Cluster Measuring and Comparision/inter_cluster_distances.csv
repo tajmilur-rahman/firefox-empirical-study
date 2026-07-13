@@ -1,0 +1,11 @@
+Severity A,Severity B,Inter-Cluster Distance
+S2,S1,0.779
+S2,S4,0.855
+S2,S3,0.8713
+S2,blocker,0.8585
+S1,S4,0.8569
+S1,S3,0.8425
+S1,blocker,0.8464
+S4,S3,0.9113
+S4,blocker,0.8955
+S3,blocker,0.9084

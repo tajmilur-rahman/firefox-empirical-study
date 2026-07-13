@@ -1,0 +1,1863 @@
+cluster_id,keyphrase,tf_score,bug_id,priority
+0,text field,0.103,4722,P1
+0,text fields,0.089,8014,P1
+0,field inside content,0.086,4722,P1
+0,text field,0.077,27771,P5
+1,inter,0.065,8427,P2
+1,inter application,0.062,8427,P2
+2,perf,0.202,10245,P2
+2,perf,0.149,3246,P3
+2,removing extraneous perf,0.11,10245,P2
+2,perf tag,0.11,10245,P2
+2,extraneous perf tag,0.11,10245,P2
+2,field removing extraneous perf,0.11,10245,P2
+3,nsbeta3,0.099,1021,P1
+3,nsbeta2,0.089,1515,P2
+3,nsbeta3,0.089,8705,P2
+3,nsbeta3 nominees,0.085,1021,P1
+3,nsbeta3 deadline,0.085,1021,P1
+3,nsbeta1,0.081,6647,P3
+4,img src,0.146,11371,P5
+4,src,0.142,11557,P5
+4,img src h2,0.126,11371,P5
+4,src h1 jpg,0.126,11371,P5
+4,img src h1,0.126,11371,P5
+4,img src h1 jpg,0.126,11371,P5
+4,html img src,0.097,24126,P5
+4,html img src foo,0.097,24126,P5
+4,img src foo jpg,0.097,24126,P5
+4,src,0.088,10083,P1
+5,mailbox,0.15,2652,P2
+5,postbox,0.123,11824,P4
+5,mail window,0.091,7406,P2
+5,mailbox,0.079,6873,P1
+6,imagine,0.176,13827,P5
+6,imagine tall,0.155,13827,P5
+6,imagine line,0.155,13827,P5
+7,color,0.158,15286,P4
+7,colors,0.113,1021,P1
+7,colors,0.111,15286,P4
+7,ya pink,0.104,14903,P4
+7,red,0.095,11229,P4
+7,pink,0.093,11824,P4
+7,black,0.09,11229,P4
+8,angle bracket,0.163,15731,P4
+8,brackets,0.09,13068,P4
+9,logging,0.113,10756,P5
+9,activity log,0.113,24979,P5
+9,log,0.092,10756,P5
+10,mouse wheel,0.277,17165,P4
+10,mouse wheel scrolling,0.223,17165,P4
+10,mousewheel,0.193,17165,P4
+10,mouse wheel available,0.132,17165,P4
+10,mouse wheel scrolling broken,0.132,17165,P4
+10,mousewheel unless,0.132,17165,P4
+11,zoom,0.066,4821,P1
+11,zooming,0.057,4821,P1
+11,text zoom,0.05,4821,P1
+11,page zoom,0.047,4821,P1
+11,zoomed,0.046,4821,P1
+11,document body style zoom,0.04,4821,P1
+12,netscape en,0.186,7378,P3
+12,netscape exe,0.125,101,P3
+12,netscape en x11,0.119,7378,P3
+12,netscape cfg,0.104,6117,P1
+12,module netscape,0.074,101,P3
+12,module netscape exe,0.074,101,P3
+12,keyword netscape,0.059,2875,P3
+13,macos86,0.099,11427,P4
+13,macos,0.079,7297,P3
+13,macos,0.061,12309,P4
+13,osx,0.053,12309,P4
+14,menus,0.199,14903,P4
+14,menu items,0.156,5563,P3
+14,menu item,0.111,5563,P3
+14,menu,0.079,7297,P3
+14,optionlist menu,0.077,12230,P5
+14,menus,0.075,4252,P3
+15,operation,0.126,5563,P3
+15,operating,0.053,12309,P4
+16,pref ui,0.265,20276,P5
+16,prefs,0.094,10276,P1
+17,cold start,0.072,7251,P3
+17,cold start profiling,0.051,7251,P3
+18,line breaks,0.09,13068,P4
+18,line text,0.076,27771,P5
+18,single line,0.072,27771,P5
+18,line break,0.05,9101,P2
+19,image information,0.164,24126,P5
+19,images,0.105,24126,P5
+19,image viewers,0.088,18287,P5
+19,image,0.082,24125,P5
+19,images,0.081,24125,P5
+19,images,0.07,8131,P2
+20,mime,0.123,9897,P2
+20,mime table,0.113,9897,P2
+20,mime type,0.097,9897,P2
+21,ftp hobbes,0.099,6141,P1
+21,ftp hobbes nmsu edu,0.099,6141,P1
+22,text widget,0.121,4722,P1
+22,textbox,0.073,27771,P5
+23,width,0.136,10140,P1
+23,widths,0.132,10140,P1
+23,width,0.088,24125,P5
+23,length,0.087,2864,P3
+23,width,0.083,12752,P5
+23,width,0.05,9458,P1
+24,html style,0.149,4267,P3
+24,css3,0.13,15286,P4
+24,css1,0.099,1515,P2
+24,html css,0.083,6625,P2
+24,css1 keyword,0.082,1515,P2
+24,css,0.082,15284,P4
+24,quirk css,0.073,6625,P2
+24,css2,0.073,2055,P5
+24,quirks css,0.064,6625,P2
+25,nsinstallprogressdialog,0.08,5577,P2
+25,nsinstallexecute nsinstallfile nsinstallfileopitem,0.08,9589,P2
+25,nsinstalldelete,0.08,9589,P2
+25,nsinstalldelete nsinstallexecute,0.08,9589,P2
+25,nsinstalldelete nsinstallexecute nsinstallfile,0.08,9589,P2
+25,nsinstalldelete nsinstallexecute nsinstallfile nsinstallfileopitem,0.08,9589,P2
+25,nsinstallfile nsinstallfileopitem nsinstallpatch nsinstalluninstall,0.08,9589,P2
+26,profileselect,0.238,24979,P5
+26,profile,0.191,24979,P5
+27,pixel height,0.134,12752,P5
+27,illegible pixel,0.108,12752,P5
+27,illegible pixel height,0.108,12752,P5
+27,pixels,0.098,12752,P5
+28,dirty,0.169,10261,P1
+28,dirty rects,0.158,10261,P1
+29,declaration,0.149,5416,P4
+29,declaration syntax allows,0.101,5416,P4
+29,native declaration,0.101,5416,P4
+29,native declaration syntax,0.101,5416,P4
+29,declarations,0.066,6625,P2
+30,current user,0.144,5579,P2
+30,currentuser,0.116,5579,P2
+30,an8bitscript currentuser,0.116,5579,P2
+31,open location,0.168,11427,P4
+31,does open,0.126,10217,P1
+32,dynamic,0.077,16959,P5
+32,dynamic content,0.07,16959,P5
+32,dynamic content instead,0.07,16959,P5
+33,style user modify read,0.131,15284,P4
+33,read write,0.077,15284,P4
+33,modify read write,0.077,15284,P4
+33,user modify read write,0.077,15284,P4
+34,mouse button,0.129,21827,P5
+34,mouse,0.099,13093,P5
+34,onmousemove,0.086,10158,P1
+35,nscrt,0.134,11557,P5
+35,nsiresult,0.13,13423,P4
+36,inherit properties,0.108,11229,P4
+36,properties,0.079,15284,P4
+37,55px,0.149,18287,P5
+37,10mpx,0.108,12752,P5
+37,2px,0.07,6625,P2
+37,10px,0.054,9458,P1
+38,tasks reassigning,0.382,11417,P5
+38,tasks,0.324,7252,P3
+38,tasks adding,0.139,9673,P2
+38,task,0.103,5563,P3
+39,type box,0.08,6141,P1
+39,type field,0.057,9412,P1
+40,inline style,0.106,4267,P3
+40,inline elements,0.103,6647,P3
+40,inline block,0.088,9458,P1
+40,inline box,0.088,15116,P4
+40,display inline block,0.069,9458,P1
+40,inline box,0.054,9458,P1
+40,implement inline block,0.05,9458,P1
+41,weather image,0.149,18287,P5
+41,complex javascript weather,0.149,18287,P5
+41,complex javascript weather image,0.149,18287,P5
+42,native foo,0.172,5416,P4
+42,foo,0.113,24126,P5
+42,ref native foo,0.101,5416,P4
+43,dll,0.152,10342,P2
+43,dll,0.139,10162,P1
+43,ender dll,0.139,10162,P1
+43,dll ender,0.13,10162,P1
+43,dll ender dll,0.13,10162,P1
+43,ender dll ender dll,0.119,10162,P1
+43,dll kernel32 dll,0.113,10342,P2
+43,dll,0.09,5577,P2
+44,jpg,0.18,11371,P5
+44,h1 jpg,0.178,11371,P5
+44,h2 jpg,0.156,11371,P5
+45,gifcom,0.083,10083,P1
+45,gifcom gif,0.083,10083,P1
+45,libimg gifcom gif cpp,0.083,10083,P1
+45,modules libimg gifcom gif,0.083,10083,P1
+46,ini file,0.172,5148,P3
+46,ini file editor,0.172,5148,P3
+46,ini,0.172,15853,P4
+46,ini section,0.151,15853,P4
+46,config ini section,0.089,15853,P4
+47,metrics,0.097,15116,P4
+47,font metrics,0.088,15116,P4
+48,files,0.107,5107,P3
+48,filename,0.097,23207,P5
+48,filenames,0.08,23207,P5
+48,file naming,0.073,23207,P5
+49,vertical,0.115,14903,P4
+49,baseline,0.099,10207,P2
+49,vertical align baseline,0.077,10207,P2
+50,modifing,0.132,15083,P4
+50,modifier,0.067,6053,P2
+51,caret,0.187,15284,P4
+51,caret,0.154,8014,P1
+51,caret painting,0.131,15284,P4
+52,single click,0.157,20276,P5
+52,click item,0.157,20276,P5
+52,single click item,0.157,20276,P5
+52,click menu item,0.098,13068,P4
+53,launch time,0.186,10245,P2
+53,start time,0.051,7251,P3
+54,application context,0.132,17165,P4
+54,add context,0.108,10026,P4
+54,context extension,0.108,10026,P4
+55,set correct height,0.163,10014,P1
+55,height,0.101,17092,P4
+55,minimum height,0.087,17092,P4
+55,height,0.084,24125,P5
+55,height width height,0.077,24125,P5
+56,page source,0.121,13068,P4
+56,page content,0.087,17092,P4
+56,containing page,0.073,27771,P5
+57,queryinterface components interfaces,0.084,21081,P5
+57,getinterface,0.068,21081,P5
+57,requestor getinterface components,0.068,21081,P5
+58,file editor,0.172,5148,P3
+58,editor,0.111,10321,P2
+58,editor enhancement,0.101,5148,P3
+58,editor enhancement request,0.101,5148,P3
+58,editor enhancement request ability,0.101,5148,P3
+58,editor,0.094,10756,P5
+58,editor,0.087,13093,P5
+58,text editor,0.085,13068,P4
+59,platforms,0.089,10158,P1
+59,platform sensitive,0.085,1021,P1
+59,platform sensitive change,0.085,1021,P1
+59,platform integration,0.066,4252,P3
+59,platform,0.052,12309,P4
+60,dom changes,0.104,21081,P5
+60,dom,0.084,10756,P5
+60,dom,0.077,16603,P4
+61,div,0.074,10207,P2
+61,td div,0.072,10207,P2
+61,div,0.069,2056,P3
+62,italic,0.145,15116,P4
+62,italic text,0.135,15116,P4
+62,pt bold italic,0.131,12230,P5
+62,italicized text,0.096,15116,P4
+62,italic correction,0.096,15116,P4
+63,compatibility mode,0.108,11229,P4
+63,compatibility,0.103,18287,P5
+64,win95 00 950,0.134,10037,P2
+64,windows 98,0.067,6053,P2
+65,usr,0.126,12939,P4
+65,usr bin,0.126,12939,P4
+66,mass reassign,0.141,5416,P4
+66,mass changing,0.139,9673,P2
+66,mass moving,0.1,11824,P4
+66,mass moving,0.077,7297,P3
+67,scrollable area,0.183,10026,P4
+67,scroll,0.161,10026,P4
+67,scrollbar,0.156,10026,P4
+67,scroll,0.139,17165,P4
+67,vertical scroll,0.123,17089,P4
+67,scrollbar appears,0.108,10026,P4
+67,scroll arrow,0.107,17089,P4
+67,vertical scroll bar,0.107,17089,P4
+67,scrollbar,0.103,21827,P5
+67,scroll bar,0.101,17092,P4
+67,scroll,0.093,21827,P5
+67,horizontal scroll,0.087,17092,P4
+67,horizontal scroll bar,0.087,17092,P4
+67,vertical scroll arrow,0.086,17089,P4
+67,scroll arrows,0.086,17089,P4
+67,scrollable,0.081,27771,P5
+67,scrolling,0.071,27771,P5
+67,scroll,0.07,27771,P5
+68,installer screen,0.172,5148,P3
+68,installer,0.148,15853,P4
+68,install,0.101,10205,P2
+68,installer,0.095,5107,P3
+68,installation,0.092,12939,P4
+68,install,0.084,10180,P2
+69,decoration,0.083,24125,P5
+69,text decoration,0.073,6625,P2
+70,tostring,0.167,9589,P2
+70,nsstring,0.12,11557,P5
+71,code ns precondition nsnull,0.093,10261,P1
+71,offending code ns precondition,0.093,10261,P1
+71,precondition nsnull aview,0.093,10261,P1
+72,browser,0.178,7252,P3
+72,chrome,0.124,11824,P4
+72,firefox,0.05,9458,P1
+73,exit,0.223,10321,P2
+73,exit,0.213,35,P3
+73,exit menu,0.161,10321,P2
+73,exits,0.139,35,P3
+73,exit,0.056,7799,P1
+74,getfolder,0.133,5579,P2
+74,folder,0.116,5579,P2
+74,getfolder,0.1,5577,P2
+74,folder,0.086,6873,P1
+74,folder,0.058,4252,P3
+75,implemented,0.091,15853,P4
+75,feature implement,0.089,15853,P4
+76,xpi,0.144,10205,P2
+76,xpidl,0.121,13423,P4
+76,xpidl,0.097,13424,P5
+77,block,0.121,3246,P3
+77,blocker,0.118,10158,P1
+77,block code,0.077,10207,P2
+77,block,0.055,2056,P3
+77,block level,0.054,9458,P1
+78,interfaces,0.098,13424,P5
+78,components interfaces,0.096,21081,P5
+78,interface names,0.091,13424,P5
+79,iso,0.104,7640,P2
+79,iso jp,0.09,7640,P2
+80,image map,0.101,8131,P2
+80,image maps,0.082,8131,P2
+80,imagemap,0.066,8131,P2
+80,bitmap,0.042,4821,P1
+81,charset,0.111,7640,P2
+81,charset,0.102,5579,P2
+81,char,0.102,9589,P2
+81,character set,0.094,7640,P2
+81,mail charset,0.09,7640,P2
+82,foreground,0.244,15286,P4
+82,background,0.168,15286,P4
+82,background color,0.155,15286,P4
+82,foreground background,0.152,15286,P4
+82,white background,0.13,13831,P4
+82,background,0.078,12752,P5
+83,copied,0.098,13068,P4
+83,clone,0.059,18808,P5
+83,cloned,0.058,18808,P5
+84,autoconfig,0.176,10276,P1
+84,autoconfig rick,0.074,10276,P1
+84,1w autoconfig rick 1w,0.074,10276,P1
+84,rick 1w autoconfig rick,0.074,10276,P1
+85,window launches,0.147,6565,P3
+85,window does open,0.126,10217,P1
+85,application window,0.105,2652,P2
+85,window open,0.039,18808,P5
+86,predefined,0.077,23207,P5
+86,prerendered,0.064,12752,P5
+87,bar,0.11,8705,P2
+87,bar disappearance,0.087,17092,P4
+88,reg expand,0.175,10190,P2
+88,example reg,0.103,10190,P2
+88,example reg expand,0.103,10190,P2
+89,win32 nt4,0.09,7568,P1
+89,16 win32,0.079,10037,P2
+90,19mdk,0.202,7378,P3
+90,19mdk i586,0.202,7378,P3
+90,19mdk i586 entered,0.119,7378,P3
+91,exits file,0.139,35,P3
+91,file exit causing memory,0.139,35,P3
+91,exits file exit causing,0.139,35,P3
+92,sensitive,0.103,1021,P1
+92,sensitive change,0.085,1021,P1
+93,issue add ui components,0.139,10188,P2
+93,components issue add ui,0.139,10188,P2
+93,components issue,0.12,10140,P1
+93,components issue,0.092,12939,P4
+94,navigator,0.15,35,P3
+94,navigator window,0.097,2652,P2
+94,navigator window,0.041,18808,P5
+95,touch delegate,0.138,10180,P2
+95,remove touch,0.138,10180,P2
+95,remove touch delegate,0.138,10180,P2
+96,08 m13,0.152,10205,P2
+96,win 08 m13 mac,0.108,10205,P2
+96,m13 win 08 m13,0.108,10205,P2
+96,09 m13 win,0.108,10205,P2
+96,m13 mac 08 m13,0.108,10205,P2
+96,08 m13 mac 08,0.108,10205,P2
+96,09 m13 win 08,0.108,10205,P2
+96,m11,0.101,15731,P4
+96,minor m11,0.098,5563,P3
+96,m13,0.097,8705,P2
+97,nsfilespec,0.141,11557,P5
+97,nsfilespec,0.138,5107,P3
+97,nsregisterself,0.103,13424,P5
+98,plevent,0.108,5577,P2
+98,plevent line,0.108,5577,P2
+99,alt,0.197,24126,P5
+99,alt text,0.19,24126,P5
+99,alt,0.117,24125,P5
+99,alt text,0.108,8131,P2
+99,alt title,0.101,24125,P5
+99,altifier,0.096,24125,P5
+99,set alt,0.077,24125,P5
+100,nswinreg,0.247,10190,P2
+100,nswidget,0.14,10016,P1
+100,nswidget,0.051,7799,P1
+101,related links,0.389,10014,P1
+101,related links folder,0.276,10014,P1
+101,related links folder does,0.163,10014,P1
+102,interaction param,0.147,11444,P4
+102,user interaction param,0.147,11444,P4
+102,interaction,0.113,18287,P5
+103,compact,0.139,2055,P5
+103,display compact,0.111,2055,P5
+104,bij browser,0.089,6117,P1
+104,cck mcd bij browser,0.089,6117,P1
+105,specific features,0.066,4252,P3
+105,mac specific features,0.066,4252,P3
+106,opportunity,0.053,9101,P2
+106,break opportunity,0.052,9101,P2
+107,cde,0.147,16959,P5
+107,cdata,0.138,4267,P3
+108,archives animating,0.088,18287,P5
+108,animation,0.08,12761,P4
+108,animations,0.064,12761,P4
+109,close,0.139,7252,P3
+109,lets close,0.095,7189,P3
+110,save,0.177,11444,P4
+110,saved,0.111,9041,P1
+110,previously saved,0.1,9041,P1
+110,save,0.08,9897,P2
+111,bit characters,0.107,5579,P2
+111,byte,0.062,8427,P2
+112,icon changes,0.163,10014,P1
+112,icon,0.132,11427,P4
+112,icons,0.06,12761,P4
+113,dialog machines,0.126,10217,P1
+113,dialog boxes,0.124,10050,P2
+113,pretty dialog boxes,0.124,10050,P2
+113,dialog,0.105,9041,P1
+113,dialog,0.081,9897,P2
+113,boxes appear pretty dialog,0.073,10050,P2
+113,appear pretty dialog boxes,0.073,10050,P2
+114,button does,0.244,10217,P1
+114,button,0.157,11444,P4
+114,buttons,0.154,21827,P5
+114,right buttons,0.149,21827,P5
+115,apprunner optimized,0.13,13831,P4
+115,latest apprunner,0.117,6515,P3
+115,apprunner,0.108,11427,P4
+115,macos86 apprunner,0.099,11427,P4
+115,linux6 apprunner,0.099,11427,P4
+115,inside apprunner,0.095,5247,P3
+115,apprunner crashes,0.093,10342,P2
+116,server,0.168,10014,P1
+116,related server,0.163,10014,P1
+116,server,0.143,10253,P1
+116,server,0.073,7568,P1
+116,servers,0.062,2875,P3
+117,fields,0.111,8014,P1
+117,form fields,0.104,8014,P1
+117,custom field,0.052,9412,P1
+117,custom fields,0.049,9412,P1
+118,res rdf,0.138,10341,P1
+118,rdf flash xul res,0.089,10341,P1
+118,dtds res rdf,0.089,10341,P1
+118,dtds res rdf flash,0.089,10341,P1
+118,flash xul res rdf,0.089,10341,P1
+119,defect,0.075,9412,P1
+119,defects,0.049,9412,P1
+120,applies equally,0.132,15436,P4
+120,applies,0.077,11824,P4
+121,gnksa,0.164,12699,P5
+121,gnska,0.106,12699,P5
+122,focus issues,0.113,8014,P1
+122,focus,0.112,1859,P5
+122,focus,0.106,6565,P3
+123,white text,0.162,13831,P4
+123,white text does,0.105,13831,P4
+123,white text selected,0.105,13831,P4
+124,event handlers,0.167,10158,P1
+124,handler,0.095,2652,P2
+125,floater,0.242,13827,P5
+125,floaters,0.155,13827,P5
+126,compose window,0.191,6565,P3
+126,compose window launches,0.147,6565,P3
+126,rh compose window launches,0.087,6565,P3
+126,compose window begin,0.087,6565,P3
+127,verbage,0.224,15083,P4
+127,depending verbage,0.132,15083,P4
+128,spec,0.107,15853,P4
+128,01 spec,0.077,24125,P5
+129,appcores,0.318,7439,P3
+129,change appcores,0.182,7439,P3
+129,converting appcores,0.108,7439,P3
+130,xptoolkit m10,0.331,9673,P2
+130,xptoolkit m10 feature,0.291,9673,P2
+130,xptoolkit m10 feature development,0.235,9673,P2
+130,sched xptoolkit,0.139,9673,P2
+130,sched xptoolkit m10,0.139,9673,P2
+130,sched xptoolkit m10 feature,0.139,9673,P2
+130,xptoolkit m10 task,0.139,9673,P2
+131,arch,0.252,7270,P3
+131,feature arch,0.149,7270,P3
+131,feature arch implement,0.149,7270,P3
+132,outline,0.21,6647,P3
+132,outline,0.155,1859,P5
+132,outline property,0.145,6647,P3
+132,outline styles,0.111,6647,P3
+132,css2 outline property,0.103,6647,P3
+132,outline property,0.095,1859,P5
+132,css2 outline,0.095,1859,P5
+132,outlines,0.09,1859,P5
+133,font,0.146,20418,P5
+133,font,0.122,12752,P5
+133,font size,0.116,20418,P5
+133,font size,0.115,5148,P3
+133,gigantic font,0.108,12752,P5
+133,font sizes message,0.103,20418,P5
+133,font size,0.09,12752,P5
+133,font,0.078,12230,P5
+133,text size,0.045,4821,P1
+134,trying document,0.089,16603,P4
+134,incorrect document,0.089,16603,P4
+134,document,0.07,8705,P2
+135,screen shot,0.224,15436,P4
+135,screen shot actual,0.132,15436,P4
+135,screen shot actual result,0.132,15436,P4
+135,post screenshot,0.099,11427,P4
+136,tables,0.133,10140,P1
+136,table,0.121,10140,P1
+136,contain table,0.108,11229,P4
+136,table text,0.108,11229,P4
+136,table,0.102,18287,P5
+136,table code,0.077,10207,P2
+137,quirks mode,0.11,11229,P4
+137,quirk,0.074,6625,P2
+138,file operation,0.124,10050,P2
+138,file io,0.055,7251,P3
+139,ntlm,0.07,23679,P5
+139,ntlm authentication,0.046,23679,P5
+139,ntlm auth,0.043,23679,P5
+140,nsframeimageloader,0.111,10083,P1
+140,nsobjectframe,0.063,1156,P1
+141,converted,0.085,13068,P4
+141,converter,0.071,8427,P2
+142,causing memory leaks,0.139,35,P3
+142,exit causing memory leaks,0.139,35,P3
+143,cck,0.144,6117,P1
+143,cck mcd,0.089,6117,P1
+144,dates,0.13,5107,P3
+144,datetime,0.06,1995,P4
+145,application copy,0.067,8427,P2
+145,application copy paste,0.065,8427,P2
+146,heights corrupted vertical scroll,0.086,17089,P4
+146,corrupted vertical scroll bar,0.086,17089,P4
+147,ftp,0.14,6141,P1
+147,ftp directory,0.099,6141,P1
+147,ftp download,0.099,6141,P1
+147,ftp directory listing,0.08,6141,P1
+148,indication,0.108,1859,P5
+148,visual indication,0.104,1859,P5
+149,identical,0.081,12699,P5
+150,dots,0.135,1515,P2
+150,round dots,0.118,1515,P2
+150,square dots,0.101,1515,P2
+150,dot,0.091,1515,P2
+150,round dots instead,0.089,1515,P2
+151,selectprofile,0.238,24979,P5
+151,profile manager selectprofile,0.113,24979,P5
+151,profile manager selectprofile start,0.113,24979,P5
+152,jpg border,0.178,11371,P5
+152,border br img,0.126,11371,P5
+152,jpg border br,0.126,11371,P5
+152,h2 jpg border,0.126,11371,P5
+152,src h2 jpg border,0.126,11371,P5
+152,border br img src,0.126,11371,P5
+152,jpg border br img,0.126,11371,P5
+153,reading file,0.067,7799,P1
+153,reading file reading,0.055,7799,P1
+153,file reading file,0.055,7799,P1
+153,reading file reading file,0.055,7799,P1
+154,entered,0.147,7378,P3
+154,entered indicating,0.139,10188,P2
+155,96 mb,0.112,13831,P4
+155,96 mb ram,0.112,13831,P4
+155,96 mb,0.094,17092,P4
+155,96 mb ram,0.094,17092,P4
+155,96 mb,0.093,17089,P4
+155,96 mb ram,0.093,17089,P4
+155,p2 96 mb ram,0.091,13831,P4
+156,view source,0.13,13068,P4
+156,view,0.099,10261,P1
+157,news ticker,0.117,6515,P3
+157,news ticker applet,0.117,6515,P3
+158,unlock,0.1,9041,P1
+158,unlocked,0.1,9041,P1
+159,requirement,0.073,12699,P5
+159,requirements,0.071,12699,P5
+160,form control,0.084,1859,P5
+160,form controls,0.081,6647,P3
+161,customize window,0.214,10217,P1
+161,customize window does open,0.126,10217,P1
+161,longer problem customize window,0.126,10217,P1
+162,moment reassigning,0.132,15436,P4
+162,moment,0.072,12699,P5
+163,default size,0.073,7568,P1
+163,window set default size,0.073,7568,P1
+164,pp customize,0.126,10217,P1
+164,pp customize button,0.126,10217,P1
+165,loader,0.093,13424,P5
+165,loading,0.081,8705,P2
+166,mailto,0.183,5247,P3
+166,mailto link,0.127,5247,P3
+166,mailto,0.109,7640,P2
+166,mailto urls,0.108,5247,P3
+166,mailto link handling,0.095,5247,P3
+166,mailto link handling hasn,0.095,5247,P3
+166,mailto url,0.094,7640,P2
+167,set bold,0.172,5148,P3
+167,bold text,0.172,5148,P3
+167,set bold text,0.172,5148,P3
+167,bold,0.134,10756,P5
+167,setting bold,0.081,10756,P5
+167,setting bold won,0.081,10756,P5
+168,child,0.142,15083,P4
+168,children,0.08,11824,P4
+168,children,0.074,6873,P1
+168,kids,0.056,2056,P3
+169,area elements,0.113,8131,P2
+169,contains area,0.072,8131,P2
+169,contains area elements,0.072,8131,P2
+170,messages,0.11,6873,P1
+170,message,0.072,8705,P2
+171,imap,0.109,6873,P1
+171,imap code,0.073,6873,P1
+172,refresh,0.13,10261,P1
+172,restart,0.098,7406,P2
+172,refresh,0.086,21081,P5
+173,textual information,0.204,24126,P5
+174,domain,0.067,2875,P3
+174,domain guessing,0.065,2875,P3
+175,foo jscontext,0.172,5416,P4
+175,native foo jscontext,0.172,5416,P4
+176,compareversion,0.213,10180,P2
+176,compareversion string,0.138,10180,P2
+176,compareversion string smrtupdt txt,0.082,10180,P2
+176,package compareversion string smrtupdt,0.082,10180,P2
+176,22 package compareversion string,0.082,10180,P2
+177,attribute changes,0.089,3246,P3
+177,attributes,0.073,24125,P5
+177,attributes,0.051,1995,P4
+178,useragent,0.104,6117,P1
+178,general useragent,0.098,6117,P1
+178,general useragent vendorcomment,0.089,6117,P1
+179,win 95,0.097,11229,P4
+179,95 98,0.055,12309,P4
+180,install exe,0.207,10037,P2
+180,exe does,0.134,10037,P2
+180,install exe does,0.134,10037,P2
+180,exe help,0.113,24979,P5
+181,dll plds3 dll,0.141,10342,P2
+181,plds3 dll plds3,0.113,10342,P2
+181,dll plds3 dll plds3,0.113,10342,P2
+181,plds3 dll plds3 dll,0.113,10342,P2
+182,ignorable,0.061,2056,P3
+182,skipping ignorable,0.058,2056,P3
+183,list block list,0.089,3246,P3
+183,block list numbering code,0.089,3246,P3
+183,list block list numbering,0.089,3246,P3
+184,list length,0.1,10016,P1
+184,list length,0.094,7568,P1
+185,installer spec,0.089,15853,P4
+185,installer spec mac,0.089,15853,P4
+186,prunichar,0.167,9589,P2
+186,return prunichar,0.135,9589,P2
+187,http link,0.098,7406,P2
+187,url,0.07,9897,P2
+188,mime emitters src,0.134,11557,P5
+188,mailnews mime emitters,0.134,11557,P5
+188,mailnews mime emitters src,0.134,11557,P5
+189,entities,0.118,10341,P1
+189,named entities,0.098,13068,P4
+190,save file saving file,0.073,10050,P2
+190,windows save file saving,0.073,10050,P2
+190,native windows save file,0.073,10050,P2
+191,msvcrt,0.087,5577,P2
+191,msvcrt dll,0.087,5577,P2
+192,dependency tree,0.2,7229,P3
+192,dependencies,0.166,7252,P3
+192,dependency,0.144,7252,P3
+192,dependencies,0.11,18287,P5
+193,progress meter,0.114,8705,P2
+193,progress bar,0.105,8705,P2
+194,utf,0.109,7640,P2
+194,unicode,0.074,8427,P2
+194,unicode,0.043,9101,P2
+195,wordpad,0.073,8427,P2
+195,notepad,0.073,8427,P2
+196,short heights corrupted,0.086,17089,P4
+196,short heights corrupted vertical,0.086,17089,P4
+197,module base,0.119,13423,P4
+197,const module base,0.105,13423,P4
+198,hash table,0.139,35,P3
+198,preference hash table,0.139,35,P3
+199,enhancements,0.137,20418,P5
+199,enhancement request,0.13,5148,P3
+199,enhancements,0.063,9412,P1
+199,enhancement requests,0.06,9412,P1
+200,dogfood mouse,0.132,17165,P4
+200,dogfood mouse wheel scrolling,0.132,17165,P4
+201,paste,0.112,4722,P1
+201,pasted,0.105,7406,P2
+201,copy paste,0.099,4722,P1
+201,cut copy paste,0.098,4722,P1
+201,copy paste,0.076,8427,P2
+202,xpcom ds nsstring2,0.087,5577,P2
+202,nsstring2 cpp,0.087,5577,P2
+202,nsstring2 cpp line,0.087,5577,P2
+202,ds nsstring2 cpp line,0.087,5577,P2
+202,xpcom ds nsstring2 cpp,0.087,5577,P2
+203,proxy,0.163,10276,P1
+203,change proxies,0.157,20276,P5
+203,proxies,0.127,10276,P1
+203,enable proxy,0.125,10276,P1
+203,proxy support,0.108,10276,P1
+203,proxy,0.081,2875,P3
+203,proxy issues,0.074,10276,P1
+203,proxy server,0.074,2875,P3
+203,proxies,0.061,2875,P3
+203,proxy servers,0.06,2875,P3
+204,img,0.1,24125,P5
+204,img,0.087,8131,P2
+204,img element,0.075,8131,P2
+205,drag,0.159,11824,P4
+205,dragging,0.087,13093,P5
+205,mouse drag,0.086,4722,P1
+205,drag,0.066,4252,P3
+206,ignorable whitespace,0.061,2056,P3
+206,skipping ignorable whitespace,0.058,2056,P3
+207,netwerk,0.124,11557,P5
+207,netwerk protocol,0.1,11557,P5
+208,hotkey,0.265,20276,P5
+208,add hotkey,0.157,20276,P5
+209,padding,0.138,14903,P4
+209,padding,0.063,6625,P2
+210,xp menus,0.176,14903,P4
+210,xpmenus,0.162,14903,P4
+210,xpmenu positioning,0.132,15436,P4
+210,xpmenus menuitems,0.104,14903,P4
+211,modules libimg,0.102,10083,P1
+211,libimg src,0.077,10083,P1
+211,modules libimg src,0.077,10083,P1
+212,raptorgfxwin,0.141,10342,P2
+212,raptorgfxwin dll,0.141,10342,P2
+212,dll raptorview,0.139,10162,P1
+212,raptorview dll,0.139,10162,P1
+212,dll raptorview dll,0.139,10162,P1
+212,raptorwidget dll,0.13,10162,P1
+212,dll raptorwidget dll,0.13,10162,P1
+212,raptorview dll raptorview dll,0.13,10162,P1
+212,dll raptorview dll raptorview,0.13,10162,P1
+212,dll raptorhtml,0.119,10162,P1
+212,raptorgfxwin dll raptorgfxwin dll,0.113,10342,P2
+213,save button,0.147,11444,P4
+213,save link,0.08,23207,P5
+214,edit,0.149,5563,P3
+214,editing,0.085,2864,P3
+215,actual result,0.132,15436,P4
+215,shot actual result,0.132,15436,P4
+216,optional user interaction param,0.147,11444,P4
+216,add optional user interaction,0.147,11444,P4
+217,command,0.108,10321,P2
+217,commands,0.1,4722,P1
+217,command,0.092,10756,P5
+217,command,0.062,27771,P5
+218,customize button,0.265,10217,P1
+218,customize button does,0.214,10217,P1
+219,rang,0.23,15731,P4
+219,rang fail,0.096,15731,P4
+219,rang deserve,0.096,15731,P4
+220,tabbing,0.197,8014,P1
+220,tab,0.117,8014,P1
+220,tabbing works,0.113,8014,P1
+220,tab key,0.104,8014,P1
+220,tab,0.091,1859,P5
+220,tab key,0.077,1859,P5
+221,spent,0.058,7251,P3
+222,arial,0.186,12230,P5
+222,arial 10 pt,0.162,12230,P5
+223,dogfood,0.176,17165,P4
+223,dogfood issue,0.119,7378,P3
+223,dogfood,0.09,8705,P2
+224,allows,0.091,15286,P4
+225,nswinreg setvalue nswinreg getvalue,0.175,10190,P2
+225,feature nswinreg setvalue,0.103,10190,P2
+225,feature nswinreg setvalue nswinreg,0.103,10190,P2
+225,implemented nswinreg setvalue,0.103,10190,P2
+226,bookmarks,0.489,11417,P5
+226,bookmarks tasks,0.382,11417,P5
+226,bookmarks tasks reassigning,0.382,11417,P5
+226,bookmark provider,0.183,16959,P5
+226,bookmark,0.166,2864,P3
+226,bookmarks,0.148,16959,P5
+226,bookmarks,0.114,10341,P1
+226,bookmark file,0.109,16959,P5
+226,bookmark page,0.104,2864,P3
+226,bookmarks,0.097,2864,P3
+226,provider bookmark provider,0.07,16959,P5
+226,bookmark provider bookmark provider,0.07,16959,P5
+226,implement bookmark,0.07,16959,P5
+226,implement bookmark provider,0.07,16959,P5
+227,steps type,0.081,10756,P5
+227,steps type abc click,0.081,10756,P5
+228,profile wizard,0.113,24979,P5
+228,profilewizard start,0.113,24979,P5
+228,wizard profilemanager,0.113,24979,P5
+228,wizard profilemanager start,0.113,24979,P5
+228,profile wizard profilemanager start,0.113,24979,P5
+229,tar,0.125,6141,P1
+229,tar gz,0.085,6141,P1
+230,error codes,0.096,13423,P4
+230,error code,0.059,2875,P3
+231,long running,0.095,21081,P5
+231,run,0.089,10037,P2
+232,xml,0.106,4267,P3
+232,baseline xml,0.102,12939,P4
+232,xml,0.101,5247,P3
+233,tossed,0.132,15436,P4
+233,thrown,0.104,16603,P4
+234,folder does,0.163,10014,P1
+234,links folder does,0.163,10014,P1
+235,performance analysis,0.161,7189,P3
+235,sufficient performance analysis,0.095,7189,P3
+235,performance,0.092,6873,P1
+236,modified,0.107,5579,P2
+236,modify,0.1,3246,P3
+237,createprocessinginstruction,0.104,16603,P4
+237,document createprocessinginstruction,0.097,16603,P4
+238,speed,0.118,7189,P3
+238,slower,0.075,6873,P1
+238,speed,0.058,12761,P4
+239,xpinstall,0.172,10188,P2
+239,xpinstall,0.158,10190,P2
+239,xpinstall,0.139,9589,P2
+239,xpinstall,0.101,10180,P2
+240,ylong change qa,0.096,15731,P4
+241,away pushed,0.163,10119,P1
+241,pushing,0.096,7297,P3
+242,obtain search,0.157,20276,P5
+242,searching,0.052,12309,P4
+243,smartdownload,0.211,5107,P3
+243,smartdownload uncompression,0.15,5107,P3
+243,smartdownload uncompression routine prepending,0.15,5107,P3
+244,identifies,0.25,7378,P3
+244,mis identifies,0.119,7378,P3
+245,registry,0.099,13424,P5
+245,registry related,0.095,7189,P3
+246,download,0.106,10205,P2
+246,download,0.079,10050,P2
+247,auto proxy,0.122,7406,P2
+247,auto proxy config,0.122,7406,P2
+247,autoproxy,0.098,7406,P2
+248,ebx ss 013f,0.074,101,P3
+248,ebx ss 013f esp,0.074,101,P3
+248,eflgs ebx ss 013f,0.074,101,P3
+249,child selectors,0.073,2055,P5
+249,selectors,0.063,6625,P2
+250,news team,0.095,5247,P3
+250,mail news team,0.095,5247,P3
+250,newsgroup,0.075,12699,P5
+251,respect style context,0.077,15284,P4
+252,marek,0.198,20418,P5
+252,marek,0.094,7640,P2
+253,template,0.098,23207,P5
+254,links machines,0.163,10014,P1
+254,related links machines,0.163,10014,P1
+255,hyphen,0.085,9101,P2
+255,hyphens,0.077,9101,P2
+255,soft hyphen,0.076,9101,P2
+255,soft hyphens,0.069,9101,P2
+255,hyphenation,0.069,9101,P2
+256,msg,0.127,6565,P3
+256,msg,0.085,7406,P2
+257,campers changed qa,0.248,7228,P3
+257,happy campers changed qa,0.248,7228,P3
+258,changing qa,0.166,7228,P3
+258,accept changing qa,0.096,15731,P4
+259,transitions,0.071,12761,P4
+259,pseudo transitions,0.053,12761,P4
+260,remind,0.079,12752,P5
+261,myclass,0.091,13424,P5
+262,a11y state,0.183,10026,P4
+262,a11y state change,0.108,10026,P4
+263,cpp,0.126,11557,P5
+263,cpp line,0.116,5577,P2
+263,cpp line,0.051,7799,P1
+264,stamping,0.352,11417,P5
+265,lang,0.199,15731,P4
+265,lang,0.062,1995,P4
+265,languages,0.045,9101,P2
+266,ieee,0.083,2055,P5
+267,parent,0.154,15083,P4
+267,parent child relationship,0.132,15083,P4
+268,george,0.117,6515,P3
+268,ask george,0.117,6515,P3
+269,additional,0.111,20418,P5
+270,start profiling,0.051,7251,P3
+270,profiling data,0.051,7251,P3
+270,start profiling data,0.051,7251,P3
+271,treatment accepting,0.096,15731,P4
+271,special treatment accepting,0.096,15731,P4
+272,stack dump,0.108,101,P3
+272,stacks,0.077,7251,P3
+273,block frame,0.142,10140,P1
+273,frame,0.1,18287,P5
+273,frameset,0.039,2800,P3
+274,ability,0.168,20418,P5
+274,ability,0.146,5148,P3
+275,viewer reassigning,0.117,6515,P3
+276,libjar,0.15,5107,P3
+277,list,0.134,11417,P5
+277,list item,0.123,3246,P3
+277,li list,0.097,2055,P5
+277,li list item,0.097,2055,P5
+277,li list item li,0.083,2055,P5
+277,item li list item,0.083,2055,P5
+277,list item li list,0.083,2055,P5
+278,widgettoscreen,0.152,10016,P1
+278,widgettoscreen 47,0.152,10016,P1
+278,nswindow widgettoscreen 47,0.152,10016,P1
+278,widgettoscreen 47 nswindow,0.134,10016,P1
+278,nswindow widgettoscreen 47 nswindow,0.134,10016,P1
+278,widgettoscreen 47 nswindow widgettoscreen,0.134,10016,P1
+278,47 nswindow widgettoscreen 47,0.134,10016,P1
+279,ari,0.059,2875,P3
+280,arrows,0.105,17089,P4
+281,paragraph,0.052,2056,P3
+282,available space ins quite,0.155,13827,P5
+282,space ins quite right,0.155,13827,P5
+283,accurate reassign,0.147,11444,P4
+283,fine reassigning,0.099,11427,P4
+284,renumbering,0.211,3246,P3
+284,list renumbering,0.186,3246,P3
+284,renumbering happens,0.089,3246,P3
+284,list renumbering happens,0.089,3246,P3
+285,encoding,0.133,7640,P2
+285,encoded,0.098,7640,P2
+286,widgets menus,0.104,14903,P4
+286,toolkit widgets menus xp,0.104,14903,P4
+286,xp toolkit widgets menus,0.104,14903,P4
+287,ext,0.098,23207,P5
+287,original ext,0.08,23207,P5
+288,progid,0.103,13424,P5
+289,option disappears,0.155,13827,P5
+289,browser option disappears,0.155,13827,P5
+290,etp,0.108,11229,P4
+291,start,0.13,24979,P5
+291,begins,0.108,10205,P2
+292,movewelcomeicon,0.057,12761,P4
+293,urls 255,0.146,2864,P3
+293,urls 255 characters,0.146,2864,P3
+294,report serves,0.139,9673,P2
+295,scaling,0.052,4821,P1
+295,scaled,0.044,4821,P1
+295,scale,0.044,4821,P1
+296,evaluation,0.147,12699,P5
+297,text mail,0.09,7640,P2
+297,plain text mail,0.09,7640,P2
+298,cursor,0.149,13093,P5
+298,cursor,0.148,6565,P3
+298,cursors,0.135,6565,P3
+298,cursor changes,0.119,13093,P5
+298,change cursor,0.119,13093,P5
+298,selection cursor,0.096,13093,P5
+299,engineering groups,0.248,7228,P3
+300,needinfo,0.13,3246,P3
+301,95 service pack,0.134,10037,P2
+301,windows 95 service,0.134,10037,P2
+301,windows 95 service pack,0.134,10037,P2
+302,xul file chrome messenger,0.139,10253,P1
+302,localizable xul file chrome,0.139,10253,P1
+303,invisible,0.107,13831,P4
+304,garbled,0.108,12752,P5
+305,add adapters,0.126,10217,P1
+305,issue add adapters,0.126,10217,P1
+306,nsappcoresmanager,0.182,7439,P3
+306,nsappcoresmanager shutdown,0.182,7439,P3
+307,runtime working,0.088,18287,P5
+308,obtain,0.157,20276,P5
+309,section keys,0.089,15853,P4
+310,jimmy,0.107,5579,P2
+310,jimmy,0.1,5577,P2
+311,strict,0.1,11229,P4
+312,cpu,0.069,12761,P4
+312,cpu usage,0.057,12761,P4
+313,check cer lang left,0.096,15731,P4
+314,poll,0.055,7251,P3
+315,typing,0.129,6565,P3
+315,typing,0.067,6053,P2
+316,extra word,0.132,15083,P4
+317,metadata,0.083,24125,P5
+317,metadata,0.07,1995,P4
+318,donna,0.104,14903,P4
+319,naming,0.075,23207,P5
+320,selection offsets,0.137,10756,P5
+321,merge fenix closes fall,0.157,20276,P5
+322,rules,0.08,6625,P2
+322,rules,0.078,11824,P4
+323,yields premature,0.087,17092,P4
+324,dhtml,0.068,12761,P4
+324,dhtml performance,0.053,12761,P4
+325,second testcase,0.108,12752,P5
+325,testcase,0.104,3246,P3
+325,testcase,0.098,15116,P4
+325,testcase displays,0.096,15731,P4
+326,character err,0.115,16603,P4
+327,networking,0.096,9897,P2
+327,network,0.085,10050,P2
+328,rdf initialization,0.227,7189,P3
+328,initialize rdf,0.161,7189,P3
+329,updateview,0.158,10261,P1
+329,updateview function,0.093,10261,P1
+330,tinderbox,0.124,12939,P4
+331,mtest,0.105,1021,P1
+331,08 mtest,0.085,1021,P1
+332,createentityreference,0.104,16603,P4
+332,document createentityreference,0.097,16603,P4
+333,triggering,0.107,5579,P2
+334,interesting unfortunately,0.117,6515,P3
+335,binary,0.188,10190,P2
+335,binary data,0.175,10190,P2
+336,m10 task,0.139,9673,P2
+336,m10 tasks adding,0.139,9673,P2
+337,cavalier,0.099,11427,P4
+338,pagedown,0.079,27771,P5
+339,link element,0.038,2800,P3
+339,link elements,0.038,2800,P3
+340,perl,0.088,12939,P4
+341,beam,0.135,13093,P5
+342,generated content,0.108,13068,P4
+343,uudecode,0.102,12939,P4
+344,controller,0.076,27771,P5
+345,restriction,0.095,2864,P3
+345,restrictions,0.085,2864,P3
+346,spec mac exceptions,0.089,15853,P4
+346,installer spec mac exceptions,0.089,15853,P4
+347,data class parcelable fenix,0.108,10026,P4
+348,getbasewindowfromwindow,0.068,21081,P5
+349,numbers,0.164,15083,P4
+349,add number,0.108,10026,P4
+349,numbers,0.076,6873,P1
+350,original file,0.087,23207,P5
+351,rtf,0.131,12230,P5
+352,group headings,0.162,12230,P5
+353,settextproperty,0.17,10756,P5
+354,nsresult,0.107,13423,P4
+354,const nsresult,0.096,13423,P4
+355,xpfe engineer,0.147,11444,P4
+355,appropriate xpfe engineer,0.147,11444,P4
+356,key,0.108,10158,P1
+356,keys,0.067,27771,P5
+357,pointer,0.112,13093,P5
+358,windows ver,0.053,1995,P4
+359,ins quite right,0.155,13827,P5
+360,mhz,0.102,13831,P4
+360,mhz p2 96 mb,0.091,13831,P4
+360,266 mhz,0.091,13831,P4
+360,mhz,0.084,17089,P4
+361,file type native windows,0.073,10050,P2
+361,file types,0.066,4252,P3
+362,launch hey,0.11,10245,P2
+362,launch,0.099,5563,P3
+363,composer,0.087,15284,P4
+364,codes,0.121,13423,P4
+365,implement signed scripts entering,0.149,7270,P3
+365,arch implement signed scripts,0.149,7270,P3
+366,i18n dependencies,0.248,7228,P3
+367,meta,0.232,11417,P5
+367,meta,0.08,12699,P5
+368,hip deep,0.085,13423,P4
+369,md4,0.054,23679,P5
+370,iis,0.054,23679,P5
+371,threads,0.084,6873,P1
+371,various threads,0.073,6873,P1
+372,swap foreground,0.152,15286,P4
+373,blank browser,0.122,7406,P2
+373,blank browser window,0.122,7406,P2
+374,display run,0.085,2056,P3
+375,netlib thread,0.1,9041,P1
+375,netlib,0.098,2652,P2
+376,dns,0.09,2875,P3
+377,rfe ability,0.103,20418,P5
+377,rfe,0.072,16959,P5
+378,signon,0.174,9041,P1
+378,single signon,0.165,9041,P1
+378,signons,0.1,9041,P1
+379,list 10,0.077,12230,P5
+380,end tags,0.098,13068,P4
+381,70s,0.104,14903,P4
+382,redundancy,0.121,4267,P3
+383,forward history,0.048,18808,P5
+384,password dialog,0.254,10119,P1
+384,password dialog box starts,0.163,10119,P1
+385,host,0.086,8705,P2
+385,host,0.063,2875,P3
+385,hostname,0.062,2875,P3
+386,genmodulebase,0.119,13423,P4
+387,pop folders,0.073,6873,P1
+387,loading pop folders,0.073,6873,P1
+388,nt sp5,0.141,10119,P1
+388,nt5,0.068,12309,P4
+389,necko landing right,0.163,10119,P1
+389,necko,0.122,2652,P2
+389,necko responsibility,0.105,2652,P2
+389,post necko,0.105,2652,P2
+389,necko,0.103,9041,P1
+389,necko lands,0.102,9041,P1
+389,necko,0.095,9897,P2
+389,necko,0.092,10276,P1
+390,authentication,0.056,23679,P5
+390,auth,0.056,23679,P5
+390,authenticate,0.052,23679,P5
+390,www authenticate,0.046,23679,P5
+390,authorization,0.045,23679,P5
+391,routine prepending sd,0.15,5107,P3
+391,uncompression routine prepending sd,0.15,5107,P3
+392,displays,0.07,12752,P5
+393,createattribute,0.078,16603,P4
+394,mccabe,0.184,5416,P4
+394,mccabe,0.113,13423,P4
+395,chars lang,0.163,15731,P4
+395,latin1 chars lang,0.096,15731,P4
+395,latin chars lang,0.096,15731,P4
+396,mailnews,0.135,11557,P5
+396,mailnews mime,0.134,11557,P5
+397,explicitly changed,0.113,24979,P5
+398,nsblockframe,0.123,3246,P3
+398,nsblockframe cpp,0.072,10207,P2
+399,tooltip,0.147,10016,P1
+399,tooltips,0.089,10016,P1
+399,tooltips,0.068,1995,P4
+399,tooltip,0.067,1995,P4
+400,longer netscape changing,0.217,7229,P3
+400,netscape changing qa,0.217,7229,P3
+400,longer netscape changing qa,0.217,7229,P3
+401,case image,0.097,24126,P5
+402,tabs fenix,0.096,15116,P4
+402,pwa tabs fenix,0.096,15116,P4
+403,html4 support,0.097,24126,P5
+404,general ini section parsing,0.089,15853,P4
+405,widget set,0.103,7297,P3
+405,widget set,0.096,6647,P3
+406,seperate,0.117,10050,P2
+406,separating,0.095,21081,P5
+407,repaint,0.112,21081,P5
+407,painting,0.069,21081,P5
+408,rendered,0.127,11427,P4
+408,renders,0.11,11229,P4
+409,dtds,0.15,10341,P1
+409,dtd,0.093,11229,P4
+410,agent pref,0.089,6117,P1
+410,user agent pref,0.089,6117,P1
+411,sidestep,0.108,7439,P3
+411,neatly sidestep,0.108,7439,P3
+412,chromium,0.069,27771,P5
+413,body,0.132,6565,P3
+414,sidebar,0.143,10217,P1
+414,sidebar,0.1,10341,P1
+415,popups,0.098,7297,P3
+415,popup,0.087,7297,P3
+416,localizable xul file,0.139,10253,P1
+416,xul localizable,0.139,10253,P1
+416,non localizable xul,0.139,10253,P1
+416,xul non localizable xul,0.139,10253,P1
+417,source window,0.09,13068,P4
+418,shouldn work completely,0.088,18287,P5
+419,tall image,0.155,13827,P5
+420,selectable items,0.131,12230,P5
+421,button css,0.073,11824,P4
+421,communicator button css,0.073,11824,P4
+422,xul,0.226,10253,P1
+422,xul non,0.139,10253,P1
+422,xul,0.111,4267,P3
+422,xul css,0.068,6625,P2
+423,browser option,0.155,13827,P5
+423,default browser option,0.155,13827,P5
+424,control,0.086,1859,P5
+425,sp5 changing summary,0.132,15436,P4
+425,winnt4 sp5 changing summary,0.132,15436,P4
+426,foomodule,0.085,13423,P4
+427,apath,0.113,13424,P5
+427,location apath,0.091,13424,P5
+428,comm,0.138,14903,P4
+428,comm opt,0.088,21827,P5
+429,netscape confidential,0.158,5148,P3
+429,netscape confidential,0.138,5107,P3
+430,expand sz,0.175,10190,P2
+430,reg expand sz,0.175,10190,P2
+430,example reg expand sz,0.103,10190,P2
+431,onkeypress,0.181,10158,P1
+431,keypress keyup,0.086,10158,P1
+432,summary field,0.118,5107,P3
+432,summary field removing extraneous,0.11,10245,P2
+433,textarea,0.089,8014,P1
+433,textarea,0.073,27771,P5
+434,makefile,0.136,12939,P4
+435,18 00,0.103,20418,P5
+436,right click,0.043,18808,P5
+437,nsipluginmanger geturl,0.117,6515,P3
+437,calling nsipluginmanger geturl,0.117,6515,P3
+438,application support,0.066,4252,P3
+439,apps html dialogs,0.163,10119,P1
+439,xp apps html,0.163,10119,P1
+439,xp apps html dialogs,0.163,10119,P1
+440,beta2,0.09,9589,P2
+440,beta2,0.075,9897,P2
+440,beta3,0.063,6625,P2
+441,getcontent aselement islink,0.096,13093,P5
+442,xlink,0.064,1995,P4
+442,xlink title,0.056,1995,P4
+443,mathml,0.071,10207,P2
+444,webkit,0.068,2056,P3
+445,parent window,0.052,18808,P5
+445,child window,0.044,18808,P5
+446,rjc,0.104,2864,P3
+447,getdragstate,0.096,13093,P5
+448,nss,0.05,23679,P5
+449,macintosh save,0.147,11444,P4
+450,netscape en unix shouldn,0.119,7378,P3
+451,appleevents,0.093,4252,P3
+451,appleevent,0.082,4252,P3
+452,damn cnn,0.117,6515,P3
+453,selection,0.144,15286,P4
+453,selection,0.122,13093,P5
+453,selecting,0.093,13093,P5
+453,select,0.053,12309,P4
+454,m11 moving,0.108,11557,P5
+454,m11 works correctly,0.088,18287,P5
+455,focus pseudo class,0.084,1859,P5
+456,dotted,0.14,1515,P2
+456,dotted borders,0.139,1515,P2
+456,dotted,0.111,1859,P5
+456,dotted,0.096,6647,P3
+456,dotted line,0.084,1859,P5
+457,generror,0.085,13423,P4
+458,thread pane,0.198,20418,P5
+458,thread pane,0.084,6873,P1
+459,context settings,0.077,15284,P4
+459,style context settings,0.077,15284,P4
+460,easily confused,0.132,15083,P4
+461,hardware,0.068,12309,P4
+462,context menus,0.154,7297,P3
+462,native context menus,0.147,7297,P3
+463,architectural work,0.149,7270,P3
+463,fundamental architectural work,0.149,7270,P3
+464,shutdown,0.241,10321,P2
+464,shutdown,0.186,7439,P3
+464,shutdown messenger,0.095,10321,P2
+465,putting paw,0.11,10245,P2
+466,border style,0.1,10016,P1
+466,border,0.1,6647,P3
+466,border,0.083,1515,P2
+467,nsifilespec,0.108,11557,P5
+467,nsifilespec idl,0.108,11557,P5
+468,screen,0.105,14903,P4
+469,ship beta,0.132,17165,P4
+470,moi la deluge merci,0.077,12230,P5
+471,dll necko,0.141,10342,P2
+471,necko dll,0.113,10342,P2
+471,dll necko dll,0.113,10342,P2
+472,ver,0.064,1995,P4
+473,layout base src nsframeimageloader,0.083,10083,P1
+473,base src nsframeimageloader cpp,0.083,10083,P1
+474,pref network proxy http,0.125,10276,P1
+474,user pref network proxy,0.125,10276,P1
+475,altgr,0.09,6053,P2
+475,altgr key,0.067,6053,P2
+476,news networking,0.105,2652,P2
+476,mail news networking,0.105,2652,P2
+477,window means,0.04,18808,P5
+478,file chrome,0.139,10253,P1
+478,file chrome messenger content,0.139,10253,P1
+479,refactoring,0.092,4267,P3
+480,hold,0.109,21827,P5
+481,xptoolkit xpwidget,0.108,10026,P4
+482,navigation,0.042,2800,P3
+483,premature scroll bar,0.087,17092,P4
+484,tgz,0.196,9897,P2
+484,download tgz,0.14,9897,P2
+484,download tgz file,0.113,9897,P2
+484,tgz files,0.113,9897,P2
+485,max element,0.164,10140,P1
+485,max element size,0.133,10140,P1
+486,unix shouldn,0.119,7378,P3
+486,unix,0.061,12309,P4
+487,agent string,0.143,6117,P1
+487,user agent string,0.143,6117,P1
+488,scrolling disabled,0.149,21827,P5
+489,issue set,0.155,13827,P5
+490,exhibit,0.053,12761,P4
+491,ui spec,0.055,1995,P4
+492,native context,0.147,7297,P3
+493,samba,0.047,23679,P5
+494,ns style user modify,0.131,15284,P4
+495,xhtml,0.135,4267,P3
+495,xml xhtml,0.106,4267,P3
+496,change pushed,0.157,20276,P5
+497,title attribute,0.063,1995,P4
+498,text frames,0.088,15116,P4
+499,page title,0.096,23207,P5
+499,title html,0.08,23207,P5
+499,page title html,0.08,23207,P5
+500,nt xp,0.051,12309,P4
+501,selected option,0.077,12230,P5
+501,selected option drawn,0.077,12230,P5
+502,anymore,0.159,7252,P3
+503,trivia sake,0.139,35,P3
+504,chapter,0.045,2800,P3
+505,span,0.049,9458,P1
+506,quit,0.137,10321,P2
+507,buzilla,0.149,7270,P3
+508,level,0.204,11417,P5
+509,nsnull aview null view,0.093,10261,P1
+510,idl,0.088,13424,P5
+511,mats,0.096,6647,P3
+512,recorded,0.11,10245,P2
+513,min,0.093,17092,P4
+514,ui add,0.157,20276,P5
+515,skin work,0.085,1021,P1
+516,available shortly,0.149,7270,P3
+517,box handy,0.099,11427,P4
+518,workaround,0.087,10756,P5
+519,00 950a,0.134,10037,P2
+519,00 950,0.134,10037,P2
+520,spawned,0.041,18808,P5
+521,shy,0.081,9101,P2
+522,test suite compliance,0.071,1515,P2
+523,nitpick,0.139,10188,P2
+524,independent,0.1,10140,P1
+525,jay,0.163,10014,P1
+526,clsid,0.089,13424,P5
+527,akkana,0.095,13068,P4
+528,des,0.043,23679,P5
+529,layout constraints,0.139,10188,P2
+530,api,0.093,9589,P2
+531,clipboard,0.1,13068,P4
+531,clipboard,0.067,8427,P2
+532,middle,0.1,21827,P5
+533,public,0.118,5148,P3
+534,embed,0.073,1156,P1
+535,default,0.094,7229,P3
+535,set default,0.073,7568,P1
+536,replay,0.137,10756,P5
+537,iterators,0.098,13068,P4
+538,area instead,0.108,10026,P4
+539,gated,0.163,10119,P1
+540,instead returned,0.078,16603,P4
+541,match,0.096,12230,P5
+542,wallet,0.141,9041,P1
+543,sun firewall,0.117,6515,P3
+544,graphical,0.086,24125,P5
+545,toolbar,0.106,21827,P5
+545,toolbar behavior,0.096,15116,P4
+545,toolbar,0.084,7297,P3
+545,toolbar,0.047,2800,P3
+545,link toolbar,0.045,2800,P3
+545,toolbars,0.043,2800,P3
+546,deprecated,0.078,2055,P5
+547,stupid error,0.078,16603,P4
+547,correct stupid error,0.078,16603,P4
+548,undo,0.19,5563,P3
+549,standard mode,0.115,11229,P4
+550,main iteration,0.1,10016,P1
+550,main iteration,0.094,7568,P1
+551,item viewholders,0.126,10217,P1
+552,document body style,0.04,4821,P1
+553,called twice,0.161,10321,P2
+554,specific,0.082,10180,P2
+555,text pull,0.098,5563,P3
+556,ticket,0.057,9412,P1
+557,method,0.086,4267,P3
+558,password,0.116,9041,P1
+558,username password,0.114,9041,P1
+559,ascale,0.04,4821,P1
+560,remarking,0.085,1021,P1
+561,geckoautocompletestoragedelegate,0.133,10140,P1
+562,bogus clearing,0.098,5563,P3
+563,gfx text,0.106,4722,P1
+564,unusable,0.134,10119,P1
+565,nsidombaseappcore,0.182,7439,P3
+566,sspi,0.054,23679,P5
+567,valeski,0.1,7406,P2
+568,html metabug,0.097,24126,P5
+569,easy way,0.086,10158,P1
+570,scott work,0.108,7439,P3
+571,tree scrolls,0.183,10026,P4
+572,breaking,0.057,9101,P2
+573,viewing pleasure,0.086,10158,P1
+574,oji,0.182,6515,P3
+574,oji,0.104,9897,P2
+575,press,0.145,21827,P5
+576,mis,0.186,7378,P3
+577,266,0.091,13831,P4
+578,home httpd html,0.102,12939,P4
+579,custom,0.053,9412,P1
+580,nsobjectloadingcontent,0.069,1156,P1
+581,critical,0.083,7297,P3
+582,m10 damn cnn removed,0.117,6515,P3
+583,p2 enhancement,0.139,9673,P2
+584,safari,0.052,2056,P3
+585,rick 1w,0.125,10276,P1
+586,cancel button,0.204,10205,P2
+587,positioning,0.176,15436,P4
+588,key html,0.086,10158,P1
+589,cfg,0.11,6117,P1
+590,event viewer,0.086,10158,P1
+591,destinctive,0.132,15083,P4
+592,annoyed usually available,0.113,24979,P5
+593,live,0.084,9589,P2
+594,evena,0.089,15853,P4
+595,closing useless,0.248,7228,P3
+595,appropriate closing useless,0.248,7228,P3
+596,watching,0.171,7229,P3
+597,eip,0.108,101,P3
+597,eip,0.054,7799,P1
+597,eip ff,0.05,7799,P1
+598,nseventstatemanager,0.174,11824,P4
+599,stranger,0.095,10321,P2
+600,behaviour spec,0.072,8131,P2
+601,mlines,0.101,10207,P2
+602,resummarizing,0.098,8014,P1
+603,ready,0.09,6647,P3
+604,known ahead,0.155,13827,P5
+605,res samples,0.172,10341,P1
+606,keyword server,0.059,2875,P3
+607,bluejay,0.059,2875,P3
+608,service creates,0.095,7189,P3
+609,setattr,0.053,1156,P1
+610,structs,0.242,5416,P4
+611,content type,0.089,7406,P2
+612,did intend,0.139,9673,P2
+613,requestor,0.095,21081,P5
+614,previous,0.149,7252,P3
+615,intended,0.105,15286,P4
+616,dont,0.128,10245,P2
+617,patch v0,0.058,1156,P1
+618,design decision,0.108,10205,P2
+619,margin 1em,0.064,6625,P2
+620,autocomplete,0.133,10140,P1
+621,unless qa,0.139,10188,P2
+622,verfied,0.132,15436,P4
+623,crash,0.08,10016,P1
+624,string smrtupdt,0.082,10180,P2
+625,resize browser,0.086,17089,P4
+625,resize browser window,0.086,17089,P4
+626,gzip,0.088,12939,P4
+627,page loading communicator,0.074,101,P3
+628,deleted feature,0.149,7270,P3
+629,inquiry,0.057,9412,P1
+630,mcom,0.085,7406,P2
+631,bmw,0.09,7640,P2
+632,var,0.093,21081,P5
+633,gif,0.084,10083,P1
+634,founder,0.055,2056,P3
+635,copy operation,0.086,4722,P1
+636,expanding,0.109,10140,P1
+637,help roll,0.278,7252,P3
+638,visited,0.078,6625,P2
+639,app,0.058,4252,P3
+640,email talked,0.103,10190,P2
+641,copyright,0.038,2800,P3
+642,os field,0.059,12309,P4
+643,vectra vl,0.091,13831,P4
+644,objecturichanged,0.056,1156,P1
+645,m9 feel free,0.139,10253,P1
+646,reappears,0.099,11427,P4
+647,extraction,0.1,10205,P2
+648,mozillazine page,0.083,10083,P1
+649,bonsai,0.088,12939,P4
+650,lets,0.104,5579,P2
+650,lets,0.102,7189,P3
+651,idiot,0.119,7297,P3
+652,dashed,0.103,6647,P3
+653,ascent,0.122,10207,P2
+654,gimp works fine reassigning,0.099,11427,P4
+655,nsichannel,0.105,2652,P2
+656,nscssframeconstructor,0.055,7251,P3
+657,href foo html,0.097,24126,P5
+658,movegeckoicon,0.06,12761,P4
+659,listed,0.069,12699,P5
+660,shrink,0.106,17092,P4
+661,machines,0.095,10037,P2
+662,usual according,0.108,7439,P3
+663,classification,0.082,9412,P1
+664,experiment fenix,0.139,10188,P2
+665,messenger content default,0.139,10253,P1
+665,chrome messenger content default,0.139,10253,P1
+666,plugins,0.101,5577,P2
+666,plugin,0.051,1156,P1
+667,unused,0.049,1156,P1
+668,gtk signal connect object,0.09,7568,P1
+669,truncated,0.104,2864,P3
+670,head,0.098,10180,P2
+671,anotify,0.058,1156,P1
+672,terminated,0.098,5563,P3
+673,bugscape,0.139,15853,P4
+674,addressee,0.182,6565,P3
+674,addressee line,0.147,6565,P3
+675,protocol,0.099,2652,P2
+676,work,0.077,7228,P3
+677,globaloverlay,0.161,10321,P2
+678,closes fall,0.157,20276,P5
+679,icab,0.039,2800,P3
+680,hover style,0.119,13093,P5
+681,map element,0.082,8131,P2
+682,code incorrectly m10 reassigning,0.073,11824,P4
+683,file followup,0.069,1156,P1
+684,bndl,0.066,4252,P3
+685,passed,0.112,5416,P4
+686,710,0.072,12761,P4
+687,webshell,0.09,8705,P2
+688,cell,0.074,10207,P2
+689,automated attack programs,0.119,7378,P3
+690,tmpl,0.053,9412,P1
+691,dispatching,0.097,5247,P3
+692,general,0.154,7252,P3
+693,troublesome,0.132,15083,P4
+694,impersonates,0.091,13424,P5
+695,workflow,0.163,10119,P1
+696,wizard,0.113,5107,P3
+697,vendorcomment,0.089,6117,P1
+698,gfx widgets enabled,0.084,1859,P5
+699,00 customer wants ability,0.103,20418,P5
+700,jsinterp,0.05,7799,P1
+701,mail did,0.095,5247,P3
+702,xif,0.085,8427,P2
+703,different platforms react,0.086,10158,P1
+704,arg,0.056,1156,P1
+705,goback goforward,0.147,11444,P4
+706,leaks,0.139,35,P3
+707,percentage,0.094,8705,P2
+708,putting,0.11,10245,P2
+709,cubicle,0.132,17165,P4
+710,window history,0.04,18808,P5
+711,netkeeping seal,0.106,12699,P5
+712,corners,0.089,1515,P2
+713,row,0.159,10026,P4
+714,instantiate,0.066,1156,P1
+715,ktlint,0.126,12939,P4
+716,blockquote,0.072,12309,P4
+717,getinstallorder,0.139,10188,P2
+718,content sinks,0.149,4267,P3
+719,numbers mean moving,0.139,10188,P2
+720,sites,0.092,10342,P2
+721,ascii data,0.104,9897,P2
+722,address book window,0.108,10026,P4
+723,browser yields premature,0.087,17092,P4
+724,legal,0.053,9412,P1
+725,bucket,0.217,7229,P3
+725,bit bucket,0.217,7229,P3
+726,components close add optional,0.147,11444,P4
+727,control panel,0.067,6053,P2
+728,linktag,0.044,2800,P3
+729,line terminated data,0.098,5563,P3
+730,wbr,0.048,9101,P2
+731,gtk,0.104,7568,P1
+732,multiselect,0.072,12309,P4
+733,functions,0.154,10188,P2
+734,submited,0.139,35,P3
+735,directory listing,0.08,6141,P1
+736,course defeats,0.132,17165,P4
+737,chrome urls,0.15,10341,P1
+738,menu behavior lower,0.099,11427,P4
+739,fetch,0.072,10207,P2
+740,force,0.077,21081,P5
+741,gtk selection data,0.073,7568,P1
+742,test8,0.085,1021,P1
+743,download html,0.087,23207,P5
+744,10 pt,0.162,12230,P5
+745,redo,0.144,5563,P3
+746,quantify,0.204,7189,P3
+747,original subject,0.106,12699,P5
+748,tonewcstring,0.075,8427,P2
+749,nsstopwatch putting,0.11,10245,P2
+750,hooking,0.099,4722,P1
+751,xul xml,0.106,4267,P3
+751,xul xml xhtml,0.106,4267,P3
+752,winnt4 sp5,0.132,15436,P4
+752,winnt4 sp5 changing,0.132,15436,P4
+753,communicator,0.088,101,P3
+754,feature complete,0.127,10180,P2
+755,treat,0.084,6647,P3
+756,major,0.098,6647,P3
+757,editorsetselectionfromoffset,0.17,10756,P5
+758,nstimergtk,0.083,10083,P1
+759,dpi,0.06,4821,P1
+760,15th retarget,0.149,7270,P3
+761,ptr,0.158,5416,P4
+762,include help,0.119,7297,P3
+763,longer promising,0.149,7270,P3
+764,js invoke,0.083,7568,P1
+765,ttbox,0.039,2800,P3
+766,sched,0.108,10276,P1
+767,time,0.074,7229,P3
+768,real problem,0.129,18287,P5
+769,type native,0.073,10050,P2
+770,blink,0.166,15116,P4
+770,blinking,0.147,6565,P3
+771,const,0.126,13423,P4
+772,comctl32,0.234,10037,P2
+772,comctl32 dll,0.234,10037,P2
+773,discontiguous selection,0.113,8014,P1
+774,autofill,0.142,9041,P1
+775,checksetup,0.053,9412,P1
+776,wine download,0.07,23207,P5
+777,script,0.099,4267,P3
+777,script,0.068,21081,P5
+778,smart window,0.066,4252,P3
+779,seamonkey non crypto,0.278,7252,P3
+780,07 13 33 enhancements,0.103,20418,P5
+781,013f,0.155,101,P3
+781,015f,0.05,7799,P1
+782,properties windows,0.053,1995,P4
+782,properties windows ver,0.053,1995,P4
+783,sizes message window,0.103,20418,P5
+784,cloned window,0.053,18808,P5
+784,clone window,0.05,18808,P5
+785,sync strings workflow,0.163,10119,P1
+786,stream,0.122,2652,P2
+787,shapes,0.072,8131,P2
+788,picker dialog,0.147,11444,P4
+789,output,0.088,13424,P5
+790,authors,0.065,8131,P2
+791,c1 7f,0.05,7799,P1
+792,html document inside,0.095,5247,P3
+793,fallback,0.054,1156,P1
+794,wrapping,0.137,5563,P3
+794,shrink wrapping,0.05,9458,P1
+795,internet config,0.066,4252,P3
+796,xx seconds,0.141,8705,P2
+797,deluge,0.077,12230,P5
+798,access,0.091,16959,P5
+799,truncation,0.104,2864,P3
+800,called took,0.139,10188,P2
+801,added word arch,0.149,7270,P3
+802,recently closed,0.132,15083,P4
+803,getskippedcontent,0.163,4267,P3
+804,followup,0.088,12699,P5
+805,vote,0.088,101,P3
+806,transitional,0.088,11229,P4
+807,w3proxy,0.091,7406,P2
+808,imagelib,0.151,24126,P5
+809,snipe,0.161,7189,P3
+810,p3 450,0.053,12761,P4
+811,choffman sez,0.217,7229,P3
+812,provider request,0.07,16959,P5
+813,en x11,0.202,7378,P3
+814,ecx ds 013f esi,0.074,101,P3
+814,ds 013f esi fs,0.074,101,P3
+815,highlight,0.155,15286,P4
+815,background highlight,0.152,15286,P4
+816,hasn gone,0.095,5247,P3
+817,compliance,0.081,1515,P2
+818,approval,0.084,12699,P5
+819,verticalalignframes,0.077,10207,P2
+820,07 13 33,0.174,20418,P5
+821,performance analysis clobbering,0.095,7189,P3
+822,url parsing,0.157,20276,P5
+823,required did,0.132,17165,P4
+824,message netscape caused,0.074,101,P3
+825,international,0.077,6053,P2
+826,m10 added dependencies,0.139,9673,P2
+827,times updating qa,0.11,10245,P2
+828,destroyed,0.133,10321,P2
+829,libxpcom,0.057,7799,P1
+830,navigator exits file,0.139,35,P3
+831,nullplugin,0.056,1156,P1
+832,current page,0.134,10014,P1
+833,addressing field,0.147,6565,P3
+834,shutdown change appcores,0.108,7439,P3
+834,appcore shutdown,0.108,7439,P3
+834,appcore shutdown change,0.108,7439,P3
+834,appcore shutdown change appcores,0.108,7439,P3
+835,pasting,0.062,8427,P2
+836,webtools,0.088,12939,P4
+837,named anchor,0.05,9458,P1
+838,compact attribute,0.091,2055,P5
+839,gdb,0.074,7568,P1
+840,declaring type,0.101,5416,P4
+841,grumble,0.115,10050,P2
+842,filemon,0.055,7251,P3
+843,exception,0.093,16603,P4
+844,keyboard layout,0.075,6053,P2
+844,international keyboard,0.067,6053,P2
+844,international keyboard layout,0.067,6053,P2
+845,depend,0.186,7252,P3
+845,depends,0.151,15083,P4
+846,square,0.101,1515,P2
+847,username,0.098,8014,P1
+848,mcd bij,0.089,6117,P1
+849,overflow area,0.096,15116,P4
+850,edittext,0.163,10014,P1
+851,editshell exit,0.095,10321,P2
+851,calls editshell exit,0.095,10321,P2
+852,strings,0.109,9589,P2
+853,confidential,0.138,5107,P3
+854,watchlist,0.217,7229,P3
+855,line engineers,0.085,1021,P1
+856,pull,0.118,5563,P3
+857,splitter,0.108,17092,P4
+858,m30 mass,0.149,21827,P5
+859,soft,0.086,9101,P2
+860,ctrl,0.049,18808,P5
+861,ought,0.115,5416,P4
+862,results scrolling,0.149,21827,P5
+862,expected results scrolling,0.088,21827,P5
+863,rel,0.051,2800,P3
+864,xpcom,0.109,13423,P4
+865,produces,0.085,6141,P1
+866,beta unless,0.119,7378,P3
+867,mascent,0.088,10207,P2
+868,ua css,0.078,6625,P2
+869,nav window,0.091,7406,P2
+870,corrupted,0.091,6141,P1
+871,gmain,0.095,10083,P1
+872,mouseover links,0.096,13093,P5
+873,nimbus experiment,0.139,10188,P2
+874,adapt,0.104,14903,P4
+875,poster,0.098,12699,P5
+876,point closing,0.095,7189,P3
+877,succession,0.094,7568,P1
+878,alternative text,0.075,8131,P2
+879,generate bookmarks folders automatically,0.07,16959,P5
+880,accepting,0.075,11824,P4
+881,progress,0.137,8705,P2
+882,run ins,0.069,2056,P3
+883,ime,0.13,10162,P1
+884,device,0.042,4821,P1
+885,finish rendering,0.163,10119,P1
+886,ender,0.065,6053,P2
+887,regions,0.158,10261,P1
+888,desired size,0.078,10140,P1
+889,future moving,0.086,4722,P1
+890,time stamp,0.11,10245,P2
+891,doctype,0.094,11229,P4
+892,applet,0.212,6515,P3
+892,applets,0.117,6515,P3
+893,image url,0.05,9458,P1
+894,url bar,0.125,4722,P1
+895,classic,0.091,1021,P1
+896,existing words,0.132,15083,P4
+897,updateview drops dirty rects,0.093,10261,P1
+898,till,0.074,8705,P2
+899,eborderstyle,0.108,10016,P1
+900,sec,0.07,7251,P3
+901,pub users,0.08,6141,P1
+902,pref cleanup,0.139,35,P3
+903,pointy,0.149,7270,P3
+904,magic number,0.139,10188,P2
+905,content area,0.111,4722,P1
+906,handling hasn gone,0.095,5247,P3
+907,connection,0.102,10050,P2
+907,connection,0.043,23679,P5
+908,boys,0.2,7229,P3
+909,upper,0.088,15116,P4
+910,best results view,0.217,7229,P3
+911,fires,0.134,10158,P1
+912,trigger repaint,0.093,10261,P1
+913,talkback,0.109,5579,P2
+913,talkback,0.086,10342,P2
+914,link types,0.04,2800,P3
+915,schedule,0.219,7252,P3
+916,close add optional user,0.147,11444,P4
+917,ia32,0.059,12309,P4
+918,html input,0.134,10158,P1
+919,fun,0.123,10014,P1
+920,document inside apprunner,0.095,5247,P3
+921,separator,0.109,7297,P3
+922,list style,0.05,9458,P1
+923,support urls,0.104,2864,P3
+924,localizable,0.235,10253,P1
+925,xor,0.189,15286,P4
+926,mail specific,0.095,10321,P2
+927,messenger,0.155,10321,P2
+928,dead key,0.095,6053,P2
+928,dead keys,0.095,6053,P2
+929,whiteboard,0.106,15284,P4
+930,m20,0.141,21827,P5
+931,require passwords,0.163,10119,P1
+932,japanese,0.072,8427,P2
+933,minus extension,0.097,24126,P5
+934,dl compact,0.107,2055,P5
+934,compact dls,0.073,2055,P5
+934,compact dl,0.073,2055,P5
+935,user modify,0.184,15284,P4
+936,caption,0.212,10140,P1
+936,captions,0.177,10140,P1
+937,quantify trace,0.161,7189,P3
+938,form element,0.098,8014,P1
+939,cite,0.058,1995,P4
+940,nsmacmessagepump,0.059,7799,P1
+941,js set,0.073,11824,P4
+942,happy campers,0.248,7228,P3
+943,unlikely case,0.157,20276,P5
+944,pgdn,0.064,27771,P5
+945,menu shell append,0.073,7568,P1
+946,cut copy,0.122,4722,P1
+947,uber,0.278,7252,P3
+948,imported,0.127,20418,P5
+949,arguments,0.103,5107,P3
+950,panels,0.103,7568,P1
+951,mfirstchild,0.077,10207,P2
+952,feature arch implement signed,0.149,7270,P3
+953,rod hooked,0.073,11824,P4
+954,httpd,0.102,12939,P4
+955,255 characters,0.18,2864,P3
+956,topsy turvy,0.132,15083,P4
+957,manager,0.092,13424,P5
+958,8bit,0.133,5579,P2
+958,8bit characters,0.116,5579,P2
+959,single quote,0.092,6053,P2
+960,nswebshellwindow,0.048,7799,P1
+961,ie8,0.061,2056,P3
+962,little girls,0.217,7229,P3
+963,flyingwindows,0.112,6141,P1
+964,tutorial,0.095,7189,P3
+965,components update,0.163,10119,P1
+966,unmodified,0.107,5579,P2
+967,text areas,0.113,8014,P1
+968,p2 96,0.091,13831,P4
+969,inline table,0.072,9458,P1
+970,win95 tested 16,0.079,10037,P2
+971,xul res,0.186,10341,P1
+971,xul res samples,0.15,10341,P1
+972,best results,0.217,7229,P3
+973,correct stupid,0.078,16603,P4
+974,encoding menu,0.112,7640,P2
+975,glossary,0.04,2800,P3
+976,open link,0.061,18808,P5
+977,malloc,0.055,7251,P3
+978,add,0.11,7252,P3
+979,raptorview,0.139,10162,P1
+980,swap,0.174,15286,P4
+981,history,0.091,10341,P1
+982,buglist,0.052,9412,P1
+983,includes,0.091,10158,P1
+984,phase,0.124,10205,P2
+985,messenger performance,0.073,6873,P1
+986,samples,0.172,10341,P1
+987,12 28 53,0.138,10180,P2
+988,nsviewmanager,0.222,10261,P1
+989,apple,0.061,4252,P3
+990,emsp,0.045,9101,P2
+991,direct hits,0.065,7251,P3
+992,squawk,0.099,11427,P4
+993,super long,0.104,2864,P3
+994,wm keydown,0.067,6053,P2
+995,responsibility,0.112,2652,P2
+996,deleted,0.139,7252,P3
+997,xml indentations,0.139,10188,P2
+998,accordion,0.051,2056,P3
+999,classid,0.056,1156,P1
+1000,block element,0.05,9458,P1
+1001,edu,0.099,6141,P1
+1002,url dispatching,0.107,2652,P2
+1003,accumulate,0.158,10261,P1

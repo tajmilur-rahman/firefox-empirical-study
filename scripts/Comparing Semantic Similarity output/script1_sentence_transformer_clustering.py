@@ -6,8 +6,8 @@ computes cosine similarity, and clusters phrases using Agglomerative Clustering.
 Also generates a canonical phrase for each cluster by selecting the phrase
 closest to the cluster centroid (most representative phrase).
 
-Output 1: clusters_st.csv         → cluster_id, keyphrase, tf_score, bug_id, severity
-Output 2: clusters_st_canonical.csv → cluster_id, canonical_phrase, phrases, phrase_count
+Output 1: priority_st.csv         → cluster_id, keyphrase, tf_score, bug_id, severity
+Output 2: priority_st_canonical.csv → cluster_id, canonical_phrase, phrases, phrase_count
 """
 
 import ast
@@ -19,9 +19,9 @@ from sklearn.cluster import AgglomerativeClustering
 import json
 
 # ── Config ────────────────────────────────────────────────────────────────────
-INPUT_CSV        = "/Users/Mrudhula/PycharmProjects/PythonProject/data/keyphrases_severity_combined(in).csv"
-OUTPUT_CSV       = "clusters_st.csv"
-OUTPUT_CANONICAL = "clusters_st_canonical.csv"
+INPUT_CSV        = "/Users/Mrudhula/PycharmProjects/PythonProject/data/priority_125_with_tfidf.csv"
+OUTPUT_CSV       = "priority_st.csv"
+OUTPUT_CANONICAL = "priority_st_canonical.csv"
 MODEL_NAME       = "all-MiniLM-L6-v2"   # fast, accurate for short phrases
 # Distance threshold: lower → more clusters, higher → fewer/bigger clusters
 # 0.35 works well for short technical keyphrases (tweak if needed)
@@ -31,29 +31,32 @@ DISTANCE_THRESHOLD = 0.35
 
 def load_keyphrases(csv_path: str) -> pd.DataFrame:
     """
-    Load the CSV and explode each bug's keyphrase list into individual rows.
-    Returns a flat DataFrame with columns: bug_id, severity, keyphrase, tf_score
+    Load the CSV and explode tfidf_scores into individual rows.
+    Returns columns:
+      bug_id, priority, keyphrase, tf_score
     """
-    df = pd.read_csv(csv_path, usecols=["bug_id", "severity", "key_phrases", "tf_scores"])
+
+    df = pd.read_csv(
+        csv_path,
+        usecols=["bug_id", "priority", "tfidf_scores"]
+    )
 
     rows = []
+
     for _, row in df.iterrows():
         try:
-            phrases = ast.literal_eval(row["key_phrases"])
-            scores  = ast.literal_eval(row["tf_scores"])
-        except (ValueError, SyntaxError):
-            continue  # skip malformed rows
+            tfidf_data = json.loads(row["tfidf_scores"])
 
-        # Pair each phrase with its tf_score (zip stops at the shorter list)
-        for phrase, score in zip(phrases, scores):
-            phrase = phrase.strip()
-            if phrase:
+            for item in tfidf_data["tfidf_keyphrases"]:
                 rows.append({
-                    "bug_id":   row["bug_id"],
-                    "severity": row["severity"],
-                    "keyphrase": phrase,
-                    "tf_score":  float(score),
+                    "bug_id": row["bug_id"],
+                    "priority": row["priority"],
+                    "keyphrase": item["phrase"].strip(),
+                    "tf_score": float(item["score"])
                 })
+
+        except Exception as e:
+            print(f"Skipping bug {row['bug_id']}: {e}")
 
     return pd.DataFrame(rows)
 
@@ -170,7 +173,7 @@ def save_clusters(flat_df: pd.DataFrame, labels: np.ndarray, output_path: str) -
     flat_df["cluster_id"] = labels
 
     # Reorder columns for readability
-    result = flat_df[["cluster_id", "keyphrase", "tf_score", "bug_id", "severity"]]
+    result = flat_df[["cluster_id", "keyphrase", "tf_score", "bug_id", "priority"]]
     result = result.sort_values(["cluster_id", "tf_score"], ascending=[True, False])
     result.to_csv(output_path, index=False)
     print(f"Saved → {output_path}  ({len(result)} rows, {result['cluster_id'].nunique()} clusters)\n")

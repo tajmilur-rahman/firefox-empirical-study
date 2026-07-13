@@ -1,0 +1,126 @@
+bug_id,priority,matched_labels,matched_phrases,label_count
+1021,P1,Widgets Menus,toolkit widgets menus xp(0.750),1
+1156,P1,Testcase Displays,testcase displays(0.717),1
+4722,P1,Url Bar; Support Urls; Url Dispatching; Image Url; Chrome Urls; Url Parsing; Document Inside Apprunner,url bar(0.777); support urls(0.776); url dispatching(0.768); image url(0.760); chrome urls(0.757); url parsing(0.752); document inside apprunner(0.751),7
+4821,P1,Smartdownload Uncompression,smartdownload uncompression routine prepending(0.738),1
+6117,P1,Agent String,user agent string(0.757),1
+6141,P1,Ftp Directory,ftp download(0.722),1
+6873,P1,Mailto Url,mailto link handling hasn(0.733),1
+7568,P1,Profile Manager Selectprofile,profile manager selectprofile start(0.708),1
+7799,P1,Ebx Ss 013F,eflgs ebx ss 013f(0.756),1
+8014,P1,Support Urls,support urls(0.729),1
+9041,P1,Password Dialog,password dialog box starts(0.775),1
+9412,P1,Longer Netscape Changing,longer netscape changing qa(0.724),1
+9458,P1,Inline Block; Heights Corrupted Vertical Scroll; Document Inside Apprunner; Apprunner Crashes; Components Issue; Menu Items; Implement Signed Scripts Entering; Appcore Shutdown,implement inline block(0.800); corrupted vertical scroll bar(0.764); document inside apprunner(0.763); apprunner crashes(0.756); issue add ui components(0.755); optionlist menu(0.753); implement signed scripts entering(0.752); appcore shutdown change appcores(0.750),8
+10014,P1,Related Links,related links folder does(0.728),1
+10016,P1,Widgettoscreen 47,widgettoscreen 47 nswindow widgettoscreen(0.762),1
+10083,P1,Mozillazine Page,mozillazine page(0.735),1
+10119,P1,Password Dialog; Require Passwords; Dialog Machines,password dialog box starts(0.817); require passwords(0.778); dialog boxes(0.759),3
+10140,P1,Document Inside Apprunner,document inside apprunner(0.732),1
+10158,P1,Keypress Keyup,keypress keyup(0.729),1
+10162,P1,Apprunner Crashes,apprunner crashes(0.710),1
+10217,P1,Customize Button; Pp Customize; Customize Window,customize button does(0.765); pp customize button(0.763); customize window does open(0.759),3
+10253,P1,Xul Localizable; Xul File Chrome Messenger,localizable xul file(0.800); localizable xul file chrome(0.799),2
+10261,P1,Updateview Drops Dirty Rects; Precondition Nsnull Aview; Updateview Function; Nsnull Aview Null View,updateview drops dirty rects(0.792); code ns precondition nsnull(0.783); updateview function(0.776); nsnull aview null view(0.769),4
+10276,P1,Auto Proxy; Internet Config; Enable Proxy; Url Dispatching,auto proxy config(0.779); internet config(0.759); change proxies(0.758); url dispatching(0.752),4
+10341,P1,Res Rdf,flash xul res rdf(0.769),1
+1515,P2,Round Dots,round dots instead(0.736),1
+2652,P2,Page Loading Communicator,page loading communicator(0.741),1
+5577,P2,Current User,an8bitscript currentuser(0.749),1
+5579,P2,Current User,an8bitscript currentuser(0.766),1
+6053,P2,Text Widget,text widget(0.750),1
+6625,P2,Link Element,link elements(0.684),1
+7406,P2,Blank Browser,blank browser window(0.756),1
+7640,P2,Mailto Url,mailto urls(0.696),1
+8131,P2,Image Map,imagemap(0.704),1
+8427,P2,Application Copy,application copy paste(0.731),1
+8705,P2,Platform Sensitive; Necko Lands; Sp5 Changing Summary; Sensitive Change; Dll Necko; Menu Behavior Lower,platform sensitive change(0.765); necko responsibility(0.763); sp5 changing summary(0.762); sensitive change(0.753); necko dll(0.752); menu behavior lower(0.751),6
+9101,P2,Soft Hyphen,soft hyphens(0.774),1
+9589,P2,Return Prunichar,return prunichar(0.747),1
+9673,P2,Xptoolkit M10; Xptoolkit Xpwidget; M10 Task,xptoolkit m10 feature development(0.861); xptoolkit xpwidget(0.795); m10 tasks adding(0.760),3
+9897,P2,Download Tgz,download tgz file(0.764),1
+10037,P2,Comctl32 Dll,comctl32 dll(0.724),1
+10050,P2,Dialog Machines,appear pretty dialog boxes(0.744),1
+10180,P2,Compareversion String; Implement Signed Scripts Entering; Updateview Drops Dirty Rects,22 package compareversion string(0.780); implement signed scripts entering(0.755); updateview drops dirty rects(0.753),3
+10188,P2,Feature Nswinreg Setvalue,feature nswinreg setvalue nswinreg(0.697),1
+10190,P2,Feature Nswinreg Setvalue; Nswidget,nswinreg setvalue nswinreg getvalue(0.876); nswinreg(0.775),2
+10205,P2,Nsinstalldelete Nsinstallexecute; Xpinstall; Profile Manager Selectprofile; Nsipluginmanger Geturl; Nsobjectloadingcontent; String Smrtupdt; Compareversion String; Nsblockframe Cpp; Nsappcoresmanager Shutdown; Nsiresult,nsinstallprogressdialog(0.859); xpinstall(0.796); profile manager selectprofile start(0.793); calling nsipluginmanger geturl(0.791); nsobjectloadingcontent(0.790); string smrtupdt(0.789); package compareversion string smrtupdt(0.785); nsblockframe(0.785); nsappcoresmanager shutdown(0.784); nsiresult(0.783),10
+10207,P2,Testcase Displays,testcase displays(0.757),1
+10245,P2,Launch Time,launch time(0.723),1
+10321,P2,Shutdown Messenger,shutdown messenger(0.745),1
+10342,P2,Apprunner Crashes,apprunner crashes(0.748),1
+35,P3,Hash Table,preference hash table(0.688),1
+101,P3,Ebx Ss 013F,eflgs ebx ss 013f(0.754),1
+2056,P3,Inline Block,display inline block(0.716),1
+2800,P3,Compareversion String,compareversion string smrtupdt txt(0.669),1
+2864,P3,Urls 255,urls 255 characters(0.731),1
+2875,P3,Netscape Cfg,keyword netscape(0.719),1
+3246,P3,Nsblockframe Cpp,nsblockframe(0.755),1
+4252,P3,Specific Features,mac specific features(0.710),1
+4267,P3,Getskippedcontent,getskippedcontent(0.756),1
+5107,P3,Installer Spec; Installer Screen,installer spec(0.753); installer screen(0.752),2
+5148,P3,Ini File; File Editor,ini file editor(0.788); editor enhancement request ability(0.783),2
+5247,P3,Mailto Url,mailto urls(0.761),1
+5563,P3,Single Click,click menu item(0.736),1
+6515,P3,Nsipluginmanger Geturl; News Ticker,calling nsipluginmanger geturl(0.764); news ticker applet(0.758),2
+6565,P3,Compose Window,compose window launches(0.724),1
+6647,P3,Outline Property,css2 outline property(0.770),1
+7189,P3,Rdf Initialization,rdf initialization(0.804),1
+7228,P3,I18N Dependencies; Happy Campers; Campers Changed Qa; Bij Browser; Download Tgz; M10 Added Dependencies; Nsappcoresmanager Shutdown; Nsnull Aview Null View; Updateview Drops Dirty Rects; Customize Window,i18n dependencies(0.805); happy campers(0.790); happy campers changed qa(0.788); cck mcd bij browser(0.771); tgz files(0.767); m10 added dependencies(0.765); nsappcoresmanager shutdown(0.762); nsnull aview null view(0.758); updateview drops dirty rects(0.758); longer problem customize window(0.757),10
+7229,P3,Watchlist; Little Girls,watchlist(0.775); little girls(0.752),2
+7251,P3,Performance Analysis,sufficient performance analysis(0.746),1
+7252,P3,Seamonkey Non Crypto; Smartdownload Uncompression,seamonkey non crypto(0.828); smartdownload uncompression routine prepending(0.755),2
+7270,P3,Implement Signed Scripts Entering; Feature Arch Implement Signed; Feature Arch; Components Issue; Seamonkey Non Crypto; Feature Implement; Smartdownload Uncompression; Components Close Add Optional; Updateview Drops Dirty Rects; Compareversion String,implement signed scripts entering(0.832); feature arch implement signed(0.782); feature arch implement(0.777); issue add ui components(0.776); seamonkey non crypto(0.775); feature implement(0.770); smartdownload uncompression routine prepending(0.766); components close add optional(0.766); updateview drops dirty rects(0.766); package compareversion string smrtupdt(0.764),10
+7297,P3,Context Menus,native context menus(0.756),1
+7378,P3,Netscape Cfg,netscape en x11(0.683),1
+7439,P3,Nsappcoresmanager Shutdown; Appcore Shutdown; Change Appcores,nsappcoresmanager shutdown(0.778); appcore shutdown change appcores(0.777); converting appcores(0.754),3
+1995,P4,Img Src,html img src foo(0.737),1
+5416,P4,Native Declaration,declaration syntax allows(0.740),1
+10026,P4,Scrollable Area; Heights Corrupted Vertical Scroll,scrollbar appears(0.760); corrupted vertical scroll bar(0.753),2
+11229,P4,Inherit Properties,inherit properties(0.758),1
+11427,P4,Menu Behavior Lower; Document Inside Apprunner; Apprunner Crashes; Link Toolbar; Option Disappears; Menu Items; Change Appcores; Password Dialog,menu behavior lower(0.778); document inside apprunner(0.763); apprunner crashes(0.760); toolbar behavior(0.754); browser option disappears(0.754); optionlist menu(0.753); converting appcores(0.752); password dialog box starts(0.751),8
+11444,P4,Password Dialog; Save File Saving File; Customize Window; Picker Dialog; Pp Customize; Dialog Machines; File Types; Read Write,password dialog box starts(0.769); windows save file saving(0.763); customize window does open(0.756); picker dialog(0.755); pp customize button(0.754); dialog boxes(0.751); file type native windows(0.750); style user modify read(0.750),8
+11824,P4,Password Dialog,password dialog box starts(0.728),1
+12309,P4,Compareversion String,compareversion string smrtupdt txt(0.723),1
+12761,P4,Smartdownload Uncompression,smartdownload uncompression routine prepending(0.696),1
+12939,P4,Profile Manager Selectprofile,profile manager selectprofile start(0.722),1
+13068,P4,Single Click,click menu item(0.695),1
+13423,P4,Xpi,xpidl(0.731),1
+13831,P4,Document Inside Apprunner,document inside apprunner(0.705),1
+14903,P4,Xp Menus,xpmenus menuitems(0.759),1
+15083,P4,Depending Verbage; Modifier,depending verbage(0.791); modifing(0.757),2
+15116,P4,Testcase Displays,testcase displays(0.725),1
+15284,P4,Queryinterface Components Interfaces; Context Settings,requestor getinterface components(0.768); style context settings(0.767),2
+15286,P4,Swap Foreground,swap foreground(0.746),1
+15436,P4,Sp5 Changing Summary,winnt4 sp5 changing summary(0.721),1
+15731,P4,Chars Lang,latin1 chars lang(0.745),1
+15853,P4,Spec Mac Exceptions; Ini File; General Ini Section Parsing,installer spec mac exceptions(0.761); config ini section(0.760); general ini section parsing(0.754),3
+16603,P4,Document Createprocessinginstruction,document createprocessinginstruction(0.711),1
+17089,P4,Heights Corrupted Vertical Scroll; Resize Browser,corrupted vertical scroll bar(0.757); resize browser window(0.755),2
+17092,P4,Heights Corrupted Vertical Scroll,corrupted vertical scroll bar(0.727),1
+17165,P4,Dogfood Mouse; Mouse Wheel; Dogfood Issue; Heights Corrupted Vertical Scroll; Cursor Changes; Premature Scroll Bar,dogfood mouse wheel scrolling(0.819); mouse wheel scrolling broken(0.806); dogfood issue(0.770); corrupted vertical scroll bar(0.763); change cursor(0.760); premature scroll bar(0.754),6
+1859,P5,Outline Property; Focus Pseudo Class,css2 outline property(0.766); focus pseudo class(0.765),2
+2055,P5,Support Urls; Dl Compact; Url Parsing,support urls(0.759); compact dls(0.757); url parsing(0.751),3
+10756,P5,Attribute Changes,attribute changes(0.720),1
+11371,P5,Img Src,img src h1 jpg(0.718),1
+11417,P5,Bookmark Page; Generate Bookmarks Folders Automatically; Link Toolbar; Buglist; Mailto Url; Profile Wizard; Messenger Content Default; File Editor; Smartdownload Uncompression; Compose Window,bookmarks tasks(0.883); generate bookmarks folders automatically(0.818); toolbar behavior(0.783); buglist(0.782); mailto link handling hasn(0.778); profile wizard profilemanager start(0.774); messenger content default(0.774); editor enhancement request ability(0.773); smartdownload uncompression routine prepending(0.773); compose window launches(0.773),10
+11557,P5,Nsifilespec Idl,nsifilespec idl(0.759),1
+12230,P5,Change Appcores,converting appcores(0.745),1
+12699,P5,Netkeeping Seal; Mozillazine Page,netkeeping seal(0.758); mozillazine page(0.755),2
+12752,P5,Pixel Height; Testcase Displays; Text Size,illegible pixel height(0.795); testcase displays(0.771); font sizes message(0.756),3
+13093,P5,Cursor Changes,change cursor(0.786),1
+13424,P5,Xpi,xpidl(0.730),1
+13827,P5,Tall Image,tall image(0.746),1
+16959,P5,Generate Bookmarks Folders Automatically; Bookmark Page,generate bookmarks folders automatically(0.794); implement bookmark provider(0.787),2
+18287,P5,Weather Image,complex javascript weather image(0.744),1
+18808,P5,Menu Items; Generate Bookmarks Folders Automatically,optionlist menu(0.754); generate bookmarks folders automatically(0.752),2
+20276,P5,Enable Proxy; Single Click; Components Issue; Password Dialog; Add Hotkey; Close Add Optional User; Appcore Shutdown; Apps Html Dialogs; Widgets Menus; Menu Items,change proxies(0.794); single click item(0.783); issue add ui components(0.779); password dialog box starts(0.775); add hotkey(0.769); close add optional user(0.767); shutdown change appcores(0.766); apps html dialogs(0.766); toolkit widgets menus xp(0.765); optionlist menu(0.765),10
+20418,P5,Longer Netscape Changing,netscape changing qa(0.695),1
+21081,P5,Trigger Repaint,trigger repaint(0.731),1
+21827,P5,Scrolling Disabled,scrolling disabled(0.746),1
+23207,P5,File Naming,filenames(0.726),1
+23679,P5,Username Password,username password(0.750),1
+24125,P5,Implement Signed Scripts Entering,implement signed scripts entering(0.744),1
+24126,P5,Image Viewers,image information(0.733),1
+24979,P5,Profile Manager Selectprofile; Profile Wizard,profile manager selectprofile start(0.807); profile wizard profilemanager start(0.788),2
+27771,P5,Text Field,text fields(0.713),1

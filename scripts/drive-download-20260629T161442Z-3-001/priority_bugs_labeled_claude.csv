@@ -1,0 +1,126 @@
+bug_id,priority,matched_labels,label_count
+1021,P1,Img Src; Ya Pink; Operation; Css1 Keyword; White Background; Button Does; Form Controls; Widget Set; Button Css; Comm Opt; Set Default; Key Html,12
+1156,P1,Type Box; Native Foo; Ender Dll; Ini File; Reg Expand; Alt Text; File Operation; Renders; Gfx Text; Type Native; Alternative Text,11
+4722,P1,Type Box; Bar Disappearance; Apprunner Crashes; Install Exe; Http Link; Copy Paste; Select; Issue Set; Current Page; Url Bar; Cut Copy,11
+4821,P1,Text Zoom; Image Viewers; Image Map; Alt Text; Gfx Text; Image Url,6
+6117,P1,Firefox; Bij Browser; Cck Mcd; Agent String; Custom; Wizard,6
+6141,P1,Ya Pink; Ftp Directory; Http Link; Download; Download Tgz; Gtk,6
+6873,P1,Perf Tag; Folder; Related Server; Loading; Messages; Imap Code; Install Exe; Progress Meter; Folder Does; Performance Analysis; Slower; Cpp Line; Mailnews Mime; Mail Did,14
+7568,P1,Reg Expand; Dialog Machines; Related Server; Launch Hey; Expand Sz; Select; Crash; Expanding; Succession; Panels; Manager,11
+7799,P1,Windows 98; Exit Menu; Lets Close; Apprunner Crashes; Long Running; Crash,6
+8014,P1,Text Field; Caret Painting; Launch Time; Alt Text; Apprunner Crashes; Form Fields; Install Exe; Http Link; Tabbing Works; Key; Launch Hey; Gfx Text; Os Field; Work,14
+9041,P1,Dialog Machines; Password Dialog; Link Toolbar; Username Password; Work; Autofill; Nav Window,7
+9412,P1,Netscape Cfg; 08 M13; Enhancement Requests; M11 Moving; Critical; P2 Enhancement; Os Field; Classification; 07 13 33 Enhancements; Required Did,10
+9458,P1,Inline Block; File Editor; Platform Sensitive; Block Level; Icon Changes; Apprunner Crashes; Install Exe; Cpp Line; Launch Hey,9
+10014,P1,Does Open; Dom Changes; Folder; Related Links; Icon Changes; Install Exe; Folder Does; Links Machines; List Item; List 10; Listed; Machines; Current Page; Open Link,14
+10016,P1,Menu Items; Mouse Button; Firefox; Bar Disappearance; Bij Browser; Trying Document; Messages; Dogfood Mouse; Dogfood Issue; Tooltip; M11 Moving; Crash; Nav Window,13
+10083,P1,Apprunner Crashes; Install Exe; Http Link; Begins; Mozillazine Page; Gtk,6
+10119,P1,Ender Dll; Dialog Machines; Install Exe; Password Dialog; Username Password; Unusable; Sites; Finish Rendering; Require Passwords,9
+10140,P1,Width; Reg Expand; Table Code; Expand Sz; Independent; Expanding; Caption,7
+10158,P1,Img Src; Css1 Keyword; Platform Sensitive; Windows 98; Event Handlers; Install Exe; Key; Windows Ver; Keypress Keyup; Key Html; Os Field; Work; Nav Window; Fires; Html Input; Includes; Wm Keydown,17
+10162,P1,Menu Items; Tasks Adding; Type Box; File Editor; Character Set; Win32 Nt4; Apprunner Crashes; Begins; Character Err; M10 Task; Select; Crash; Ctrl; Nav Window; Ime; Japanese,16
+10217,P1,Does Open; Dialog Machines; Button Does; Pp Customize; Install Exe; Customize Button; Sidebar; Button Css; Machines,9
+10253,P1,Ini File; Firefox; Related Server; File Operation; Http Link; Cpp Line; Xul File Chrome Messenger; Xul Localizable; Xul Non; File Chrome; Set Default; Messenger Content Default; Localizable; Messenger; Dead Key,15
+10261,P1,Dirty Rects; Precondition Nsnull Aview; View Source; Refresh; Install Exe; Updateview Function; Repaint; Nsnull Aview Null View; Updateview Drops Dirty Rects; Trigger Repaint; Accumulate,11
+10276,P1,Firefox; Autoconfig Rick; Bij Browser; Http Link; Enable Proxy; Auto Proxy; Work; Sched; Access,9
+10341,P1,Firefox; Bij Browser; Res Rdf; Http Link; Named Entities; Cpp Line; Dtds; Sidebar; Xul Non; Dead Key,10
+1515,P2,Width; Css1 Keyword; Ini File; 01 Spec; Round Dots; Jpg Border; Dotted Borders; Border Style; Ui Spec; Lets; Current Page; Square,12
+2652,P2,Mail Window; Navigator Window; Install Exe; Copy Paste; Commands; Comm Opt; Anymore; P2 Enhancement; Work; Mail Did; Communicator; Nav Window,12
+5577,P2,Ini File; File Naming; Installer Screen; Folder; Character Set; File Operation; Install Exe; Pop Folders; Download Tgz; Plugin; Work; Script,12
+5579,P2,Activity Log; Current User; Ini File; File Naming; Installer Screen; Folder; Character Set; File Operation; Install Exe; Download Tgz; Crash,11
+6053,P2,Text Widget; Platform Sensitive; Windows 98; Alt Text; Applies Equally; Dogfood Issue; Long Running; Key; Windows Ver; Display Run; Widget Set; Gfx Text; International; Keyboard Layout; Nav Window; Dead Key,16
+6625,P2,Css1 Keyword; 01 Spec; Img Element; Cpp Line; Rules; Link Element; Max Element; Ui Spec; Map Element,9
+7406,P2,Mail Window; Firefox; Application Window; Bij Browser; Copy Paste; News Team; Msg; Blank Browser; Comm Opt; Issue Set; Mail Did; Time; Nav Window,13
+7640,P2,Netscape Cfg; Mailto Url; Http Link; Encoding; Unix Shouldn; Bmw; Mail Did; Imported,8
+8131,P2,Netscape Cfg; Image Viewers; Native Foo; Image Map; Alt Text; 01 Spec; Ui Spec; Gfx Text; Behaviour Spec; Shapes; Alternative Text; Image Url; Imported,13
+8427,P2,Inter Application; Menu Items; Firefox; Character Set; Copied; Win32 Nt4; Alt Text; Bij Browser; Bit Characters; Application Copy; Http Link; Wordpad; Copy Paste; Editing; Dogfood Issue; Character Err; Display Run; Select; Gfx Text; Work; Sched; Japanese; Cut Copy; 255 Characters,24
+8705,P2,Dom Changes; Progress Meter; Necko Lands; Dll Necko; Progress; Till,6
+9101,P2,Line Break; Ender Dll; Soft Hyphen; Cpp Line; Display Run; Renders; Shy; Easy Way; Breaking; Soft,10
+9589,P2,Tostring; Character Set; Install Exe; Return Prunichar; Api,5
+9673,P2,Tasks Adding; Xptoolkit M10; Report Serves; M10 Task; Sched; Depend,6
+9897,P2,Ini File; Previously Saved; Dialog Machines; Apprunner Crashes; File Operation; Ftp Directory; Install Exe; Download; Necko Lands; Select; Dll Necko; Download Tgz; Ascii Data; Gtk Selection Data,14
+10037,P2,Ender Dll; Ini File; Windows 98; Installer Screen; Win32 Nt4; File Operation; Messages; Install Exe; Long Running; Comm Opt; 00 950A; Comctl32 Dll; Win95 Tested 16,13
+10050,P2,Type Box; Native Foo; Ini File; Windows 98; Previously Saved; Dialog Machines; Apprunner Crashes; File Operation; Ftp Directory; Save File Saving File; Download; Windows Ver; File Types; Download Tgz; Issue Set; Type Native; Grumble; Nav Window,18
+10180,P2,Feature Implement; Compareversion String; Feature Complete,3
+10188,P2,Img Src; Ini File; File Operation; Install Exe; Xpinstall; Cpp Line; Add Number; Comm Opt; Nitpick; Magic Number,10
+10190,P2,Feature Implement; Nswidget; Feature Nswinreg Setvalue,3
+10205,P2,Nsinstalldelete Nsinstallexecute; Button Does; Install Exe; Progress Meter; Button Css; Cancel Button; Work; Progress,8
+10207,P2,Vertical Align Baseline; Feature Implement; Reg Expand; Table Code; Baseline Xml; Cpp Line,6
+10245,P2,Launch Time; Windows 98; Windows Ver; Launch Hey; Recorded; Time; Nav Window; Time Stamp,8
+10321,P2,Menu Items; Exit Menu; Shutdown Messenger; Quit; Called Twice; Time; Destroyed; Messenger,8
+10342,P2,Win32 Nt4; Apprunner Crashes; Related Server; Loading; Install Exe; Http Link; Launch Hey; Necko Lands; Dll Necko; Crash; Access; Talkback,12
+35,P3,Netscape Cfg; Pref Ui; Ini File; Exit Menu; Exits File; Navigator Window; Table Code; File Operation; Causing Memory Leaks; Install Exe; Hash Table; Additional; Leaks; Navigator Exits File; Pref Cleanup; Edu,16
+101,P3,Netscape Cfg; Application Window; Loading; Messages; Ebx Ss 013F; Additional; Comm Opt; Eip Ff; Page Loading Communicator; Communicator; 015F; Ecx Ds 013F Esi; Message Netscape Caused; Nav Window; Open Link,15
+2056,P3,Feature Implement; Block Level; Reg Expand; Set Bold; Http Link; Long Running; Display Run,7
+2800,P3,Img Src; Css1 Keyword; Http Link; Img Element; Link Element; Max Element; Key Html; Map Element,8
+2864,P3,Netscape Cfg; Dom Changes; Character Set; Bit Characters; Editing; Urls 255; Character Err; Os Field; Truncated; Support Urls; Imported; 255 Characters,12
+2875,P3,Netscape Cfg; Type Box; Domain Guessing; Enable Proxy; Necko Lands; Dll Necko; Work; W3Proxy; Imported,9
+3246,P3,Dom Changes; Block Level; Attribute Changes; List Block List; Block Frame; List Item; List Renumbering; Add Number; List 10; Nsblockframe Cpp; Method; Rod Hooked,12
+4252,P3,Platform Sensitive; Specific Features; 01 Spec; List Item; List 10; Ui Spec; Specific; Mcom; Work,9
+4267,P3,Img Src; Css1 Keyword; Install Exe; Baseline Xml; Body; Xul Non; Xml Xhtml; Method; Key Html; Work; Content Sinks; Xul Xml; Getskippedcontent,13
+5107,P3,Ini File; File Naming; Installer Screen; File Operation; Dates; Install Exe; Modified; Download Tgz; Time,9
+5148,P3,Ini File; File Editor; Alt Text; Text Size; File Operation; Default Size; Set Bold; Enhancement Requests; Ability; Rfe Ability; Screen; Set Default; Gfx Text; P2 Enhancement; Wizard,15
+5247,P3,Mail Window; Does Open; Application Window; Mailto Url; Install Exe; Http Link; Baseline Xml; Mail Did; Nav Window; Messenger; Open Link,11
+5563,P3,Menu Items; Operation; Tasks Adding; File Editor; Alt Text; Apprunner Crashes; Editing; M10 Task; Launch Hey; Undo; Text Pull; Gfx Text; Redo; Pull,14
+6515,P3,Netscape Cfg; Firefox; Bij Browser; Apprunner Crashes; News Ticker; Http Link; Cpp Line; Nsipluginmanger Geturl; Username Password; Plugin; Nav Window; Applet,12
+6565,P3,Mail Window; Does Open; Windows 98; Application Window; Compose Window; Msg; Cursor Changes; Launch Hey; Body; Set Default; Os Field; Mail Did; Addressing Field; Nav Window; Messenger,15
+6647,P3,Img Src; Css1 Keyword; Focus Issues; 01 Spec; Outline Property; Cpp Line; Widget Set; Ui Spec; Key Html,9
+7189,P3,Perf Tag; Performance Analysis; Slower; Rdf Initialization,4
+7228,P3,Dependency Tree; Engineering Groups; I18N Dependencies; Work; Happy Campers,5
+7229,P3,List Item; List 10; Watching; Watchlist; Boys; Little Girls,6
+7251,P3,Perf Tag; Performance Analysis; Begins,3
+7252,P3,Tasks Adding; Install Exe; M10 Task; Help Roll; Seamonkey Non Crypto; Depend; Schedule,7
+7270,P3,Tasks Adding; Feature Implement; Feature Arch; M10 Task; Implement Signed Scripts Entering; Buzilla; Schedule; Feature Arch Implement Signed,8
+7297,P3,Macos; Menu Items; Native Foo; Single Click; Add Context; File Editor; Alt Text; Install Exe; Xp Menus; Popups; Context Menus; Native Context; Link Toolbar; Gfx Text; Include Help; Time; Separator,17
+7378,P3,Netscape Cfg; 19Mdk I586; Entered Indicating; Mis Identifies; Netscape En Unix Shouldn; Unix Shouldn; Mis,7
+7439,P3,Change Appcores; Actual Result; List Item; Nsappcoresmanager Shutdown; Pointer; List 10; Shutdown Messenger; Nsidombaseappcore; Appcore Shutdown,9
+1995,P4,Ender Dll; Alt Text; Dates; Attribute Changes; Img Element; Languages; Metadata; Rfe Ability; Max Element; Title Attribute; Ready; App; Map Element; Form Element; Cite,15
+5416,P4,Native Declaration; Type Box; Native Foo; Add Context; Alt Text; Foo Jscontext; Allows; Native Context; Gfx Text; Structs; Passed; Ptr; Type Native; Declaring Type,14
+10026,P4,Vertical Align Baseline; Scrollable Area; Display Run; Area Instead; Tree Scrolls; Row; Address Book Window; Nav Window,8
+11229,P4,Inherit Properties; Table Code; Allows,3
+11427,P4,Menu Items; Does Open; Ender Dll; Ini File; Firefox; Bij Browser; Icon Changes; Dialog Machines; Apprunner Crashes; File Operation; Long Running; Renders; M11 Moving; Menu Behavior Lower,14
+11444,P4,Ini File; File Editor; Windows 98; Application Window; Previously Saved; Dialog Machines; Button Does; File Operation; Save Button; Windows Ver; Button Css; Picker Dialog; Nav Window,13
+11824,P4,Firefox; Install Exe; Mouse Drag; Work; Rod Hooked,5
+12309,P4,Ini File; File Naming; Platform Sensitive; File Operation; List Item; Naming; List 10; Unix Shouldn; Real Problem; Add,10
+12761,P4,Dynamic Content; Archives Animating; Icon Changes; Loading; Img Element; Pseudo Transitions; Max Element; Work; Map Element; Functions; Xx Seconds,11
+12939,P4,Ini File; File Naming; Dom Changes; Installer Screen; File Operation; Ftp Directory; Install Exe; Tinderbox; Comm Opt; Makefile; Download Tgz,11
+13068,P4,Img Src; Menu Items; Css1 Keyword; Single Click; Page Source; Scrollable Area; Copied; Alt Text; View Source; Mouse Drag; Generated Content; Source Window; Right Click; Select; Clipboard; Gfx Text; Key Html; Nav Window,18
+13423,P4,Netscape Cfg; Xpi; Const Nsresult; Codes,4
+13831,P4,White Background; Alt Text; Apprunner Crashes; White Text; View Source; Install Exe; Invisible; Launch Hey; Select; Gfx Text,10
+14903,P4,Menu Items; 10Px; Vertical Align Baseline; Padding; Xp Menus; Donna; 70S; Screen; Adapt; Caption,10
+15083,P4,Modifier; Depending Verbage; Children; Parent Child Relationship; Easily Confused; Destinctive; Depend,7
+15116,P4,Pixel Height; Ender Dll; Italic Text; Alt Text; Testcase Displays; Renders; Text Frames; Gfx Text; Blinking; Depend; Overflow Area; Upper,12
+15284,P4,Css1 Keyword; Inherit Properties; Type Box; Caret Painting; Add Context; Feature Implement; Alt Text; 01 Spec; Respect Style Context; Block Frame; Begins; Repaint; Context Settings; Ui Spec; Gfx Text,15
+15286,P4,Ya Pink; White Background; Trying Document; Allows; Swap Foreground; Select; Background Highlight; Swap,8
+15436,P4,Post Screenshot; Xp Menus; Actual Result; Screen; Positioning; Winnt4 Sp5,6
+15731,P4,Angle Bracket; Win32 Nt4; 08 M13; Http Link; Rang Fail; Languages; Check Cer Lang Left; Display Run; Chars Lang,9
+15853,P4,Img Src; Css1 Keyword; Ini File; Windows 98; Installer Screen; Feature Implement; 01 Spec; Install Exe; Installer Spec; Section Keys; Spec Mac Exceptions; Key; Windows Ver; General Ini Section Parsing; Ui Spec; Key Html; General; Url Parsing; Nav Window,19
+16603,P4,Img Src; Css1 Keyword; Dom Changes; Character Set; Bit Characters; Install Exe; Baseline Xml; Document Createprocessinginstruction; Character Err; Document Createentityreference; Createattribute; Key Html; Functions; Exception; Arguments; 255 Characters,16
+17089,P4,Vertical Align Baseline; Minimum Height; Scrollable Area; Firefox; Bar Disappearance; Alt Text; Bij Browser; Apprunner Crashes; Heights Corrupted Vertical Scroll; Short Heights Corrupted; Launch Hey; Page Title; Resize Browser; Nav Window; Corrupted,15
+17092,P4,Width; Minimum Height; Scrollable Area; Firefox; Bar Disappearance; Alt Text; Bij Browser; Apprunner Crashes; View Source; Http Link; Yields Premature; Launch Hey; Premature Scroll Bar; Shrink; Browser Yields Premature; Js Invoke; Nav Window,17
+17165,P4,Mouse Wheel; Mouse Button; Scrollable Area; Dogfood Mouse; Dogfood Issue; Cursor Changes; Course Defeats,7
+1859,P5,Css1 Keyword; Focus Issues; 01 Spec; Outline Property; Visual Indication; Cpp Line; Focus Pseudo Class; Dotted Borders; Ui Spec; Rick 1W; Add,11
+2055,P5,Css1 Keyword; Block Level; Display Compact; Children; Http Link; Child Selectors; Display Run; Putting Paw; Putting; Dl Compact,10
+10756,P5,Activity Log; Type Box; Dom Changes; Reg Expand; Icon Changes; Trying Document; Set Bold; Install Exe; Commands; Steps Type; Comm Opt; Select; Replay,13
+11371,P5,Img Src; Image Viewers; Css1 Keyword; H1 Jpg; Image Map; Apprunner Crashes; Jpg Border; Img Element; Cpp Line; Border Style; Issue Set; Key Html; Href Foo Html; Image Url,14
+11417,P5,Tasks Adding; Bookmark Page; M10 Task; Meta; Level,5
+11557,P5,Nsiresult; Ini File; File Naming; Tostring; Nsfilespec; 01 Spec; File Operation; List Item; List 10; Nsifilespec Idl; Download Tgz; Ui Spec; Idl; Includes,14
+12230,P5,Netscape Cfg; Single Click; Launch Time; Platform Sensitive; Windows 98; Apprunner Crashes; Http Link; List Item; Windows Ver; Launch Hey; List 10; Match; Nav Window,13
+12699,P5,Gnksa; Meta; Netkeeping Seal; Approval,4
+12752,P5,Pixel Height; Minimum Height; Alt Text; 01 Spec; Text Size; Testcase Displays; Display Run; Displays; Ui Spec; Gfx Text,10
+13093,P5,Mouse Button; Dom Changes; Alt Text; Cursor Changes; Beam; Select; Gfx Text,7
+13424,P5,Netscape Cfg; Native Declaration; Xpi; Interface Names; Progid; Idl; Clsid; Xpcom,8
+13827,P5,Imagine Tall; Line Break; Image Viewers; Vertical Align Baseline; Minimum Height; Image Map; Floater; Cpp Line; Tall Image; Known Ahead; Time; Image Url,12
+16959,P5,Dynamic Content; Bookmark Page; Rfe Ability; Access; Provider Request,5
+18287,P5,Image Viewers; Weather Image; Image Map; Archives Animating; Http Link; Allows; Image Url; Edu,8
+18808,P5,Menu Items; Windows 98; Button Does; List Item; Windows Ver; List 10; Button Css; Spawned; Previous; Window History; Current Page; Nav Window; History,13
+20276,P5,Menu Items; Single Click; Dialog Machines; Enable Proxy; Add Hotkey; Access; Add,7
+20418,P5,Netscape Cfg; Text Size; Ability; Rfe Ability; Thread Pane; 00 Customer Wants Ability; Nav Window; Messenger; Imported,9
+21081,P5,Dom Changes; Refresh; Add Number; Repaint; Force,5
+21827,P5,Mouse Button; Scrollable Area; Button Does; Actual Result; Button Css; Hold; Scrolling Disabled; Anymore; Press; Results Scrolling,10
+23207,P5,Img Src; Netscape Cfg; Image Viewers; Css1 Keyword; Ini File; File Naming; Image Map; Previously Saved; File Operation; Download Tgz; Key Html; Current Page; Image Url,13
+23679,P5,Firefox; Bij Browser; Ntlm Authentication; 95 Service Pack; Password Dialog; Www Authenticate; Username Password; Work; Sites; Username,10
+24125,P5,Image Viewers; Native Foo; Image Map; Alt Text; Text Mail; Title Attribute; Gfx Text; Mail Did; Alternative Text; Image Url,10
+24126,P5,Image Viewers; Native Foo; Image Map; Alt Text; Textual Information; Text Mail; Gfx Text; Mail Did; Imagelib; Alternative Text; Image Url,11
+24979,P5,Profileselect; Ini File; Dialog Machines; File Operation; Profile Manager Selectprofile; Install Exe; Profile Wizard; Begins; Select; Download Tgz; Wizard; Manager,12
+27771,P5,Text Field; Img Src; Css1 Keyword; Page Source; Scrollable Area; Alt Text; Form Fields; Focus Issues; Baseline Xml; Gfx Text; Key Html; Os Field,12
