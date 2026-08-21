@@ -1,0 +1,14 @@
+# Runtime data
+checkpoints/
+*.json
+!config.*.json
+
+# Output files
+bug_keyphrases_output.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python

@@ -1,0 +1,34 @@
+{
+  "db_type": "sqlserver",
+  "database": {
+    "driver": "ODBC Driver 18 for SQL Server",
+    "server": ".\\SQLEXPRESS",
+    "database": "bugbug",
+    "trusted_connection": true,
+    "trust_server_certificate": true
+  },
+  "schema": {
+    "bugs_table": "bugs",
+    "comments_table": "comments",
+    "bug_id_column": "id",
+    "summary_column": "summary",
+    "comment_text_column": "text",
+    "comment_bugid_column": "bug_id",
+    "comment_time_column": "creation_time"
+  },
+  "use_optimized_query": true,
+  "ollama_url": "http://localhost:11434",
+  "model_name": "mistral:7b-instruct",
+  "checkpoint_dir": "checkpoints",
+  "output_file": "bug_keyphrases_output.json",
+  "keyphrase_extraction": {
+    "min_keyphrases": 5,
+    "max_keyphrases": 8,
+    "use_score_ranges": true,
+    "score_ranges": {
+      "high": {"min": 0.45, "max": 0.55, "description": "Highly specific technical identifiers (function names, error strings, exact flags)"},
+      "medium": {"min": 0.30, "max": 0.44, "description": "Core issue descriptions with general terminology"},
+      "low": {"min": 0.15, "max": 0.29, "description": "Supporting context, platform/environment mentions, secondary details"}
+    }
+  }
+}

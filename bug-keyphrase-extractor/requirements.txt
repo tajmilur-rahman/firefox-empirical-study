@@ -1,0 +1,10 @@
+# Core dependencies
+requests>=2.31.0
+tqdm>=4.66.0
+
+# Database drivers (install only what you need based on db_type)
+# For SQL Server (db_type: "sqlserver"):
+pyodbc>=5.0.0
+
+# For PostgreSQL (db_type: "postgres"):
+# psycopg2-binary>=2.9.0

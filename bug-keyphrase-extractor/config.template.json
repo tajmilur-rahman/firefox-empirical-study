@@ -1,0 +1,32 @@
+{
+  "db_type": "sqlserver",
+  "database": {
+    "driver": "ODBC Driver 18 for SQL Server",
+    "server": ".\\SQLEXPRESS",
+    "database": "bugbug",
+    "username": "your_username",
+    "password": "your_password",
+    "trusted_connection": true,
+    "trust_server_certificate": true
+  },
+  "use_optimized_query": true,
+  "queries": {
+    "fetch_bugs_with_comments": "SELECT b.id AS bug_id, COALESCE(b.summary, '') AS summary, COALESCE(STRING_AGG(c.text, ' ') WITHIN GROUP (ORDER BY c.creation_time), '') AS all_comments FROM bugs b LEFT JOIN comments c ON b.id = c.bug_id GROUP BY b.id, b.summary ORDER BY b.id",
+    "fetch_bugs": "SELECT id AS bug_id, summary FROM bugs ORDER BY id",
+    "fetch_comments": "SELECT text FROM comments WHERE bug_id = ? ORDER BY creation_time ASC"
+  },
+  "ollama_url": "http://localhost:11434",
+  "model_name": "mistral:7b-instruct",
+  "checkpoint_dir": "checkpoints",
+  "output_file": "bug_keyphrases_output.json",
+  "keyphrase_extraction": {
+    "min_keyphrases": 5,
+    "max_keyphrases": 8,
+    "use_score_ranges": true,
+    "score_ranges": {
+      "high": {"min": 0.45, "max": 0.55, "description": "Highly specific technical identifiers (function names, error strings, exact flags)"},
+      "medium": {"min": 0.30, "max": 0.44, "description": "Core issue descriptions with general terminology"},
+      "low": {"min": 0.15, "max": 0.29, "description": "Supporting context, platform/environment mentions, secondary details"}
+    }
+  }
+}
